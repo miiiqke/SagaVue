@@ -7,11 +7,17 @@
 
 const BASE = 'https://api.jikan.moe/v4';
 const cache = new Map();
+let lastRequestTime = 0;
 
 async function jikan(path) {
   if (cache.has(path)) return cache.get(path);
-  // Respect ~3 req/s rate limit
-  await new Promise(r => setTimeout(r, 350));
+  // Respect ~3 req/s rate limit — only throttle if a request was made recently
+  const now = Date.now();
+  const gap = now - lastRequestTime;
+  if (lastRequestTime > 0 && gap < 350) {
+    await new Promise(r => setTimeout(r, 350 - gap));
+  }
+  lastRequestTime = Date.now();
   const res = await fetch(`${BASE}${path}`);
   if (!res.ok) throw new Error(`Jikan ${res.status}: ${path}`);
   const json = await res.json();

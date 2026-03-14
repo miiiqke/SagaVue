@@ -54,7 +54,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     allSeries = await loadAllSeries();
     renderGrid(allSeries, id => navigate('series', id), seriesRatings);
     initFilters();
-    loadSeriesRatings(); // Load ratings asynchronously
     initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab));
     
     // Initialize navbar search
