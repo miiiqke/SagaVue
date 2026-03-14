@@ -6,7 +6,7 @@ How SagaVue stores series data and processes it at runtime.
 
 ## File layout
 
-All series data lives in `data/` as individual JSON files, one per series. Files are auto-discovered — any `.json` file in `data/` (except `new_series_template.json`) is loaded at startup with no registry to update.
+All series data lives in `data/` as individual JSON files, one per series. Files are auto-discovered, any `.json` file in `data/` (except `new_series_template.json`) is loaded at startup with no registry to update.
 
 ```
 data/
@@ -21,7 +21,7 @@ data/
   new_series_template.json
 ```
 
-**Auto-discovery:** `data.js` fetches `data/`, parses the directory listing for filenames, and loads each one. Works on any host that returns a browsable directory index (GitHub Pages, Nginx defaults, Python's `http.server`).
+**Auto-discovery:** `data.js` fetches `data/`, parses the directory listing for filenames, and loads each one.
 
 ---
 
@@ -191,7 +191,7 @@ Add `"startChapter"` when this step marks where the manga takes over from the an
 }
 ```
 
-String keys → official manga chapter titles. Fully optional — missing entries fall back to `"Chapter N"`. When present: chapter table shows titles, search indexes them, episode table shows titles as tooltips.
+String keys → official manga chapter titles. Fully optional. Missing entries fall back to `"Chapter N"`. When present: chapter table shows titles, search indexes them, episode table shows titles as tooltips.
 
 ---
 
@@ -215,7 +215,7 @@ For films adapting chapters numbered below 1 (JJK0 pattern). Leave as `[]` when 
 
 ## Adaptation tracking
 
-A chapter is marked **adapted** only if it appears in at least one episode's `chapters[]`. Arc `chapterStart`/`chapterEnd` are used for display and chapter→arc lookup only — they do not affect adaptation status. This means a chapter range in an arc is not sufficient; every chapter must explicitly appear in an episode's `chapters[]` to be counted as adapted.
+A chapter is marked **adapted** only if it appears in at least one episode's `chapters[]`. Arc `chapterStart`/`chapterEnd` are used for display and chapter→arc lookup only, they do not affect adaptation status. This means a chapter range in an arc is not sufficient; every chapter must explicitly appear in an episode's `chapters[]` to be counted as adapted.
 
 ---
 
@@ -225,6 +225,6 @@ A chapter is marked **adapted** only if it appears in at least one episode's `ch
 - **Keep arc `id` stable.** Renaming breaks search jump URLs.
 - **`meta.seasons` episode counts must match `episodes[]` exactly.** Movie entries (`type: "movie"`) are excluded from this count.
 - **`malIds.seasons` and `meta.seasons` serve different purposes.** `malIds.seasons` = section 01 chips (includes films). `meta.seasons` = Season Map tab and episode count (TV only).
-- **Check the browser console for data errors.** The app doesn't validate schemas at runtime — errors usually surface as `undefined` in the UI.
+- **Check the browser console for data errors.** The app doesn't validate schemas at runtime, errors usually surface as `undefined` in the UI.
 
 See `berserk.json`, `demon_slayer.json`, and `hxh.json` for complete working examples of all features.

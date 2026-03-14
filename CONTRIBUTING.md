@@ -11,7 +11,7 @@ All you're doing is filling out a JSON file. The full schema reference is in `DA
 ### Step 1 — Fork and clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sagavue.git
+git clone https://github.com/miiiqke/sagavue.git
 cd sagavue
 ```
 
