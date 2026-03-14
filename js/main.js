@@ -49,11 +49,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderFooter();
   initRouter(handleHome, handleSeries);
   try {
+    // Load lightweight catalog first — renders cards instantly
     allSeries = await loadCatalog();
     renderGrid(allSeries, id => navigate('series', id));
     initFilters();
-    initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab));
-    initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab), 'nav-search-input', 'nav-search-results');
+
+    // Load full series data in parallel for search — doesn't block the UI
+    loadAllSeriesForSearch();
   } catch (e) {
     console.error('Boot failed:', e);
   }
@@ -63,6 +65,23 @@ function handleHome() {
   currentSeries = null;
   document.getElementById('search-input').value = '';
   document.getElementById('nav-search').classList.add('hidden');
+}
+
+async function loadAllSeriesForSearch() {
+  // Load all full series in parallel for search indexing.
+  // Uses the same loadSeries() calls as opening a series page — results are cached
+  // so navigating to a series after search has already loaded it is instant.
+  const SERIES_IDS = [
+    'aot', 'berserk', 'demon_slayer', 'fmab',
+    'frieren', 'hxh', 'jjk', 'vinland_saga',
+  ];
+  try {
+    const fullSeries = await Promise.all(SERIES_IDS.map(id => loadSeries(id)));
+    initSearch(fullSeries, (sid, aid, tab) => navigate('series', sid, aid, tab));
+    initSearch(fullSeries, (sid, aid, tab) => navigate('series', sid, aid, tab), 'nav-search-input', 'nav-search-results');
+  } catch (e) {
+    console.error('Search index failed to load:', e);
+  }
 }
 
 async function handleSeries(id, anchorId, tab) {
