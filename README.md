@@ -1,46 +1,52 @@
-# SagaVue
-
-You're watching an ongoing anime. The manga is way ahead. You want to know exactly where the anime left off without getting spoiled — or you need to know which episodes are filler before a rewatch. That's what SagaVue is for.
-
-**[sagavue.net](https://sagavue.net)**
+<div align="center">
+  <img src="assets/img/logo.png" alt="SagaVue" height="48" />
+  <br /><br />
+  <p><strong>Anime adaptation navigator — know where you are, never get spoiled.</strong></p>
+  <a href="https://sagavue.net">sagavue.net</a> &nbsp;·&nbsp;
+  <a href="https://github.com/miiiqke/SagaVue/issues">Report a bug</a> &nbsp;·&nbsp;
+  <a href="https://github.com/miiiqke/SagaVue/issues">Suggest a series</a>
+  <br /><br />
+</div>
 
 ---
 
-## What it does
+SagaVue helps you navigate the gap between an anime and its source material. Search any episode, chapter, or arc, see exactly which manga chapters each episode adapts, filter out filler, and follow the correct watch order — without getting spoiled.
 
-- Search any episode, chapter, or arc by name or number (`aot s2e5`, `jjk ch200`, `hxh e67`)
-- See exactly which manga chapters each episode adapts
-- Filter out filler with one click
-- Know where movies and OVAs fit in the watch order
-- Check how far the anime has gotten into the manga
+The series catalogue is a **work in progress**. We are actively adding more titles and keeping existing data up to date.
 
-## Series
+## Features
 
-- [Attack on Titan](/series/aot)
-- [Berserk](/series/berserk)
-- [Demon Slayer](/series/demon_slayer)
-- [Frieren: Beyond Journey's End](/series/frieren)
-- [Fullmetal Alchemist: Brotherhood](/series/fmab)
-- [Hunter x Hunter (2011)](/series/hxh)
-- [Jujutsu Kaisen](/series/jjk)
-- [Vinland Saga](/series/vinland_saga)
+- **Smart search** — query by episode number, chapter number, arc name, or free text across all series simultaneously (`aot s2e5`, `jjk ch200`, `berserk ep 14`)
+- **Episode & chapter map** — every episode mapped to its exact manga chapters, with canon / filler / mixed status
+- **Adaptation progress** — see how far into the manga the anime has gotten, and what remains unadapted
+- **Watch order guide** — step-by-step guidance for series with films, alternative adaptations, or skipped arcs
+- **Live MAL data** — scores, rankings, cover art, and related media fetched in real time from [MyAnimeList](https://myanimelist.net) via [Jikan](https://jikan.moe)
 
-## ✏️ Add your favorite series
+## Built with
 
-If a series you follow isn't here, you can add it yourself — no coding experience needed. All it takes is filling in a JSON file with episode and arc data.
+Vanilla JavaScript, no frameworks, no build step. Series data lives in flat JSON files that are auto-discovered at runtime. Open `index.html` locally or deploy to any static host.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full walkthrough. See [DATA_STRUCTURE.md](DATA_STRUCTURE.md) for the full field reference.
+## Contributing
 
-## How it's built
+Contributions are welcome — whether that's adding a new series, fixing episode data, or improving the app itself.
 
-Pure vanilla JavaScript with no frameworks or build steps. All series data lives in flat JSON files that the app picks up automatically. Ratings, cover art, and related media are fetched live from the [Jikan API](https://jikan.moe/).
+- **Adding a series** requires no coding experience. Fill in a JSON file following the schema in [`DATA_STRUCTURE.md`](DATA_STRUCTURE.md) and open a pull request.
+- **Code contributions** — see [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines and the file layout.
 
-## Docs
+```bash
+git clone https://github.com/miiiqke/SagaVue.git
+cd SagaVue
+python3 -m http.server   # open http://localhost:8000
+```
 
-- [CONTRIBUTING.md](CONTRIBUTING.md) — how to add a series or contribute code
-- [DATA_STRUCTURE.md](DATA_STRUCTURE.md) — JSON schema and how the app processes data
-- [SEARCH.md](SEARCH.md) — search syntax and how the fuzzy matching works
+## Documentation
+
+| File | Contents |
+|------|----------|
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to add a series or contribute code |
+| [`DATA_STRUCTURE.md`](DATA_STRUCTURE.md) | Full JSON schema and field reference |
+| [`SEARCH.md`](SEARCH.md) | Search syntax and fuzzy matching internals |
 
 ## License
 
-MIT
+[MIT](LICENSE)
