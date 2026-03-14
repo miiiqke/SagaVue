@@ -14,37 +14,68 @@ function debounce(fn, ms) {
   };
 }
 
-// Levenshtein-style fuzzy score (0-100)
+// Damerau-Levenshtein edit distance.
+// Counts insertions, deletions, substitutions, and adjacent transpositions
+// (e.g. breserk -> berserk is 1 transposition, not 2 substitutions).
+function editDistance(a, b) {
+  const m = a.length, n = b.length;
+  const dp = Array.from({ length: m + 1 }, (_, i) => Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      const cost = a[i-1] === b[j-1] ? 0 : 1;
+      dp[i][j] = Math.min(dp[i-1][j] + 1, dp[i][j-1] + 1, dp[i-1][j-1] + cost);
+      if (i > 1 && j > 1 && a[i-1] === b[j-2] && a[i-2] === b[j-1]) {
+        dp[i][j] = Math.min(dp[i][j], dp[i-2][j-2] + cost);
+      }
+    }
+  }
+  return dp[m][n];
+}
+
+// Returns a score 0-100 for how well query matches target.
+// Handles exact matches, substrings, typos, transpositions and subsequences.
 function fuzzyScore(target, query) {
   if (!query) return 0;
   const t = target.toLowerCase();
   const q = query.toLowerCase();
-  
+
   // Exact match
   if (t === q) return 100;
-  
+
   // Substring match
   if (t.includes(q)) return 85;
-  
-  // Word start match (e.g., "hunterexaminer" matches "hunter exam")
-  if (t.split(/[\s-]/)[0].includes(q.split(/[\s-]/)[0])) return 75;
-  
-  // Character-by-character fuzzy match
-  let score = 0;
-  let qIdx = 0;
-  let lastMatchIdx = -1;
-  
+
+  // Word-start match
+  if (t.split(/[\s-]/)[0].startsWith(q.split(/[\s-]/)[0])) return 75;
+
+  // Typo tolerance — check query against the full target and each individual word.
+  // Allow 1 edit for short queries (<=4 chars), 2 edits for longer ones.
+  const tWords = t.replace(/-/g, ' ').split(/\s+/);
+  let best = 0;
+  for (const word of [t, ...tWords]) {
+    if (word.length < 3) continue;
+    const maxEdits = q.length <= 4 ? 1 : 2;
+    if (Math.abs(word.length - q.length) > maxEdits) continue;
+    const dist = editDistance(q, word);
+    if (dist <= maxEdits) {
+      const score = dist === 0 ? 80 : dist === 1 ? 65 : 55;
+      best = Math.max(best, score);
+    }
+  }
+  if (best > 0) return best;
+
+  // Character subsequence fallback — all query chars present in target in order
+  let qIdx = 0, lastMatchIdx = -1, score = 0;
   for (let i = 0; i < t.length && qIdx < q.length; i++) {
     if (t[i] === q[qIdx]) {
-      // Bonus for consecutive matches
       score += (i === lastMatchIdx + 1) ? 12 : 8;
       lastMatchIdx = i;
       qIdx++;
     }
   }
-  
-  // Only return score if all query chars were matched
-  return qIdx === q.length ? Math.min(score, 70) : 0;
+  return qIdx === q.length ? Math.min(score, 50) : 0;
 }
 
 // Parse search query with context-aware number extraction
@@ -150,7 +181,7 @@ function parseQuery(q, allSeries) {
         const as = series.meta.abbr ? Math.max(...series.meta.abbr.map(a => fuzzyScore(a, token))) : 0;
         const score = Math.max(ts, as);
         
-        if (score >= 60) {
+        if (score >= 55) {
           foundSeries = series.id;
           break;
         }
