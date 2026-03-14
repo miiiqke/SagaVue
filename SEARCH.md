@@ -1,6 +1,6 @@
 # Search
 
-How SagaVue's search works. Useful for debugging unexpected results or extending search behavior.
+How SagaVue's search works. Useful if you're debugging unexpected results or want to extend search behaviour.
 
 ---
 
@@ -11,7 +11,7 @@ Search runs entirely client-side against in-memory data loaded at startup. No in
 - Results appear as you type (150ms debounce)
 - Understands multi-token queries like `aot s2e5` or `hxh ch200`
 - Fuzzy matching handles typos and partial names
-- Results capped at 30, interleaved across series so one series doesn't dominate
+- Results are capped at 30 and interleaved across series so one series doesn't dominate
 
 ---
 
@@ -19,7 +19,7 @@ Search runs entirely client-side against in-memory data loaded at startup. No in
 
 ### Context keywords
 
-These words set the type for numbers that follow them:
+These tokens tell the parser what the numbers that follow them mean:
 
 | Input | What it means |
 |-------|--------------|
@@ -28,21 +28,21 @@ These words set the type for numbers that follow them:
 | `part 2` | Part 2 filter |
 | `chapter 200`, `ch200`, `c200` | Chapter 200 |
 
-Compact forms (`e5`, `ep5`, `s2`, `ch200`, `c200`) work the same as the spaced versions. You can combine them freely: `aot s2e5`, `jjk ep12`, `hxh c200`.
+Compact forms (`e5`, `ep5`, `s2`, `ch200`, `c200`) work the same as the spaced versions, and you can combine them freely: `aot s2e5`, `jjk ep12`, `hxh c200`.
 
 ### Number assignment
 
-Numbers bind to the keyword immediately before them. `s2 ep5` gives season=2, episode=5. A bare number with no keyword is treated as both an episode and chapter search simultaneously.
+Numbers bind to the keyword immediately before them. `s2 ep5` gives season=2, episode=5. A bare number with no keyword is treated as both an episode and chapter search at the same time.
 
 ### Series detection
 
-Non-keyword tokens are scored against every series title and abbreviation. If a token scores 60+ against a series, it becomes a series filter rather than a text search. That's why `aot 12` finds AoT episode 12 rather than trying to match "aot" against titles.
+Non-keyword tokens are scored against every series title and abbreviation. If a token scores 60 or above against a series, it becomes a series filter rather than a text search. That's why `aot 12` finds AoT episode 12 rather than trying to match "aot" against episode titles.
 
 ---
 
 ## Fuzzy scoring
 
-`fuzzyScore(target, query)` returns 0-100:
+`fuzzyScore(target, query)` returns a value from 0 to 100:
 
 | Score | Match type |
 |-------|-----------|
@@ -71,14 +71,14 @@ Within each group, results from different series are interleaved in rotation.
 
 ## Season-episode resolution
 
-When a season filter is combined with an episode number (e.g. `aot s2e5`), the search uses `seasonMap` from meta to resolve the season-scoped number to the overall episode. If not found in `seasonMap`, it falls back to matching by overall episode number.
+When a season filter is combined with an episode number (e.g. `aot s2e5`), the search uses `seasonMap` from meta to resolve the season-scoped number to the overall episode. If it's not found in `seasonMap`, it falls back to matching by overall episode number.
 
 ---
 
 ## Keyboard shortcuts
 
-- `Cmd/Ctrl + K` — focus the search input
-- `Escape` — close results and blur input
+- `Cmd/Ctrl + K` to focus the search input
+- `Escape` to close results and blur the input
 
 ---
 

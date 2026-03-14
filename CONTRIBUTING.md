@@ -1,12 +1,12 @@
 # Contributing
 
-Contributions come in two flavours: adding or updating series data (no coding required) and improving the app itself.
+There are two ways to contribute: adding or updating series data (no coding required), or improving the app itself.
 
 ---
 
-## ✏️ Adding a new series
+## Adding a new series
 
-All you're doing is filling out a JSON file. The full schema reference is in `DATA_STRUCTURE.md`. A working example is in `data/new_series_template.json`.
+All you're doing is filling out a JSON file. The full schema is in `DATA_STRUCTURE.md` and there's a working template at `data/new_series_template.json`.
 
 ### Step 1 — Fork and clone
 
@@ -21,7 +21,7 @@ cd sagavue
 cp data/new_series_template.json data/my_hero_academia.json
 ```
 
-Use a short, lowercase, hyphen-free filename (`mha.json`, `vinland_saga.json`).
+Use a short, lowercase filename with underscores, not hyphens (`mha.json`, `vinland_saga.json`).
 
 ### Step 3 — Fill in the data
 
@@ -40,12 +40,12 @@ Use a short, lowercase, hyphen-free filename (`mha.json`, `vinland_saga.json`).
 }
 ```
 
-- `id` — short, lowercase, no spaces. Becomes the URL: `#series/mha`.
-- `abbr` — everything fans search by. The more the better.
-- `animeStatus` / `mangaStatus` — `"Ongoing"`, `"Finished"`, `"Incomplete"`, or `"Hiatus"`. The combined status badge is computed automatically.
-- `lastUpdated` — required when `animeStatus` is `"Ongoing"`. Tells users how fresh the data is.
+- `id` is a short lowercase slug with no spaces. It becomes the URL: `#series/mha`.
+- `abbr` should include everything fans actually search by. More is better.
+- `animeStatus` / `mangaStatus` accept `"Ongoing"`, `"Finished"`, `"Incomplete"`, or `"Hiatus"`. The combined status badge is computed automatically.
+- `lastUpdated` is required when `animeStatus` is `"Ongoing"`. It shows users how fresh the data is.
 
-**MAL IDs** — adds ratings, cover art, synopsis, and section 01 chips:
+**MAL IDs** unlock ratings, cover art, synopsis, and the season chips:
 
 ```json
 "malIds": {
@@ -61,11 +61,11 @@ Use a short, lowercase, hyphen-free filename (`mha.json`, `vinland_saga.json`).
 }
 ```
 
-- `primary` — MAL ID of the first/main anime season. Find it in the URL on myanimelist.net.
-- `manga` — MAL manga ID. Used to compare anime vs manga member counts — whichever is higher is shown in the stats panel.
-- `canonIds` — all canonical MAL IDs. Used to filter them out of the Extras section (only OVAs and spinoffs go there).
-- `seasons` — renders as chips in the Seasons & Parts section. Include both TV seasons **and** canon films here (add `"type": "movie"` for films).
-- `alternativeSeries` — earlier adaptations or parallel canon series (e.g. FMA 2003 alongside Brotherhood). Only `"tv"` and `"movie"` types appear in section 01. See `DATA_STRUCTURE.md` for full field reference.
+- `primary` is the MAL ID of the first/main anime season. You can find it in the URL on myanimelist.net.
+- `manga` is the MAL manga ID. The stats panel compares member counts between the anime and manga and shows whichever is higher.
+- `canonIds` lists all canonical MAL IDs. The Extras section uses this to exclude them, so only OVAs and spinoffs show up there.
+- `seasons` renders as chips in the Seasons & Parts section. Include both TV seasons and canon films here. Add `"type": "movie"` for films.
+- `alternativeSeries` is for earlier adaptations or parallel canon series, e.g. FMA 2003 alongside Brotherhood. Only `"tv"` and `"movie"` types appear in section 01. See `DATA_STRUCTURE.md` for the full field reference.
 
 **Meta block:**
 
@@ -80,8 +80,8 @@ Use a short, lowercase, hyphen-free filename (`mha.json`, `vinland_saga.json`).
 }
 ```
 
-- `totalChapters` — update this as new chapters release.
-- `seasons` — TV seasons only (no films). The sum of `eps` must match the number of non-movie entries in `episodes[]` exactly.
+- `totalChapters` needs to be updated as new chapters release.
+- `seasons` is TV only, no films. The sum of `eps` must match the number of non-movie entries in `episodes[]` exactly.
 
 **Arcs:**
 
@@ -115,7 +115,7 @@ Use a short, lowercase, hyphen-free filename (`mha.json`, `vinland_saga.json`).
 
 - Set `episodeStart`/`episodeEnd` to `0` for unadapted arcs.
 - Add `"type": "movie"` for canon films in the watch order.
-- Arc `id` values appear in search jump URLs — keep them stable once published.
+- Arc `id` values appear in search jump URLs, so keep them stable once published.
 
 **Episodes:**
 
@@ -136,18 +136,18 @@ Use a short, lowercase, hyphen-free filename (`mha.json`, `vinland_saga.json`).
 ]
 ```
 
-- `ep` — overall episode number across all seasons. S2 Ep 1 = `26` if S1 had 25 episodes.
-- `chapters` — manga chapters this episode covers. **The source of truth for adaptation tracking.** Use `[]` for filler or unknown. Use `["Anime Original"]` for anime-original canon episodes.
-- `status` — omit for canon episodes. Only add for `"filler"`, `"mixed"`, or `"original"`.
-- For films, use `"type": "movie"` instead of `"ep": N`.
+- `ep` is the overall episode number across all seasons. If Season 1 had 25 episodes, Season 2 Episode 1 is `26`.
+- `chapters` is what drives adaptation tracking. List the manga chapters this episode covers. Use `[]` for filler or unknown episodes, and `["Anime Original"]` for anime-original canon content.
+- `status` defaults to canon, so only add it for `"filler"`, `"mixed"`, or `"original"`.
+- For films, use `"type": "movie"` instead of `"ep"`.
 
-**Watch guide** *(optional — only for complex series)*:
+**Watch guide** (optional, only for complex series):
 
-Only add `watchGuide` when the watch order is non-obvious: multiple adaptations covering the same content, mandatory manga gaps, or an active community debate. Clean linear series (AoT, Frieren, JJK) don't need it.
+Only add a `watchGuide` when the watch order is genuinely non-obvious: multiple adaptations covering the same content, mandatory manga gaps, or an active community debate about order. Straightforward linear series like AoT, Frieren, and JJK don't need one.
 
 See `berserk.json`, `hxh.json`, and `demon_slayer.json` for real working examples. Full type documentation is in `DATA_STRUCTURE.md`.
 
-**Chapter titles** *(optional)*:
+**Chapter titles** (optional):
 
 ```json
 "chapterTitles": {
@@ -156,7 +156,7 @@ See `berserk.json`, `hxh.json`, and `demon_slayer.json` for real working example
 }
 ```
 
-String keys mapping to official chapter titles. Omit the field entirely if you don't have the data.
+String keys mapping to official chapter titles. Leave the field out entirely if you don't have the data.
 
 ### Step 4 — Check your work
 
@@ -165,11 +165,11 @@ python3 -m http.server
 # open http://localhost:8000
 ```
 
-Your series appears on the home page automatically. Check the browser console for any errors. Common mistakes:
+Your series will appear on the home page automatically. Check the browser console for errors. The most common mistakes are:
 
-- `meta.seasons` episode total doesn't match the number of `episodes[]` entries — the adaptation bar will be wrong.
-- An `arc` field in an episode doesn't match any arc `id` — the episode table will show `—` for the arc column.
-- A chapter listed in `episodes[].chapters` is higher than `meta.totalChapters` — it won't be counted as adapted.
+- `meta.seasons` episode total not matching the number of `episodes[]` entries, which will break the adaptation bar.
+- An `arc` field in an episode not matching any arc `id`, which will show `—` in the arc column.
+- A chapter in `episodes[].chapters` being higher than `meta.totalChapters`, so it won't be counted as adapted.
 
 ### Step 5 — Submit
 
@@ -177,38 +177,44 @@ Open a pull request with a title like `Add My Hero Academia`. Include a brief no
 
 ---
 
-## 🔄 Updating existing data
+## Updating existing data
 
 The most common update is bumping `totalChapters` and `lastUpdated` when a manga publishes new chapters. For ongoing anime, you'll also add new episode entries and update the arc's `episodeEnd`.
 
-When a series finishes:
-- Set `animeStatus` to `"Finished"` or `"Incomplete"`.
-- Remove `lastUpdated` (or leave it — it only shows when `animeStatus` is `"Ongoing"`).
-- Verify `adaptedPct` looks right in the UI.
+When a series finishes, set `animeStatus` to `"Finished"` or `"Incomplete"`, and optionally remove `lastUpdated` since it only shows when the anime is ongoing.
 
 ---
 
-## 🛠️ Code contributions
+## Code contributions
 
-### Getting started
-
-No build step. Open `index.html` directly or serve locally as above.
+No build step needed. Open `index.html` directly or serve locally with `python3 -m http.server`.
 
 ### File layout
 
 ```
-index.html          — HTML shell and layout
-css/styles.css      — all styles
+index.html              — HTML shell and layout
+privacy.html            — Privacy policy page
+css/
+  styles.css            — all styles
 js/
-  main.js           — entry point, wires everything together
-  data.js           — loads JSON, builds derived structures (enrich())
-  render.js         — DOM rendering (pure functions, no state)
-  router.js         — hash-based routing (#series/id URLs, middle-click support)
-  search.js         — live search with fuzzy matching and token parsing
-  api.js            — Jikan (MAL) wrapper with caching, rate limiting, fetchBestInfo()
-  status.js         — computes logicalStatus from animeStatus + mangaStatus
+  main.js               — entry point, wires everything together
+  data.js               — loads JSON, builds derived structures (enrich())
+  render.js             — DOM rendering (pure functions, no state)
+  render-footer.js      — builds and injects the footer from footer.js config
+  footer.js             — footer content config (links, columns, disclaimer)
+  router.js             — hash-based routing (#series/id URLs, middle-click support)
+  search.js             — live search with fuzzy matching and token parsing
+  api.js                — Jikan (MAL) wrapper with caching, rate limiting, fetchBestInfo()
+  status.js             — computes logicalStatus from animeStatus + mangaStatus
 data/
-  *.json            — one file per series, auto-discovered at runtime
+  aot.json
+  berserk.json
+  demon_slayer.json
+  fmab.json
+  frieren.json
+  hxh.json
+  jjk.json
+  vinland_saga.json
   new_series_template.json
 assets/
   img/logo.png
