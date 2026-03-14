@@ -1,9 +1,0 @@
-# Cloudflare Pages — SPA fallback
-# All requests that don't match a real file get served index.html with a 200.
-# This is what makes /series/berserk work when the user navigates directly
-# or refreshes the page — without this, Cloudflare would return a 404.
-# Note: /privacy resolves to privacy.html automatically via Cloudflare's
-# built-in clean URL handling. No redirect rule needed for it.
-
-/series/*  /index.html    200
-/*         /index.html    200
