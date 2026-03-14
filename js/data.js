@@ -30,26 +30,22 @@ export async function loadSeries(seriesId) {
   return enriched;
 }
 
+// Series registry — add new series filenames here (without .json extension).
+// Directory listing is not used because production servers don't expose it.
+const SERIES_IDS = [
+  'aot',
+  'berserk',
+  'demon_slayer',
+  'fmab',
+  'frieren',
+  'hxh',
+  'jjk',
+  'vinland_saga',
+];
+
 export async function loadAllSeries() {
-  // Auto-discover all JSON files in the data directory
-  const response = await fetch('data/');
-  const html = await response.text();
-
-  // Parse HTML to find JSON files (simple approach)
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(html, 'text/html');
-  const jsonFiles = Array.from(doc.querySelectorAll('a[href$=".json"]'))
-    .map(a => a.href)
-    .filter(href => !href.includes('template')) // Exclude template file
-    .map(href => {
-      // Extract filename without extension
-      const filename = href.split('/').pop();
-      return filename.replace('.json', '');
-    });
-
-  // Load all discovered series
   const out = [];
-  for (const seriesId of jsonFiles) {
+  for (const seriesId of SERIES_IDS) {
     try { out.push(await loadSeries(seriesId)); }
     catch (e) { console.error(`Failed to load ${seriesId}:`, e); }
   }
