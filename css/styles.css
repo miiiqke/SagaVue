@@ -899,6 +899,19 @@ nav.on-home .nav-logo {
     justify-content: flex-start;
     padding: 0;
   }
+  .series-grid { margin-top: 1rem; }
+
+  /* Search results — stretch to screen edges on mobile */
+  #search-results,
+  #nav-search-results {
+    position: fixed;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    max-height: 60vh;
+  }
 
   .nav-logo { gap: 0.5rem; }
   .nav-logo-img { height: 26px; }
