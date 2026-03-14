@@ -33,8 +33,7 @@ export const FOOTER_CONFIG = {
     {
       heading: 'Contact',
       links: [
-        { label: 'Report a bug',      href: 'https://github.com/miiiqke/SagaVue/issues', external: true },
-        { label: 'Suggest a series',  href: 'https://github.com/miiiqke/SagaVue/issues', external: true },
+        { label: 'Report a Bug / Suggest a Series', href: 'https://github.com/miiiqke/SagaVue/issues', external: true },
       ],
     },
   ],
