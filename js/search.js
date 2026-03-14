@@ -176,18 +176,23 @@ function parseQuery(q, allSeries) {
         return ts > fuzzyScore(s.meta?.title || '', token) ? series : s;
       }, {}).meta?.title || '', token);
       
-      for (const series of allSeries) {
-        const ts = fuzzyScore(series.meta.title, token);
-        const as = series.meta.abbr ? Math.max(...series.meta.abbr.map(a => fuzzyScore(a, token))) : 0;
-        const score = Math.max(ts, as);
-        
-        if (score >= 55) {
-          foundSeries = series.id;
-          break;
+      // Only try to match a series name on this token if we haven't found one yet.
+      // Once a series is identified, all remaining non-keyword tokens become text
+      // search terms (e.g. "aot marley" -> series=aot, textTokens=["marley"]).
+      let matchedSeries = false;
+      if (!foundSeries) {
+        for (const series of allSeries) {
+          const ts = fuzzyScore(series.meta.title, token);
+          const as = series.meta.abbr ? Math.max(...series.meta.abbr.map(a => fuzzyScore(a, token))) : 0;
+          const score = Math.max(ts, as);
+          if (score >= 55) {
+            foundSeries = series.id;
+            matchedSeries = true;
+            break;
+          }
         }
       }
-      
-      if (!foundSeries) {
+      if (!matchedSeries) {
         parsed.textTokens.push(token);
       }
       lastKeywordType = null;
@@ -380,8 +385,9 @@ function run(q) {
           }
         }
         
-        // Only match by title if we don't have explicit episode number filters
-        if (!shouldInclude && parsed.textTokens.length > 0 && parsed.episodeNumbers.length === 0) {
+        // Only match by title if we don't have explicit episode number filters.
+        // Skip movie-type entries — those are handled separately in the movie/arc search.
+        if (!shouldInclude && parsed.textTokens.length > 0 && parsed.episodeNumbers.length === 0 && ep.type !== 'movie') {
           for (const token of parsed.textTokens) {
             const titleScore = fuzzyScore(ep.title, token);
             if (titleScore > 50) {
@@ -492,29 +498,63 @@ function run(q) {
     }
 
     // ─ Arcs ──────────────────────────────────────────────────
-    // Search arcs if: searchAll with text tokens (no specific context)
-    if (searchAll && parsed.textTokens.length > 0 && 
-        !searchOnlyEpisodes && !searchOnlySeasons && !searchOnlyChapters) {
+    // Search arcs when there are text tokens and no episode/chapter context.
+    if (searchAll && parsed.textTokens.length > 0) {
+      // Also score against the full joined query for multi-word arc names
+      const joinedText = parsed.textTokens.join(' ');
       for (const arc of series.arcs) {
+        // Score each token individually and also the full joined text
+        let bestScore = fuzzyScore(arc.name, joinedText);
         for (const token of parsed.textTokens) {
-          const arcScore = fuzzyScore(arc.name, token);
-          if (arcScore > 50) {
-            const key = `arc-${series.id}-${arc.id}`;
-            if (!seen.has(key)) {
-              seen.add(key);
-              const type = arc.type === 'movie' ? 'movie' : arc.type === 'special' ? 'ova' : 'arc';
-              results.push({
-                type,
-                label: arc.name,
-                meta: m.title,
-                sid: series.id,
-                aid: `arc-${arc.id}`,
-                tab: '',
-                score: arcScore + 30,
-                priority: 4,
-              });
-              break;
-            }
+          bestScore = Math.max(bestScore, fuzzyScore(arc.name, token));
+        }
+        if (bestScore > 45) {
+          const key = `arc-${series.id}-${arc.id}`;
+          if (!seen.has(key)) {
+            seen.add(key);
+            const type = (arc.type === 'movie' || arc.type === 'movies') ? 'movie' : arc.type === 'special' ? 'ova' : 'arc';
+            // Movies get higher priority so they surface alongside episode results
+            const priority = (arc.type === 'movie' || arc.type === 'movies') ? 2 : 3;
+            results.push({
+              type,
+              label: arc.name,
+              meta: m.title,
+              sid: series.id,
+              aid: `arc-${arc.id}`,
+              tab: '',
+              score: bestScore + 30,
+              priority,
+            });
+          }
+        }
+      }
+
+      // Search movie episode titles (type=movie entries in episodes[])
+      // Search movie episode titles — but only for films that didn't already
+      // surface via arc search (same arc id = same dedup key).
+      const movieEps = series.episodes ? series.episodes.filter(e => e.type === 'movie') : [];
+      for (const ep of movieEps) {
+        const arcKey = `arc-${series.id}-${ep.arc}`;
+        if (seen.has(arcKey)) continue; // already shown via arc search
+        const joinedText = parsed.textTokens.join(' ');
+        let bestScore = fuzzyScore(ep.title, joinedText);
+        for (const token of parsed.textTokens) {
+          bestScore = Math.max(bestScore, fuzzyScore(ep.title, token));
+        }
+        if (bestScore > 45) {
+          const key = `movieep-${series.id}-${ep.arc}`;
+          if (!seen.has(key)) {
+            seen.add(key);
+            results.push({
+              type: 'movie',
+              label: ep.title,
+              meta: m.title,
+              sid: series.id,
+              aid: `epr-movie-${ep.arc}`,
+              tab: 'ep',
+              score: bestScore + 30,
+              priority: 2,
+            });
           }
         }
       }
