@@ -154,8 +154,12 @@ function getSortedSeries(series) {
     sorted.sort((a, b) => isAsc ? a.meta.adaptedPct - b.meta.adaptedPct : b.meta.adaptedPct - a.meta.adaptedPct);
   } else if (currentSort === 'rating') {
     sorted.sort((a, b) => {
-      const ratingA = a.meta.score || 0;
-      const ratingB = b.meta.score || 0;
+      const ratingA = a.meta.score;
+      const ratingB = b.meta.score;
+      // Push nulls to the bottom regardless of sort direction
+      if (ratingA == null && ratingB == null) return 0;
+      if (ratingA == null) return 1;
+      if (ratingB == null) return -1;
       return isAsc ? ratingA - ratingB : ratingB - ratingA;
     });
   } else if (currentSort === 'name') {
@@ -177,6 +181,11 @@ function getButtonLabel(sortType, isDesc, isActive) {
 }
 
 function initFilters() {
+  // Hide the Rating sort button if no series have scores yet
+  const hasScores = allSeries.some(s => s.meta.score != null);
+  const ratingBtn = document.querySelector('#sort-filters .filter-btn[data-sort="rating"]');
+  if (ratingBtn) ratingBtn.style.display = hasScores ? '' : 'none';
+
   document.querySelectorAll('#sort-filters .filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const sortType = btn.dataset.sort;
