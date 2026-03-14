@@ -42,7 +42,7 @@ export function renderFooter() {
     <div class="ft-inner">
       <div class="ft-top">
         <div class="ft-brand">
-          <span class="ft-brand-logo-wrap"><img class="ft-brand-logo" src="/assets/img/logo.png" alt="${brand.name}"></span>
+          <span class="ft-brand-logo-wrap"><img class="ft-brand-logo" src="assets/img/logo.png" alt="${brand.name}"></span>
           <span class="ft-brand-tagline">${brand.tagline}</span>
           <span class="ft-origin">${brand.origin}</span>
         </div>

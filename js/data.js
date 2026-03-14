@@ -30,7 +30,7 @@ const loaded = new Map();
  * Returns objects shaped to match what renderGrid and initSearch expect.
  */
 export async function loadCatalog() {
-  const res = await fetch('/data/index.json');
+  const res = await fetch('data/index.json');
   if (!res.ok) throw new Error('Failed to load data/index.json');
   const entries = await res.json();
   return entries.map(e => ({
@@ -57,7 +57,7 @@ export async function loadCatalog() {
 export async function loadSeries(seriesId) {
   if (loaded.has(seriesId)) return loaded.get(seriesId);
 
-  const res = await fetch(`/data/${seriesId}.json`);
+  const res = await fetch(`data/${seriesId}.json`);
   if (!res.ok) throw new Error(`Failed to load data/${seriesId}.json`);
   const json = await res.json();
 
