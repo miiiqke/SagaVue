@@ -901,15 +901,19 @@ nav.on-home .nav-logo {
   }
   .series-grid { margin-top: 1rem; }
 
-  /* Search results — stretch to screen edges on mobile */
-  #search-results,
+  /* Search results — stretch to full screen width on mobile.
+     The nav search bar stays 400px max but the dropdown punches out
+     to the screen edges using negative margins. */
   #nav-search-results {
-    position: fixed;
-    left: 0;
-    right: 0;
-    border-radius: 0;
-    border-left: none;
-    border-right: none;
+    left: calc(-50vw + 50%);
+    right: calc(-50vw + 50%);
+    border-radius: 0 0 0.6rem 0.6rem;
+    border-top: none;
+    max-height: 60vh;
+  }
+  #search-results {
+    left: 0; right: 0;
+    border-radius: 0 0 0.6rem 0.6rem;
     max-height: 60vh;
   }
 
