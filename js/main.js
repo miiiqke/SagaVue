@@ -20,7 +20,6 @@ let allSeries    = [];
 let currentSeries = null;
 let currentSort = 'default';
 let currentSortDir = 'asc'; // 'asc' or 'desc'
-
 // Exposed for inline HTML onclick handlers
 window.app = {
   switchTab,
@@ -54,7 +53,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderGrid(allSeries, id => navigate('series', id));
     initFilters();
     initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab));
-    // Initialize navbar search
     initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab), 'nav-search-input', 'nav-search-results');
   } catch (e) {
     console.error('Boot failed:', e);
@@ -155,7 +153,6 @@ function getSortedSeries(series) {
     sorted.sort((a, b) => {
       const ratingA = a.meta.score;
       const ratingB = b.meta.score;
-      // Push nulls to the bottom regardless of sort direction
       if (ratingA == null && ratingB == null) return 0;
       if (ratingA == null) return 1;
       if (ratingB == null) return -1;
@@ -180,7 +177,6 @@ function getButtonLabel(sortType, isDesc, isActive) {
 }
 
 function initFilters() {
-  // Hide the Rating sort button if no series have scores yet
   const hasScores = allSeries.some(s => s.meta.score != null);
   const ratingBtn = document.querySelector('#sort-filters .filter-btn[data-sort="rating"]');
   if (ratingBtn) ratingBtn.style.display = hasScores ? '' : 'none';

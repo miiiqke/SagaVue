@@ -2,6 +2,10 @@
   {
     "id": "aot",
     "title": "Attack on Titan",
+    "abbr": [
+      "AOT",
+      "Shingeki"
+    ],
     "tags": [
       "Dark Fantasy",
       "Action",
@@ -20,6 +24,9 @@
   {
     "id": "berserk",
     "title": "Berserk",
+    "abbr": [
+      "Berserk"
+    ],
     "tags": [
       "Dark Fantasy",
       "Action",
@@ -38,6 +45,10 @@
   {
     "id": "demon_slayer",
     "title": "Demon Slayer: Kimetsu no Yaiba",
+    "abbr": [
+      "KNY",
+      "Demon Slayer"
+    ],
     "tags": [
       "Action",
       "Dark Fantasy",
@@ -56,6 +67,11 @@
   {
     "id": "fmab",
     "title": "Fullmetal Alchemist: Brotherhood",
+    "abbr": [
+      "FMAB",
+      "Fullmetal",
+      "FMA"
+    ],
     "tags": [
       "Action",
       "Adventure",
@@ -74,6 +90,12 @@
   {
     "id": "frieren",
     "title": "Frieren: Beyond Journey's End",
+    "abbr": [
+      "Frieren",
+      "Sousou no Frieren",
+      "Sosou no Frieren",
+      "FBJ"
+    ],
     "tags": [
       "Fantasy",
       "Adventure",
@@ -92,6 +114,11 @@
   {
     "id": "hxh",
     "title": "Hunter x Hunter",
+    "abbr": [
+      "HXH",
+      "HunterXHunter",
+      "Hunter"
+    ],
     "tags": [
       "Adventure",
       "Action",
@@ -110,6 +137,10 @@
   {
     "id": "jjk",
     "title": "Jujutsu Kaisen",
+    "abbr": [
+      "JJK",
+      "Jujutsu"
+    ],
     "tags": [
       "Supernatural",
       "Action",
@@ -128,6 +159,10 @@
   {
     "id": "vinland_saga",
     "title": "Vinland Saga",
+    "abbr": [
+      "Vinland",
+      "VS"
+    ],
     "tags": [
       "Action",
       "Adventure",
