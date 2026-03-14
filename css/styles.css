@@ -268,7 +268,7 @@ nav {
   font-family: var(--font-mono); font-size: 0.62rem; padding: 0.22rem 0.6rem;
   border-radius: 99px; border: 1px solid var(--border); background: transparent;
   color: var(--text3); cursor: pointer; transition: all 0.15s;
-  text-transform: uppercase; letter-spacing: 0.05em;
+  text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap;
 }
 .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
 .filter-btn.on { border-color: var(--accent); color: var(--accent); background: rgba(153,102,221,0.08); }
@@ -881,6 +881,25 @@ nav.on-home .nav-logo {
 @media (max-width: 720px) {
   nav { padding: 0 1rem; }
 
+  /* Sort filters — hide label, single scrollable row of chips */
+  .filter-label { display: none; }
+  .filter-group { width: 100%; }
+  .filter-options {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    padding-bottom: 2px;
+    scrollbar-width: none;
+  }
+  .filter-options::-webkit-scrollbar { display: none; }
+  .filter-btn { flex-shrink: 0; }
+  .filters-panel {
+    margin: 0.75rem auto 0;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
   .nav-logo { gap: 0.5rem; }
   .nav-logo-img { height: 26px; }
   .nav-bc { font-size: 0.65rem; gap: 0.3rem; }
@@ -1147,14 +1166,7 @@ nav.on-home .nav-logo {
   background: var(--border);
 }
 .wg-or::before { left: 0; }
-.wg-or::after  { right: 0; 
-  /* Sort filters: stack label, horizontal scroll on mobile */
-  .filters-panel { margin: 1rem auto 0; justify-content: flex-start; padding: 0 0.25rem; }
-  .filter-group { flex-direction: column; align-items: flex-start; gap: 0.5rem; width: 100%; }
-  .filter-options { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; width: 100%; padding-bottom: 0.25rem; scrollbar-width: none; }
-  .filter-options::-webkit-scrollbar { display: none; }
-  .filter-btn { flex-shrink: 0; font-size: 0.6rem; padding: 0.25rem 0.65rem; white-space: nowrap; }
-}
+.wg-or::after  { right: 0; }
 
 @media (max-width: 600px) {
   .wg-step { padding: 0.9rem 1rem; gap: 0.7rem; }
