@@ -15,7 +15,7 @@
     "animeStatus": "Finished",
     "mangaStatus": "Finished",
     "malId": 16498,
-    "score": 9.0
+    "score": null
   },
   {
     "id": "berserk",
@@ -33,7 +33,7 @@
     "animeStatus": "Incomplete",
     "mangaStatus": "Ongoing",
     "malId": 33,
-    "score": 8.66
+    "score": null
   },
   {
     "id": "demon_slayer",
@@ -51,7 +51,7 @@
     "animeStatus": "Ongoing",
     "mangaStatus": "Finished",
     "malId": 38000,
-    "score": 8.54
+    "score": null
   },
   {
     "id": "fmab",
@@ -69,7 +69,7 @@
     "animeStatus": "Finished",
     "mangaStatus": "Finished",
     "malId": 5114,
-    "score": 9.11
+    "score": null
   },
   {
     "id": "frieren",
@@ -87,7 +87,7 @@
     "animeStatus": "Ongoing",
     "mangaStatus": "Hiatus",
     "malId": 52991,
-    "score": 9.01
+    "score": null
   },
   {
     "id": "hxh",
@@ -105,7 +105,7 @@
     "animeStatus": "Finished",
     "mangaStatus": "Hiatus",
     "malId": 11061,
-    "score": 9.04
+    "score": null
   },
   {
     "id": "jjk",
@@ -123,7 +123,7 @@
     "animeStatus": "Ongoing",
     "mangaStatus": "Finished",
     "malId": 40748,
-    "score": 8.62
+    "score": null
   },
   {
     "id": "vinland_saga",
@@ -141,6 +141,6 @@
     "animeStatus": "Incomplete",
     "mangaStatus": "Finished",
     "malId": 37521,
-    "score": 8.72
+    "score": null
   }
 ]
