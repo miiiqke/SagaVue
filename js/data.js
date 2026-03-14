@@ -1,26 +1,61 @@
 /**
  * data.js — loads JSON and builds derived structures.
  *
- * Chapter "adapted" fix: a chapter is only marked adapted if
- * actually appears in at least one episode's ch[] array.
- * Previously we used a blunt adaptedUpTo cutoff which wrongly
- * flagged chapters that had no episode coverage.
+ * Two-layer loading strategy for scalability:
+ *
+ * 1. loadCatalog() — fetches data/index.json, a single lightweight file
+ *    containing only the fields needed to render the home screen cards
+ *    (id, title, tags, totalEpisodes, totalChapters, adaptedPct, malId).
+ *    One request on the home screen regardless of how many series exist.
+ *    Returns lightweight catalog objects, enough for the grid and search.
+ *
+ * 2. loadSeries(id) — fetches the full data/[id].json on demand, only when
+ *    the user navigates to a specific series. Cached so revisiting is free.
+ *
+ * When adding a new series, regenerate index.json by running:
+ *   node scripts/build-index.js
+ * or follow the instructions in CONTRIBUTING.md.
  *
  * chapterTitles support: an optional top-level "chapterTitles" object
  * in the JSON (e.g. { "1": "Prologue", "2": "Departure" }) enriches
  * each chapter entry with a .title field used across the UI and search.
- * The field is fully optional — series without it behave exactly as before.
- * No configuration is needed; it is picked up automatically when a file loads.
  */
 
 import { computeSeriesStatus } from './status.js';
 
 const loaded = new Map();
 
+/**
+ * Load the lightweight catalog from data/index.json.
+ * Returns objects shaped to match what renderGrid and initSearch expect.
+ */
+export async function loadCatalog() {
+  const res = await fetch('data/index.json');
+  if (!res.ok) throw new Error('Failed to load data/index.json');
+  const entries = await res.json();
+  return entries.map(e => ({
+    id: e.id,
+    config: {
+      id: e.id,
+      title: e.title,
+      abbr: e.abbr || [],
+      malIds: e.malId ? { primary: e.malId } : {},
+    },
+    meta: {
+      title: e.title,
+      tags: e.tags || [],
+      totalEpisodes: e.totalEpisodes,
+      totalChapters: e.totalChapters,
+      adaptedPct: e.adaptedPct,
+      animeStatus: e.animeStatus,
+      mangaStatus: e.mangaStatus,
+    },
+  }));
+}
+
 export async function loadSeries(seriesId) {
   if (loaded.has(seriesId)) return loaded.get(seriesId);
 
-  // Load the JSON file directly
   const res = await fetch(`data/${seriesId}.json`);
   if (!res.ok) throw new Error(`Failed to load data/${seriesId}.json`);
   const json = await res.json();
@@ -28,28 +63,6 @@ export async function loadSeries(seriesId) {
   const enriched = enrich(json);
   loaded.set(seriesId, enriched);
   return enriched;
-}
-
-// Series registry — add new series filenames here (without .json extension).
-// Directory listing is not used because production servers don't expose it.
-const SERIES_IDS = [
-  'aot',
-  'berserk',
-  'demon_slayer',
-  'fmab',
-  'frieren',
-  'hxh',
-  'jjk',
-  'vinland_saga',
-];
-
-export async function loadAllSeries() {
-  const out = [];
-  for (const seriesId of SERIES_IDS) {
-    try { out.push(await loadSeries(seriesId)); }
-    catch (e) { console.error(`Failed to load ${seriesId}:`, e); }
-  }
-  return out;
 }
 
 function enrich(json) {
@@ -115,18 +128,15 @@ function enrich(json) {
       adaptedPct,
       seasonMap: buildSeasonMap(json.meta?.seasons || []),
       logicalStatus,
-      // Whether this series has any manga chapter titles defined
       hasChapterTitles: Object.keys(chapterTitles).length > 0,
     },
     arcs,
     episodes,
     chapters,
     chToEp,
-    // Raw chapter titles map (string keys) — used by search and render
     chapterTitles,
   };
 }
-
 
 /** Expand compact [{name, eps}] season list into the full seasonMap array. */
 function buildSeasonMap(seasons) {
@@ -142,7 +152,6 @@ function buildSeasonMap(seasons) {
 
 /** Mark a chapter adapted only if ≥1 episode actually covers it. */
 function buildChapters(arcs, total, chToEp, chapterTitles = {}, prequelChapters = []) {
-  // All prequel chapters belong to the single movie arc (if any)
   const movieArc = arcs.find(a => a.type === 'movie') ?? null;
   const prequel = prequelChapters.map(pc => ({
     n: pc.n,
@@ -158,7 +167,6 @@ function buildChapters(arcs, total, chToEp, chapterTitles = {}, prequelChapters 
       n,
       arcId: arc ? arc.id : null,
       adapted: !!(chToEp[n] && chToEp[n].length > 0),
-      // Manga chapter title — null when not defined in the JSON
       title: chapterTitles[String(n)] ?? chapterTitles[n] ?? null,
     };
   });

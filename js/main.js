@@ -2,7 +2,7 @@
  * main.js — application entry point.
  */
 
-import { loadAllSeries, loadSeries } from './data.js';
+import { loadCatalog, loadSeries } from './data.js';
 import { initSearch }                 from './search.js';
 import { initRouter, navigate, setBreadcrumb } from './router.js';
 import {
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderFooter();
   initRouter(handleHome, handleSeries);
   try {
-    allSeries = await loadAllSeries();
+    allSeries = await loadCatalog();
     renderGrid(allSeries, id => navigate('series', id), seriesRatings);
     initFilters();
     initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab));

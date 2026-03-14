@@ -1,0 +1,7 @@
+{
+  "name": "sagavue",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-index.js"
+  }
+}

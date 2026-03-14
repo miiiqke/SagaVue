@@ -1,0 +1,138 @@
+[
+  {
+    "id": "aot",
+    "title": "Attack on Titan",
+    "tags": [
+      "Dark Fantasy",
+      "Action",
+      "Mystery",
+      "Psychological",
+      "Shounen"
+    ],
+    "totalEpisodes": 94,
+    "totalChapters": 139,
+    "adaptedPct": 100,
+    "animeStatus": "Finished",
+    "mangaStatus": "Finished",
+    "malId": 16498
+  },
+  {
+    "id": "berserk",
+    "title": "Berserk",
+    "tags": [
+      "Dark Fantasy",
+      "Action",
+      "Horror",
+      "Supernatural",
+      "Seinen"
+    ],
+    "totalEpisodes": 49,
+    "totalChapters": 383,
+    "adaptedPct": 55,
+    "animeStatus": "Incomplete",
+    "mangaStatus": "Ongoing",
+    "malId": 33
+  },
+  {
+    "id": "demon_slayer",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "tags": [
+      "Action",
+      "Dark Fantasy",
+      "Supernatural",
+      "Historical",
+      "Shounen"
+    ],
+    "totalEpisodes": 63,
+    "totalChapters": 205,
+    "adaptedPct": 77,
+    "animeStatus": "Ongoing",
+    "mangaStatus": "Finished",
+    "malId": 38000
+  },
+  {
+    "id": "fmab",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Shounen"
+    ],
+    "totalEpisodes": 64,
+    "totalChapters": 108,
+    "adaptedPct": 100,
+    "animeStatus": "Finished",
+    "mangaStatus": "Finished",
+    "malId": 5114
+  },
+  {
+    "id": "frieren",
+    "title": "Frieren: Beyond Journey's End",
+    "tags": [
+      "Fantasy",
+      "Adventure",
+      "Slice of Life",
+      "Drama",
+      "Shounen"
+    ],
+    "totalEpisodes": 38,
+    "totalChapters": 147,
+    "adaptedPct": 53,
+    "animeStatus": "Ongoing",
+    "mangaStatus": "Hiatus",
+    "malId": 52991
+  },
+  {
+    "id": "hxh",
+    "title": "Hunter x Hunter",
+    "tags": [
+      "Adventure",
+      "Action",
+      "Shounen",
+      "School",
+      "Mystery"
+    ],
+    "totalEpisodes": 148,
+    "totalChapters": 410,
+    "adaptedPct": 83,
+    "animeStatus": "Finished",
+    "mangaStatus": "Hiatus",
+    "malId": 11061
+  },
+  {
+    "id": "jjk",
+    "title": "Jujutsu Kaisen",
+    "tags": [
+      "Supernatural",
+      "Action",
+      "Dark Fantasy",
+      "School",
+      "Shounen"
+    ],
+    "totalEpisodes": 59,
+    "totalChapters": 271,
+    "adaptedPct": 66,
+    "animeStatus": "Ongoing",
+    "mangaStatus": "Finished",
+    "malId": 40748
+  },
+  {
+    "id": "vinland_saga",
+    "title": "Vinland Saga",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Historical",
+      "Seinen"
+    ],
+    "totalEpisodes": 48,
+    "totalChapters": 220,
+    "adaptedPct": 45,
+    "animeStatus": "Incomplete",
+    "mangaStatus": "Finished",
+    "malId": 37521
+  }
+]
