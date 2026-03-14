@@ -1,14 +1,17 @@
 /**
- * router.js — hash-based routing with real per-series URLs.
+ * router.js — History API routing with clean URLs.
  *
  * URLs:
- *   /           → home
- *   /#series/berserk         → series page
- *   /#series/berserk/ep/27   → series page, jump to ep 27
+ *   /                        → home
+ *   /series/berserk          → series page
+ *   /series/berserk/ep/27    → series page, jump to ep 27
  *
- * Cards on the home grid are rendered as <a href="#series/id"> so that
+ * Cards on the home grid are rendered as <a href="/series/id"> so that
  * middle-click / Ctrl+click / right-click → "Open in new tab" all work
  * natively without any extra JS.
+ *
+ * The server (wrangler.jsonc not_found_handling: single-page-application)
+ * serves index.html for all paths, so direct navigation and refresh work.
  */
 
 let _onHome   = null;
@@ -25,28 +28,26 @@ export function initRouter(onHome, onSeries) {
   });
   document.getElementById('back-btn').addEventListener('click', () => navigate('home'));
 
-  // Mobile back arrow
   const mBack = document.getElementById('nav-back-mobile');
   if (mBack) mBack.addEventListener('click', () => navigate('home'));
 
-  window.addEventListener('hashchange', handleHash);
+  window.addEventListener('popstate', handlePath);
 
   // Handle the initial URL on load
-  handleHash();
+  handlePath();
 }
 
 export function navigate(view, seriesId = null, anchorId = null, tab = null) {
   if (view === 'home') {
-    window.location.hash = '';
+    history.pushState(null, '', '/');
     showHome();
     _onHome?.();
   } else if (view === 'series' && seriesId) {
-    const hash = anchorId
-      ? `series/${seriesId}/${tab || 'ep'}/${anchorId}`
-      : `series/${seriesId}`;
-    // Only push a new history entry if the hash actually changes
-    if (window.location.hash !== '#' + hash) {
-      window.location.hash = hash;
+    const path = anchorId
+      ? `/series/${seriesId}/${tab || 'ep'}/${anchorId}`
+      : `/series/${seriesId}`;
+    if (window.location.pathname !== path) {
+      history.pushState(null, '', path);
     }
     showSeries();
     _onSeries?.(seriesId, anchorId, tab);
@@ -55,16 +56,16 @@ export function navigate(view, seriesId = null, anchorId = null, tab = null) {
 
 /** Returns the bare href string for a series card link (used by renderGrid). */
 export function seriesHref(seriesId) {
-  return `#series/${seriesId}`;
+  return `/series/${seriesId}`;
 }
 
-function handleHash() {
-  const hash = window.location.hash.replace(/^#/, '');
-  if (!hash) {
+function handlePath() {
+  const path = window.location.pathname;
+  if (path === '/' || path === '') {
     showHome();
     _onHome?.();
-  } else if (hash.startsWith('series/')) {
-    const parts    = hash.split('/');
+  } else if (path.startsWith('/series/')) {
+    const parts    = path.split('/').filter(Boolean); // ['series', 'berserk', 'ep', '27']
     const seriesId = parts[1];
     const tab      = parts[2] || null;
     const anchorId = parts[3] || null;
@@ -102,11 +103,8 @@ function showSeries() {
   sp.classList.remove('hidden');
   document.getElementById('nav').classList.remove('on-home');
   window.scrollTo({ top: 0, behavior: 'instant' });
-  // Trigger enter animation — remove first in case of re-navigation
   sp.classList.remove('page-entering');
-  // Force reflow so removing+adding the class restarts the animation
   void sp.offsetWidth;
   sp.classList.add('page-entering');
-  // Clean up after animation completes so it doesn't interfere with anything
   setTimeout(() => sp.classList.remove('page-entering'), 600);
 }
