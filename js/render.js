@@ -72,12 +72,13 @@ const truncate = (str, limit) => {
 const emptyRow = cols => `<tr><td colspan="${cols}" style="padding:1.4rem;text-align:center;color:var(--text3);font-style:italic;font-size:.8rem">Nothing here.</td></tr>`;
 
 // ── Home grid ────────────────────────────────────────────────────
-export function renderGrid(list, onSelect) {
+export function renderGrid(list, onSelect, ratings = {}) {
   const grid = document.getElementById('series-grid');
   grid.innerHTML = list.map(s => {
     const m = s.meta;
     const genreTags = (m.tags || []).slice(0, 2).map(t => `<span class="ctag-genre">${t}</span>`).join('');
-    const score = m.score;
+    const rating = ratings[s.id];
+    // Use truncate for title with a generous limit (e.g., 45 chars)
     const displayTitle = truncate(m.title, 45);
     
     return `<a class="series-card" href="${seriesHref(s.id)}" data-id="${s.id}">
@@ -93,7 +94,7 @@ export function renderGrid(list, onSelect) {
         </div>
         <div class="card-bottom">
           <div class="cprog"><div class="cprog-fill" data-p="${m.adaptedPct}"></div></div>
-          ${score ? `<div class="crating">★ ${score}</div>` : ''}
+          ${rating ? `<div class="crating">★ ${rating}</div>` : ''}
         </div>
       </div>
     </a>`;
@@ -556,42 +557,40 @@ export function renderEpTable(series, filter) {
   };
 
   // Table rows (desktop)
-  document.getElementById('ep-tbody').innerHTML = eps.length || allInOrder.some(e => e.type === 'movie')
-    ? buildRows(ep => {
-        const cs = fmtChapters(ep.chapters) || '—';
-        const tooltip = fmtChapterTitleTooltip(ep.chapters, chTitles);
-        const chCell = tooltip
-          ? `<td class="td-c" title="${tooltip.replace(/"/g, '&quot;')}">${cs}</td>`
-          : `<td class="td-c">${cs}</td>`;
-        return `<tr id="epr-${ep.ep}">
-          <td class="td-n">E${ep.ep}</td>
-          <td class="td-t">${ep.title}</td>
-          <td class="td-a">${arcNames[ep.arc] || '—'}</td>
-          <td class="td-s"><span class="dot d-${ep.status}"></span>${cap(ep.status)}</td>
-          ${chCell}
-        </tr>`;
-      }, movieBannerRow)
-    : emptyRow(5);
+  const tableRows = buildRows(ep => {
+      const cs = fmtChapters(ep.chapters) || '—';
+      const tooltip = fmtChapterTitleTooltip(ep.chapters, chTitles);
+      const chCell = tooltip
+        ? `<td class="td-c" title="${tooltip.replace(/"/g, '&quot;')}">${cs}</td>`
+        : `<td class="td-c">${cs}</td>`;
+      return `<tr id="epr-${ep.ep}">
+        <td class="td-n">E${ep.ep}</td>
+        <td class="td-t">${ep.title}</td>
+        <td class="td-a">${arcNames[ep.arc] || '—'}</td>
+        <td class="td-s"><span class="dot d-${ep.status}"></span>${cap(ep.status)}</td>
+        ${chCell}
+      </tr>`;
+    }, movieBannerRow);
+  document.getElementById('ep-tbody').innerHTML = tableRows || emptyRow(5);
 
   // Cards (mobile)
-  document.getElementById('ep-card-list').innerHTML = eps.length || allInOrder.some(e => e.type === 'movie')
-    ? buildRows(ep => {
-        const cs = fmtChapters(ep.chapters) || null;
-        const arc = arcNames[ep.arc] || null;
-        const tooltip = fmtChapterTitleTooltip(ep.chapters, chTitles);
-        return `<div class="ep-card" id="epcard-${ep.ep}">
-          <div class="ep-card-num">E${ep.ep}</div>
-          <div class="ep-card-body">
-            <div class="ep-card-title">${ep.title}</div>
-            <div class="ep-card-meta">
-              ${arc ? `<span class="ep-card-arc">${arc}</span>` : ''}
-              <span class="ep-card-status"><span class="dot d-${ep.status}"></span>${cap(ep.status)}</span>
-              ${cs ? `<span class="ep-card-ch"${tooltip ? ` title="${tooltip.replace(/"/g, '&quot;')}"` : ''}>${cs}</span>` : ''}
-            </div>
+  const cardRows = buildRows(ep => {
+      const cs = fmtChapters(ep.chapters) || null;
+      const arc = arcNames[ep.arc] || null;
+      const tooltip = fmtChapterTitleTooltip(ep.chapters, chTitles);
+      return `<div class="ep-card" id="epcard-${ep.ep}">
+        <div class="ep-card-num">E${ep.ep}</div>
+        <div class="ep-card-body">
+          <div class="ep-card-title">${ep.title}</div>
+          <div class="ep-card-meta">
+            ${arc ? `<span class="ep-card-arc">${arc}</span>` : ''}
+            <span class="ep-card-status"><span class="dot d-${ep.status}"></span>${cap(ep.status)}</span>
+            ${cs ? `<span class="ep-card-ch"${tooltip ? ` title="${tooltip.replace(/"/g, '&quot;')}"` : ''}>${cs}</span>` : ''}
           </div>
-        </div>`;
-      }, movieBannerCard)
-    : '<div class="card-empty">No episodes match.</div>';
+        </div>
+      </div>`;
+    }, movieBannerCard);
+  document.getElementById('ep-card-list').innerHTML = cardRows || '<div class="card-empty">Nothing here.</div>';
 }
 
 // ── Chapter table ─────────────────────────────────────────────────
