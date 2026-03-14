@@ -48,15 +48,14 @@ window.app = {
 
 document.addEventListener('DOMContentLoaded', async () => {
   renderFooter();
-  initRouter(handleHome, handleSeries);
   try {
     allSeries = await loadCatalog();
     renderGrid(allSeries, id => navigate('series', id));
     initFilters();
     initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab));
-    
-    // Initialize navbar search
     initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab), 'nav-search-input', 'nav-search-results');
+    // Init router last so handlePath fires only after data is ready
+    initRouter(handleHome, handleSeries);
   } catch (e) {
     console.error('Boot failed:', e);
   }
