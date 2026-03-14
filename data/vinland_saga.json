@@ -1,0 +1,750 @@
+{
+  "id": "vinland_saga",
+  "title": "Vinland Saga",
+  "abbr": [
+    "Vinland",
+    "VS"
+  ],
+  "source": "Manga",
+  "animeStatus": "Incomplete",
+  "mangaStatus": "Finished",
+  "lastUpdated": "2026-03-13",
+  "tags": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Historical",
+    "Seinen"
+  ],
+  "malIds": {
+    "primary": 37521,
+    "manga": 642,
+    "canonIds": [
+      37521,
+      49387
+    ],
+    "seasons": [
+      {
+        "name": "Season 1",
+        "malId": 37521,
+        "eps": 24
+      },
+      {
+        "name": "Season 2",
+        "malId": 49387,
+        "eps": 24
+      }
+    ]
+  },
+  "meta": {
+    "totalChapters": 220,
+    "seasons": [
+      {
+        "name": "Season 1",
+        "eps": 24
+      },
+      {
+        "name": "Season 2",
+        "eps": 24
+      }
+    ],
+    "note": "Vinland Saga's manga concluded with chapter 220 on July 25, 2025, after 20 years of serialization. 29 tankōbon volumes. The anime has adapted 48 episodes covering only the War Arc (ch 1–54) and Slave Arc (ch 55–99). The Eastern Expedition Arc (ch 100–166) and Vinland Arc (ch 167–220) are unadapted. No Season 3 has been announced as of March 2026."
+  },
+  "arcs": [
+    {
+      "id": "war_arc",
+      "name": "War Arc",
+      "chapterStart": 1,
+      "chapterEnd": 54,
+      "episodeStart": 1,
+      "episodeEnd": 24,
+      "note": "Also known as the Prologue. The anime reorganizes the first 16 chapters to tell Thorfinn's backstory in chronological order."
+    },
+    {
+      "id": "slave_arc",
+      "name": "Slave Arc",
+      "chapterStart": 55,
+      "chapterEnd": 99,
+      "episodeStart": 25,
+      "episodeEnd": 48
+    },
+    {
+      "id": "eastern_expedition",
+      "name": "Eastern Expedition Arc",
+      "chapterStart": 100,
+      "chapterEnd": 166,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Never animated. Season 2 ends at ch 99. A third anime season would need to be announced to cover this arc."
+    },
+    {
+      "id": "vinland_arc",
+      "name": "Vinland Arc",
+      "chapterStart": 167,
+      "chapterEnd": 220,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "The final arc of the manga. The Eastern Expedition arc leads into Thorfinn's voyage west. The Vinland arc concludes with ch 220 (released July 25 2025), the series finale after 20 years. Never animated — Season 3 not announced as of March 2026."
+    }
+  ],
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "Somewhere Not Here",
+      "arc": "war_arc",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "ep": 2,
+      "title": "Sword",
+      "arc": "war_arc",
+      "chapters": [
+        3,
+        4
+      ]
+    },
+    {
+      "ep": 3,
+      "title": "Troll",
+      "arc": "war_arc",
+      "chapters": [
+        5,
+        6
+      ]
+    },
+    {
+      "ep": 4,
+      "title": "A True Warrior",
+      "arc": "war_arc",
+      "chapters": [
+        7,
+        8
+      ]
+    },
+    {
+      "ep": 5,
+      "title": "The Troll's Son",
+      "arc": "war_arc",
+      "chapters": [
+        9,
+        10
+      ]
+    },
+    {
+      "ep": 6,
+      "title": "The Journey Begins",
+      "arc": "war_arc",
+      "chapters": [
+        11,
+        12
+      ]
+    },
+    {
+      "ep": 7,
+      "title": "Normanni",
+      "arc": "war_arc",
+      "chapters": [
+        1,
+        13,
+        14
+      ]
+    },
+    {
+      "ep": 8,
+      "title": "Beyond the Edge of the Sea",
+      "arc": "war_arc",
+      "chapters": [
+        15,
+        16
+      ]
+    },
+    {
+      "ep": 9,
+      "title": "The Battle of London Bridge",
+      "arc": "war_arc",
+      "chapters": [
+        17,
+        18
+      ]
+    },
+    {
+      "ep": 10,
+      "title": "Ragnarok",
+      "arc": "war_arc",
+      "chapters": [
+        19,
+        20
+      ]
+    },
+    {
+      "ep": 11,
+      "title": "A Gamble",
+      "arc": "war_arc",
+      "chapters": [
+        21,
+        22
+      ]
+    },
+    {
+      "ep": 12,
+      "title": "The Land on the Far Bank",
+      "arc": "war_arc",
+      "chapters": [
+        23,
+        24
+      ]
+    },
+    {
+      "ep": 13,
+      "title": "Child of a Hero",
+      "arc": "war_arc",
+      "chapters": [
+        25,
+        26
+      ]
+    },
+    {
+      "ep": 14,
+      "title": "The Light of Dawn",
+      "arc": "war_arc",
+      "chapters": [
+        27,
+        28
+      ]
+    },
+    {
+      "ep": 15,
+      "title": "After Yule",
+      "arc": "war_arc",
+      "chapters": [
+        29,
+        30
+      ]
+    },
+    {
+      "ep": 16,
+      "title": "History of Beasts",
+      "arc": "war_arc",
+      "chapters": [
+        31,
+        32
+      ]
+    },
+    {
+      "ep": 17,
+      "title": "Servant",
+      "arc": "war_arc",
+      "chapters": [
+        33,
+        34
+      ]
+    },
+    {
+      "ep": 18,
+      "title": "Out of the Cradle",
+      "arc": "war_arc",
+      "chapters": [
+        35,
+        36
+      ]
+    },
+    {
+      "ep": 19,
+      "title": "United Front",
+      "arc": "war_arc",
+      "chapters": [
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "ep": 20,
+      "title": "Crown",
+      "arc": "war_arc",
+      "chapters": [
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "ep": 21,
+      "title": "Reunion",
+      "arc": "war_arc",
+      "chapters": [
+        43,
+        44
+      ]
+    },
+    {
+      "ep": 22,
+      "title": "Lone Wolf",
+      "arc": "war_arc",
+      "chapters": [
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "ep": 23,
+      "title": "Miscalculation",
+      "arc": "war_arc",
+      "chapters": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "ep": 24,
+      "title": "End of the Prologue",
+      "arc": "war_arc",
+      "chapters": [
+        51,
+        52,
+        53,
+        54
+      ]
+    },
+    {
+      "ep": 25,
+      "title": "Slave",
+      "arc": "slave_arc",
+      "chapters": [
+        55
+      ]
+    },
+    {
+      "ep": 26,
+      "title": "Ketil's Farm",
+      "arc": "slave_arc",
+      "chapters": [
+        56,
+        57
+      ]
+    },
+    {
+      "ep": 27,
+      "title": "Snake",
+      "arc": "slave_arc",
+      "chapters": [
+        58,
+        59
+      ]
+    },
+    {
+      "ep": 28,
+      "title": "Awakening",
+      "arc": "slave_arc",
+      "chapters": [
+        60,
+        61
+      ]
+    },
+    {
+      "ep": 29,
+      "title": "The Path of Blood",
+      "arc": "slave_arc",
+      "chapters": [
+        62,
+        63
+      ]
+    },
+    {
+      "ep": 30,
+      "title": "I Want a Horse",
+      "arc": "slave_arc",
+      "chapters": [
+        64,
+        65
+      ]
+    },
+    {
+      "ep": 31,
+      "title": "Iron Fist Ketil",
+      "arc": "slave_arc",
+      "chapters": [
+        66,
+        67
+      ]
+    },
+    {
+      "ep": 32,
+      "title": "An Empty Man",
+      "arc": "slave_arc",
+      "chapters": [
+        68,
+        69
+      ]
+    },
+    {
+      "ep": 33,
+      "title": "Oath",
+      "arc": "slave_arc",
+      "chapters": [
+        70,
+        71
+      ]
+    },
+    {
+      "ep": 34,
+      "title": "The Cursed Head",
+      "arc": "slave_arc",
+      "chapters": [
+        72,
+        73
+      ]
+    },
+    {
+      "ep": 35,
+      "title": "Kings and Swords",
+      "arc": "slave_arc",
+      "chapters": [
+        74,
+        75
+      ]
+    },
+    {
+      "ep": 36,
+      "title": "For the Love That Was Lost",
+      "arc": "slave_arc",
+      "chapters": [
+        76,
+        77
+      ]
+    },
+    {
+      "ep": 37,
+      "title": "Dark Clouds",
+      "arc": "slave_arc",
+      "chapters": [
+        78,
+        79
+      ]
+    },
+    {
+      "ep": 38,
+      "title": "Freedom",
+      "arc": "slave_arc",
+      "chapters": [
+        80,
+        81
+      ]
+    },
+    {
+      "ep": 39,
+      "title": "Storm",
+      "arc": "slave_arc",
+      "chapters": [
+        82,
+        83
+      ]
+    },
+    {
+      "ep": 40,
+      "title": "Cause",
+      "arc": "slave_arc",
+      "chapters": [
+        84,
+        85
+      ]
+    },
+    {
+      "ep": 41,
+      "title": "The Road Home",
+      "arc": "slave_arc",
+      "chapters": [
+        86,
+        87
+      ]
+    },
+    {
+      "ep": 42,
+      "title": "The First Method",
+      "arc": "slave_arc",
+      "chapters": [
+        88,
+        89
+      ]
+    },
+    {
+      "ep": 43,
+      "title": "The Battle of Ketil's Farm",
+      "arc": "slave_arc",
+      "chapters": [
+        90,
+        91
+      ]
+    },
+    {
+      "ep": 44,
+      "title": "Pain",
+      "arc": "slave_arc",
+      "chapters": [
+        92,
+        93
+      ]
+    },
+    {
+      "ep": 45,
+      "title": "Courage",
+      "arc": "slave_arc",
+      "chapters": [
+        94,
+        95
+      ]
+    },
+    {
+      "ep": 46,
+      "title": "The Emperor of Rebellion",
+      "arc": "slave_arc",
+      "chapters": [
+        96,
+        97
+      ]
+    },
+    {
+      "ep": 47,
+      "title": "Two Paths",
+      "arc": "slave_arc",
+      "chapters": [
+        98
+      ]
+    },
+    {
+      "ep": 48,
+      "title": "Hometown",
+      "arc": "slave_arc",
+      "chapters": [
+        99
+      ]
+    }
+  ],
+  "chapterTitles": {
+    "1": "Somewhere Not Here",
+    "2": "Sword",
+    "3": "Troll",
+    "4": "A True Warrior",
+    "5": "The Troll's Son",
+    "6": "The Journey Begins",
+    "7": "Normanni",
+    "8": "Beyond the Edge of the Sea",
+    "9": "The Battle of London Bridge",
+    "10": "Ragnarok",
+    "11": "A Gamble",
+    "12": "The Land on the Far Bank",
+    "13": "Child of a Hero",
+    "14": "The Light of Dawn",
+    "15": "After Yule",
+    "16": "History of Beasts",
+    "17": "Servant",
+    "18": "Out of the Cradle",
+    "19": "United Front",
+    "20": "Crown",
+    "21": "Reunion",
+    "22": "Lone Wolf",
+    "23": "Miscalculation",
+    "24": "A Commander's Worth",
+    "25": "Floki's Scheme",
+    "26": "Meeting at the Edge of the Sea",
+    "27": "Assault",
+    "28": "The Light of Dawn",
+    "29": "After Yule",
+    "30": "The Great King",
+    "31": "Out of the Cradle",
+    "32": "Servant",
+    "33": "The King of Mercia",
+    "34": "Ragnarok",
+    "35": "Two of a Kind",
+    "36": "A Gamble",
+    "37": "The Land on the Far Bank",
+    "38": "United Front",
+    "39": "Crown",
+    "40": "Reunion",
+    "41": "Avalon",
+    "42": "Lone Wolf",
+    "43": "Miscalculation",
+    "44": "Hero",
+    "45": "A Battle to the Death",
+    "46": "Awakening",
+    "47": "End of a Dream",
+    "48": "The True King",
+    "49": "A Warrior's Pride",
+    "50": "Betrayal",
+    "51": "The Death of a King",
+    "52": "Assassination",
+    "53": "Chaos",
+    "54": "End of the Prologue",
+    "55": "Slave",
+    "56": "Ketil's Farm",
+    "57": "The Guests",
+    "58": "Young Master",
+    "59": "Snake",
+    "60": "Awakening",
+    "61": "The Man, The Master, and The Servant",
+    "62": "The Path of Blood",
+    "63": "I Want a Horse",
+    "64": "Borrowing",
+    "65": "Iron Fist Ketil",
+    "66": "An Empty Man",
+    "67": "Oath",
+    "68": "The Cursed Head",
+    "69": "Kings and Swords",
+    "70": "For the Love That Was Lost",
+    "71": "Dark Clouds",
+    "72": "Freedom",
+    "73": "The Runaway",
+    "74": "Storm",
+    "75": "Cause",
+    "76": "The Road Home",
+    "77": "The First Method",
+    "78": "The Battle of Ketil's Farm",
+    "79": "Pain",
+    "80": "Courage",
+    "81": "The Emperor of Rebellion",
+    "82": "Two Paths",
+    "83": "The True Battle",
+    "84": "Rebirth",
+    "85": "Shadows",
+    "86": "The King's Dream",
+    "87": "The Path Chosen",
+    "88": "First Night",
+    "89": "Resolution",
+    "90": "Negotiation",
+    "91": "Face to Face",
+    "92": "Punishment",
+    "93": "The Promise",
+    "94": "A True Warrior (Reprise)",
+    "95": "Farewell",
+    "96": "Hometown",
+    "97": "Return",
+    "98": "The Fettered Tern",
+    "99": "Departure",
+    "100": "The Fettered Tern (1)",
+    "101": "The Fettered Tern (2)",
+    "102": "The Fettered Tern (3)",
+    "103": "The Fettered Tern (4)",
+    "104": "The Fettered Tern (5)",
+    "105": "The Fettered Tern (6)",
+    "106": "The Fettered Tern (7)",
+    "107": "The Fettered Tern (8)",
+    "108": "The Fettered Tern (9)",
+    "109": "The Fettered Tern (10)",
+    "110": "Crossing the North Sea",
+    "111": "Hunter and Hunted (1)",
+    "112": "Hunter and Hunted (2)",
+    "113": "Hunter and Hunted (3)",
+    "114": "Hunter and Hunted (4)",
+    "115": "Hunter and Hunted (5)",
+    "116": "Hunter and Hunted (6)",
+    "117": "Hunter and Hunted (7)",
+    "118": "Hunter and Hunted (8)",
+    "119": "Hunter and Hunted (9)",
+    "120": "Hunter and Hunted (10)",
+    "121": "Hunter and Hunted (11)",
+    "122": "Hunter and Hunted (12)",
+    "123": "Hunter and Hunted (13)",
+    "124": "Hunter and Hunted (14)",
+    "125": "Baltic Sea War (1)",
+    "126": "Baltic Sea War (2)",
+    "127": "Baltic Sea War (3)",
+    "128": "Baltic Sea War (4)",
+    "129": "Baltic Sea War (5)",
+    "130": "Baltic Sea War (6)",
+    "131": "Baltic Sea War (7)",
+    "132": "Baltic Sea War (8)",
+    "133": "Baltic Sea War (9)",
+    "134": "Baltic Sea War (10)",
+    "135": "Baltic Sea War (11)",
+    "136": "Baltic Sea War (12)",
+    "137": "Baltic Sea War (13)",
+    "138": "Baltic Sea War (14)",
+    "139": "Baltic Sea War (15)",
+    "140": "Baltic Sea War (16)",
+    "141": "Baltic Sea War (17)",
+    "142": "Baltic Sea War (18)",
+    "143": "Baltic Sea War (19)",
+    "144": "Baltic Sea War (20)",
+    "145": "Baltic Sea War (21)",
+    "146": "Baltic Sea War (22)",
+    "147": "Baltic Sea War (23)",
+    "148": "Baltic Sea War (24)",
+    "149": "Baltic Sea War (25)",
+    "150": "Baltic Sea War (26)",
+    "151": "Baltic Sea War (27)",
+    "152": "Baltic Sea War (28)",
+    "153": "Baltic Sea War (29)",
+    "154": "Baltic Sea War (30)",
+    "155": "Baltic Sea War (31)",
+    "156": "Baltic Sea War (32)",
+    "157": "Baltic Sea War (33)",
+    "158": "Baltic Sea War (34)",
+    "159": "Baltic Sea War (35)",
+    "160": "Baltic Sea War (36)",
+    "161": "Sigurd's Decision",
+    "162": "Mutiny",
+    "163": "Forgiveness",
+    "164": "A Dream of Peace",
+    "165": "Voyage to the West",
+    "166": "Marriage",
+    "167": "Sailing",
+    "168": "To the West",
+    "169": "The New World",
+    "170": "Vinland",
+    "171": "Land Fall",
+    "172": "The Natives",
+    "173": "First Contact",
+    "174": "Trade",
+    "175": "A New Beginning",
+    "176": "Winter in Vinland",
+    "177": "Spring",
+    "178": "The Wall",
+    "179": "The Sickness",
+    "180": "Paranoia",
+    "181": "A Tool for War",
+    "182": "Foreboding",
+    "183": "The Sword",
+    "184": "Nightmare",
+    "185": "A Small Misunderstanding",
+    "186": "The Incident",
+    "187": "Blood on the Leaves",
+    "188": "Retaliation",
+    "189": "The Assembly",
+    "190": "Hild's Decision",
+    "191": "Thousand Year Voyage Part 1",
+    "192": "Thousand Year Voyage Part 2",
+    "193": "Thousand Year Voyage Part 3",
+    "194": "Thousand Year Voyage Part 4",
+    "195": "Thousand Year Voyage Part 5",
+    "196": "Thousand Year Voyage Part 6",
+    "197": "Thousand Year Voyage Part 7",
+    "198": "Thousand Year Voyage Part 8",
+    "199": "Thousand Year Voyage Part 9",
+    "200": "Thousand Year Voyage Part 10",
+    "201": "Thousand Year Voyage Part 11",
+    "202": "Thousand Year Voyage Part 12",
+    "203": "Thousand Year Voyage Part 13",
+    "204": "Thousand Year Voyage Part 14",
+    "205": "Thousand Year Voyage Part 15",
+    "206": "Thousand Year Voyage Part 16",
+    "207": "Thousand Year Voyage Part 17",
+    "208": "Thousand Year Voyage Part 18",
+    "209": "Thousand Year Voyage Part 19",
+    "210": "Thousand Year Voyage Part 20",
+    "211": "Thousand Year Voyage Part 21",
+    "212": "Thousand Year Voyage Part 22",
+    "213": "Thousand Year Voyage Part 23",
+    "214": "Thousand Year Voyage Part 24",
+    "215": "Thousand Year Voyage Part 25",
+    "216": "Thousand Year Voyage Part 26",
+    "217": "Thousand Year Voyage Part 27",
+    "218": "Thousand Year Voyage Part 28",
+    "219": "Again and again",
+    "220": "Somewhere Not Here"
+  },
+  "prequelChapters": []
+}

@@ -1,0 +1,862 @@
+{
+  "id": "fmab",
+  "title": "Fullmetal Alchemist: Brotherhood",
+  "abbr": [
+    "FMAB",
+    "Fullmetal",
+    "FMA"
+  ],
+  "source": "Manga",
+  "animeStatus": "Finished",
+  "mangaStatus": "Finished",
+  "tags": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Shounen"
+  ],
+  "malIds": {
+    "primary": 5114,
+    "manga": 25,
+    "canonIds": [],
+    "seasons": [
+      {
+        "name": "Full Series",
+        "malId": 5114,
+        "eps": 64
+      }
+    ],
+    "alternativeSeries": [
+      {
+        "name": "Fullmetal Alchemist (2003)",
+        "malId": 121,
+        "eps": 51,
+        "type": "tv",
+        "note": "Adapts Ch 1–18 faithfully, then tells an original story. Different ending. Worth watching after Brotherhood."
+      },
+      {
+        "name": "FMA: Conqueror of Shamballa (2005)",
+        "malId": 522,
+        "eps": 1,
+        "type": "movie",
+        "note": "Theatrical film conclusion to the 2003 series."
+      }
+    ]
+  },
+  "meta": {
+    "totalChapters": 108,
+    "seasons": [
+      {
+        "name": "Season 1",
+        "eps": 32
+      },
+      {
+        "name": "Season 2",
+        "eps": 32
+      }
+    ],
+    "note": "Fullmetal Alchemist: Brotherhood is the definitive adaptation of Hiromu Arakawa's manga, faithfully covering all 108 chapters (27 volumes) in 64 episodes. The earlier FMA 2003 series (51 eps) adapts the opening manga arcs then diverges with its own story, concluding in the film Conqueror of Shamballa (2005). Both series are complete."
+  },
+  "arcs": [
+    {
+      "id": "intro",
+      "name": "Introductory Arc",
+      "chapterStart": 1,
+      "chapterEnd": 4,
+      "episodeStart": 1,
+      "episodeEnd": 4,
+      "status": "mixed"
+    },
+    {
+      "id": "lab5",
+      "name": "Laboratory 5 Arc",
+      "chapterStart": 5,
+      "chapterEnd": 10,
+      "episodeStart": 5,
+      "episodeEnd": 8
+    },
+    {
+      "id": "lior",
+      "name": "Lior Arc",
+      "chapterStart": 11,
+      "chapterEnd": 18,
+      "episodeStart": 9,
+      "episodeEnd": 13
+    },
+    {
+      "id": "rush",
+      "name": "Rush Valley Arc",
+      "chapterStart": 19,
+      "chapterEnd": 26,
+      "episodeStart": 14,
+      "episodeEnd": 18
+    },
+    {
+      "id": "greed",
+      "name": "Greed & Devil's Nest",
+      "chapterStart": 27,
+      "chapterEnd": 33,
+      "episodeStart": 19,
+      "episodeEnd": 22
+    },
+    {
+      "id": "research",
+      "name": "Research & Discovery",
+      "chapterStart": 34,
+      "chapterEnd": 48,
+      "episodeStart": 23,
+      "episodeEnd": 28
+    },
+    {
+      "id": "ishval",
+      "name": "Ishval War Flashback",
+      "chapterStart": 49,
+      "chapterEnd": 63,
+      "episodeStart": 29,
+      "episodeEnd": 33
+    },
+    {
+      "id": "pursuit",
+      "name": "Eastern Pursuit Arc",
+      "chapterStart": 64,
+      "chapterEnd": 82,
+      "episodeStart": 34,
+      "episodeEnd": 46
+    },
+    {
+      "id": "promised",
+      "name": "Promised Day Arc",
+      "chapterStart": 83,
+      "chapterEnd": 108,
+      "episodeStart": 47,
+      "episodeEnd": 64
+    }
+  ],
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "Fullmetal Alchemist",
+      "arc": "intro",
+      "status": "mixed",
+      "chapters": [
+        1,
+        2
+      ]
+    },
+    {
+      "ep": 2,
+      "title": "The First Day",
+      "arc": "intro",
+      "status": "mixed",
+      "chapters": [
+        2,
+        3
+      ]
+    },
+    {
+      "ep": 3,
+      "title": "City of Heresy",
+      "arc": "intro",
+      "chapters": [
+        3,
+        4
+      ]
+    },
+    {
+      "ep": 4,
+      "title": "An Alchemist's Anguish",
+      "arc": "intro",
+      "status": "mixed",
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "ep": 5,
+      "title": "Rain of Sorrows",
+      "arc": "lab5",
+      "chapters": [
+        5,
+        6
+      ]
+    },
+    {
+      "ep": 6,
+      "title": "Road of Hope",
+      "arc": "lab5",
+      "chapters": [
+        7,
+        8
+      ]
+    },
+    {
+      "ep": 7,
+      "title": "Hidden Truths",
+      "arc": "lab5",
+      "chapters": [
+        8,
+        9
+      ]
+    },
+    {
+      "ep": 8,
+      "title": "The Fifth Laboratory",
+      "arc": "lab5",
+      "chapters": [
+        10
+      ]
+    },
+    {
+      "ep": 9,
+      "title": "Created Feelings",
+      "arc": "lior",
+      "chapters": [
+        11,
+        12
+      ]
+    },
+    {
+      "ep": 10,
+      "title": "Separate Destinations",
+      "arc": "lior",
+      "chapters": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "ep": 11,
+      "title": "Miracle at Rush Valley",
+      "arc": "lior",
+      "chapters": [
+        17,
+        18
+      ]
+    },
+    {
+      "ep": 12,
+      "title": "One is All, All is One",
+      "arc": "rush",
+      "chapters": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "ep": 13,
+      "title": "Beasts of Dublith",
+      "arc": "rush",
+      "chapters": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "ep": 14,
+      "title": "Those Who Lurk Underground",
+      "arc": "greed",
+      "chapters": [
+        27,
+        28
+      ]
+    },
+    {
+      "ep": 15,
+      "title": "Envoy from the East",
+      "arc": "greed",
+      "chapters": [
+        29,
+        30
+      ]
+    },
+    {
+      "ep": 16,
+      "title": "Footsteps of a Comrade-in-Arms",
+      "arc": "greed",
+      "chapters": [
+        31,
+        32
+      ]
+    },
+    {
+      "ep": 17,
+      "title": "Cold Flame",
+      "arc": "greed",
+      "chapters": [
+        33,
+        34
+      ]
+    },
+    {
+      "ep": 18,
+      "title": "The Arrogant Palm of a Small Human",
+      "arc": "research",
+      "chapters": [
+        35,
+        36
+      ]
+    },
+    {
+      "ep": 19,
+      "title": "Death of the Undying",
+      "arc": "research",
+      "chapters": [
+        37,
+        38
+      ]
+    },
+    {
+      "ep": 20,
+      "title": "Father Before the Grave",
+      "arc": "research",
+      "chapters": [
+        38,
+        39
+      ]
+    },
+    {
+      "ep": 21,
+      "title": "Advance of the Fool",
+      "arc": "research",
+      "chapters": [
+        40,
+        41
+      ]
+    },
+    {
+      "ep": 22,
+      "title": "Backs in the Distance",
+      "arc": "research",
+      "chapters": [
+        42,
+        43
+      ]
+    },
+    {
+      "ep": 23,
+      "title": "Girl on the Battlefield",
+      "arc": "research",
+      "chapters": [
+        44,
+        45
+      ]
+    },
+    {
+      "ep": 24,
+      "title": "Inside the Belly",
+      "arc": "research",
+      "chapters": [
+        46,
+        47
+      ]
+    },
+    {
+      "ep": 25,
+      "title": "Doorway of Darkness",
+      "arc": "research",
+      "chapters": [
+        47,
+        48
+      ]
+    },
+    {
+      "ep": 26,
+      "title": "Reunion",
+      "arc": "research",
+      "chapters": [
+        49,
+        50
+      ]
+    },
+    {
+      "ep": 27,
+      "title": "Interlude Party",
+      "arc": "research",
+      "chapters": [
+        51,
+        52
+      ]
+    },
+    {
+      "ep": 28,
+      "title": "Father",
+      "arc": "research",
+      "chapters": [
+        53,
+        54
+      ]
+    },
+    {
+      "ep": 29,
+      "title": "Struggle of the Fool",
+      "arc": "ishval",
+      "chapters": [
+        55,
+        56
+      ]
+    },
+    {
+      "ep": 30,
+      "title": "The Ishval Civil War",
+      "arc": "ishval",
+      "chapters": [
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "ep": 31,
+      "title": "The 520 Cens Promise",
+      "arc": "ishval",
+      "chapters": [
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "ep": 32,
+      "title": "The Fuhrer's Son",
+      "arc": "ishval",
+      "chapters": [
+        62,
+        63
+      ]
+    },
+    {
+      "ep": 33,
+      "title": "The Northern Wall of Briggs",
+      "arc": "ishval",
+      "chapters": [
+        63,
+        64
+      ]
+    },
+    {
+      "ep": 34,
+      "title": "Ice Queen",
+      "arc": "pursuit",
+      "chapters": [
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "ep": 35,
+      "title": "The Shape of This Country",
+      "arc": "pursuit",
+      "chapters": [
+        67,
+        68
+      ]
+    },
+    {
+      "ep": 36,
+      "title": "Family Portrait",
+      "arc": "pursuit",
+      "chapters": [
+        68,
+        69
+      ]
+    },
+    {
+      "ep": 37,
+      "title": "The First Homunculus",
+      "arc": "pursuit",
+      "chapters": [
+        70,
+        71
+      ]
+    },
+    {
+      "ep": 38,
+      "title": "Conflict at Baschool",
+      "arc": "pursuit",
+      "chapters": [
+        72,
+        73
+      ]
+    },
+    {
+      "ep": 39,
+      "title": "Daydream",
+      "arc": "pursuit",
+      "chapters": [
+        74,
+        75
+      ]
+    },
+    {
+      "ep": 40,
+      "title": "The Dwarf in the Flask",
+      "arc": "pursuit",
+      "chapters": [
+        76,
+        77
+      ]
+    },
+    {
+      "ep": 41,
+      "title": "The Abyss",
+      "arc": "pursuit",
+      "chapters": [
+        77,
+        78
+      ]
+    },
+    {
+      "ep": 42,
+      "title": "Signs of a Counteroffensive",
+      "arc": "pursuit",
+      "chapters": [
+        79,
+        80
+      ]
+    },
+    {
+      "ep": 43,
+      "title": "Bite of the Ant",
+      "arc": "pursuit",
+      "chapters": [
+        81,
+        82
+      ]
+    },
+    {
+      "ep": 44,
+      "title": "Revving at Full Throttle",
+      "arc": "pursuit",
+      "chapters": [
+        82
+      ]
+    },
+    {
+      "ep": 45,
+      "title": "The Promised Day",
+      "arc": "pursuit",
+      "chapters": [
+        82,
+        83
+      ]
+    },
+    {
+      "ep": 46,
+      "title": "The Distant Backs",
+      "arc": "promised",
+      "chapters": [
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "ep": 47,
+      "title": "Emissary of Darkness",
+      "arc": "promised",
+      "chapters": [
+        86,
+        87,
+        88
+      ]
+    },
+    {
+      "ep": 48,
+      "title": "The Oath in the Tunnel",
+      "arc": "promised",
+      "chapters": [
+        89,
+        90
+      ]
+    },
+    {
+      "ep": 49,
+      "title": "Filial Affection",
+      "arc": "promised",
+      "chapters": [
+        91,
+        92
+      ]
+    },
+    {
+      "ep": 50,
+      "title": "Upheaval in Central",
+      "arc": "promised",
+      "chapters": [
+        93,
+        94
+      ]
+    },
+    {
+      "ep": 51,
+      "title": "The Immortal Legion",
+      "arc": "promised",
+      "chapters": [
+        95,
+        96
+      ]
+    },
+    {
+      "ep": 52,
+      "title": "Combined Strength",
+      "arc": "promised",
+      "chapters": [
+        97,
+        98
+      ]
+    },
+    {
+      "ep": 53,
+      "title": "Flame of Vengeance",
+      "arc": "promised",
+      "chapters": [
+        99,
+        100
+      ]
+    },
+    {
+      "ep": 54,
+      "title": "Beyond the Inferno",
+      "arc": "promised",
+      "chapters": [
+        100,
+        101
+      ]
+    },
+    {
+      "ep": 55,
+      "title": "The Adults' Way of Life",
+      "arc": "promised",
+      "chapters": [
+        101,
+        102
+      ]
+    },
+    {
+      "ep": 56,
+      "title": "The Return of the Führer",
+      "arc": "promised",
+      "chapters": [
+        102,
+        103
+      ]
+    },
+    {
+      "ep": 57,
+      "title": "Eternal Leave",
+      "arc": "promised",
+      "chapters": [
+        104
+      ]
+    },
+    {
+      "ep": 58,
+      "title": "Sacrifices",
+      "arc": "promised",
+      "chapters": [
+        105
+      ]
+    },
+    {
+      "ep": 59,
+      "title": "Lost Light",
+      "arc": "promised",
+      "chapters": [
+        105,
+        106
+      ]
+    },
+    {
+      "ep": 60,
+      "title": "Eye of Heaven, Gateway of Earth",
+      "arc": "promised",
+      "chapters": [
+        106
+      ]
+    },
+    {
+      "ep": 61,
+      "title": "He Who Would Swallow God",
+      "arc": "promised",
+      "chapters": [
+        107
+      ]
+    },
+    {
+      "ep": 62,
+      "title": "A Fierce Counterattack",
+      "arc": "promised",
+      "chapters": [
+        107
+      ]
+    },
+    {
+      "ep": 63,
+      "title": "The Other Side of the Gateway",
+      "arc": "promised",
+      "chapters": [
+        108
+      ]
+    },
+    {
+      "ep": 64,
+      "title": "Journey's End",
+      "arc": "promised",
+      "chapters": [
+        108
+      ]
+    }
+  ],
+  "chapterTitles": {
+    "1": "The Two Alchemists",
+    "2": "The Price of Life",
+    "3": "The Mining Town",
+    "4": "Battle on the Train",
+    "5": "The Alchemist's Suffering",
+    "6": "The Right Hand of Destruction",
+    "7": "After the Rain",
+    "8": "The Road of Hope",
+    "9": "A Home with a Heartbeat",
+    "10": "The Philosopher's Stone",
+    "11": "The Two Guardians",
+    "12": "One Is All, All Is One",
+    "13": "Fullmetal vs. Flame",
+    "14": "An Alchemist's Distortion",
+    "15": "Preparations for the School Trip",
+    "16": "Equilibrium",
+    "17": "The Boomtown of the Devils",
+    "18": "The Value of Sincerity",
+    "19": "Fullmetal Heart",
+    "20": "The Terror of the Basilisk",
+    "21": "The Shape of This Country",
+    "22": "A Fool's Courage",
+    "23": "Knocking on Heaven's Door",
+    "24": "Scarred Man of the East",
+    "25": "Master and Apprentice",
+    "26": "To Meet the Master",
+    "27": "Interlude Party",
+    "28": "A Dream of the Distant Past",
+    "29": "The Eye of the King",
+    "30": "The Truth Inside the Armor",
+    "31": "The Snake Comes to Lior",
+    "32": "Side by Side",
+    "33": "The Promise Made for 520 Cens",
+    "34": "The Footsteps of a War Comrade",
+    "35": "The Sacrificial Lamb",
+    "36": "Alchemist in Distress",
+    "37": "The Body of a Dead Man",
+    "38": "Signal to Strike",
+    "39": "Complications at Point Zero",
+    "40": "Dreaming of Juliet",
+    "41": "Upheaval",
+    "42": "The Father Before the Grave",
+    "43": "River of Mud",
+    "44": "The Dwarf in the Flask",
+    "45": "The Land of Cruelty",
+    "46": "The Ruler of Darkness",
+    "47": "A Researcher's Avarice",
+    "48": "A Storm of Grief",
+    "49": "Irony",
+    "50": "Doorway of Darkness",
+    "51": "The Ashes of Ishval",
+    "52": "Signs of a Counteroffensive",
+    "53": "Flame of Vengeance",
+    "54": "The Frozen Flame",
+    "55": "The Frozen Heart",
+    "56": "The Northern Wall of Briggs",
+    "57": "The Shape of This Country II",
+    "58": "Family Portrait",
+    "59": "The First Homunculus",
+    "60": "Looming Shadows",
+    "61": "The General's Sacrifice",
+    "62": "Reunion in the Dark",
+    "63": "Daydream",
+    "64": "Dusk",
+    "65": "The Absent",
+    "66": "Footsteps",
+    "67": "Advance of the Fool",
+    "68": "Backs in the Distance",
+    "69": "The Girl on the Battlefield",
+    "70": "Inside the Belly",
+    "71": "In the Grip of the Guardian",
+    "72": "Struggle of the Fool",
+    "73": "The Ishval Civil War",
+    "74": "The 520 Cens Promise",
+    "75": "The Fuhrer's Son",
+    "76": "Ice Queen",
+    "77": "The Northern Wall of Briggs II",
+    "78": "Two Doctors",
+    "79": "Conflict at Baschool",
+    "80": "The Sand Woman",
+    "81": "The Coldest Continent",
+    "82": "The Dwarf in the Flask",
+    "83": "Death's Abyss",
+    "84": "A Wave of Grief",
+    "85": "Signs of a Counteroffensive",
+    "86": "The Return",
+    "87": "Bite of the Ant",
+    "88": "The Promised Day",
+    "89": "The Distant Backs",
+    "90": "The Two Sacrifices",
+    "91": "Emissary of Darkness",
+    "92": "Looming Shadows II",
+    "93": "The Oath in the Tunnel",
+    "94": "Filial Affection",
+    "95": "Upheaval in Central",
+    "96": "The Immortal Legion",
+    "97": "Combined Strength",
+    "98": "Flames on the Battlefield",
+    "99": "Flame of Vengeance",
+    "100": "Beyond the Inferno",
+    "101": "The Adults' Way of Life",
+    "102": "The Return of the Führer",
+    "103": "The Price of the Door",
+    "104": "Eternal Leave",
+    "105": "Sacrifices",
+    "106": "Lost Light",
+    "107": "Eye of Heaven, Gateway of Earth",
+    "108": "Journey's End"
+  },
+  "watchGuide": [
+    {
+      "step": 1,
+      "type": "choice",
+      "label": "Two series, two stories — Pick ONE path",
+      "note": "FMA 2003 and Brotherhood both start from the same manga chapters but diverge completely after the early arcs. They are not sequels — pick one full path.",
+      "options": [
+        {
+          "type": "anime",
+          "title": "Fullmetal Alchemist: Brotherhood",
+          "subtitle": "64 episodes",
+          "covers": "Ch 1–108 (complete)",
+          "malId": 5114,
+          "note": "The definitive, complete adaptation. Faithful to the manga from start to finish. Recommended for first-timers — start here."
+        },
+        {
+          "type": "anime",
+          "title": "Fullmetal Alchemist (2003)",
+          "subtitle": "51 episodes + Conqueror of Shamballa film",
+          "covers": "Ch 1–18, then original story",
+          "malId": 121,
+          "note": "Adapts the opening manga arcs, then goes in its own direction. A different, darker tone with an original ending. Worth watching as its own story after Brotherhood."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "type": "manga-required",
+      "title": "Read the Manga (optional but rewarding)",
+      "covers": "Ch 1–108",
+      "note": "Brotherhood is faithful enough that the manga isn't required — but it adds detail cut from the anime, particularly in the early arcs where Brotherhood rushed through chapters already covered by the 2003 series."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}

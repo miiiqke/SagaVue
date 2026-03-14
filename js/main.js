@@ -1,0 +1,225 @@
+/**
+ * main.js — application entry point.
+ */
+
+import { loadAllSeries, loadSeries } from './data.js';
+import { initSearch }                 from './search.js';
+import { initRouter, navigate, setBreadcrumb } from './router.js';
+import {
+  renderGrid, renderSeriesHeader, renderOverview, renderSeasons,
+  renderArcs, renderEpTable, renderChTable, renderSeasonMap,
+  renderWatchGuide,
+  renderInfoLoading, renderInfoPanel,
+  renderExtrasLoading, renderExtras, renderExtrasError,
+  highlightRow,
+} from './render.js';
+import { fetchSeriesInfo, fetchBestInfo, fetchExtras, fetchFullStatusData } from './api.js';
+import { renderFooter } from './render-footer.js';
+
+let allSeries    = [];
+let currentSeries = null;
+let currentSort = 'default';
+let currentSortDir = 'asc'; // 'asc' or 'desc'
+let seriesRatings = {}; // Cache for MAL ratings
+
+// Exposed for inline HTML onclick handlers
+window.app = {
+  switchTab,
+  filterEp(filter, btn) {
+    document.querySelectorAll('#ep-filters .fb').forEach(b => b.classList.remove('on'));
+    btn.classList.add('on');
+    renderEpTable(currentSeries, filter);
+  },
+  filterCh(filter, btn) {
+    document.querySelectorAll('#ch-filters .fb').forEach(b => b.classList.remove('on'));
+    btn.classList.add('on');
+    renderChTable(currentSeries, filter);
+  },
+  toggleWatchGuide() {
+    const body  = document.getElementById('wg-body');
+    const chev  = document.getElementById('wg-chev');
+    const hint  = document.getElementById('wg-hint');
+    const box   = document.getElementById('watch-guide-hdr');
+    const open  = body.classList.toggle('wg-open');
+    chev.textContent = open ? '▴' : '▾';
+    if (hint) hint.textContent = open ? 'collapse' : 'expand';
+    box.classList.toggle('wg-hdr-open', open);
+  },
+};
+
+document.addEventListener('DOMContentLoaded', async () => {
+  renderFooter();
+  initRouter(handleHome, handleSeries);
+  try {
+    allSeries = await loadAllSeries();
+    renderGrid(allSeries, id => navigate('series', id), seriesRatings);
+    initFilters();
+    loadSeriesRatings(); // Load ratings asynchronously
+    initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab));
+    
+    // Initialize navbar search
+    initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab), 'nav-search-input', 'nav-search-results');
+  } catch (e) {
+    console.error('Boot failed:', e);
+  }
+});
+
+function handleHome() {
+  currentSeries = null;
+  document.getElementById('search-input').value = '';
+  document.getElementById('nav-search').classList.add('hidden');
+}
+
+async function handleSeries(id, anchorId, tab) {
+  document.getElementById('nav-search').classList.remove('hidden');
+  try { currentSeries = await loadSeries(id); }
+  catch (e) { console.error('Load series failed:', e); return; }
+
+  setBreadcrumb(currentSeries.meta.title);
+
+  renderSeriesHeader(currentSeries);
+  renderOverview(currentSeries);
+  renderSeasons(currentSeries);
+  renderWatchGuide(currentSeries);
+  renderArcs(currentSeries, jumpToEp);
+  resetTables();
+  renderEpTable(currentSeries, 'all');
+  renderSeasonMap(currentSeries);
+  renderChTable(currentSeries, 'all');
+
+  // Update section numbers based on whether watch guide is visible
+  const hasGuide = !!(currentSeries.config?.watchGuide?.length);
+  document.getElementById('wg-lbl').textContent    = '02';
+  document.getElementById('arc-lbl').textContent   = hasGuide ? '03' : '02';
+  document.getElementById('table-lbl').textContent = hasGuide ? '04' : '03';
+  const extrasLbl = document.getElementById('extras-lbl');
+  if (extrasLbl) extrasLbl.textContent              = hasGuide ? '05' : '04';
+
+  // MAL info — async, non-blocking
+  const primaryId = currentSeries.config?.malIds?.primary;
+  
+  if (primaryId) {
+    renderInfoLoading();
+    const mangaId = currentSeries.config?.malIds?.manga ?? null;
+    fetchBestInfo(primaryId, mangaId)
+      .then(info => renderInfoPanel(info, currentSeries.meta.logicalStatus))
+      .catch(() => renderInfoPanel(null, currentSeries.meta.logicalStatus));
+
+    // Non-canon extras — async
+    const canonIds = (currentSeries.arcs || [])
+      .filter(a => a.malId)
+      .map(a => a.malId);
+
+    document.getElementById('extras-section').classList.add('hidden');
+    renderExtrasLoading();
+    fetchExtras(primaryId, canonIds)
+      .then(renderExtras)
+      .catch(renderExtrasError);
+  }
+
+  if (anchorId || tab) {
+    setTimeout(() => {
+      if (tab) switchTab(tab);
+      if (anchorId) highlightRow(anchorId);
+    }, 300);
+  }
+}
+
+function switchTab(t) {
+  const tabs = ['ep', 'sv', 'ch'];
+  tabs.forEach(tab => {
+    document.getElementById(`tsec-${tab}`).classList.toggle('on', tab === t);
+    document.getElementById(`tbn-${tab}`).classList.toggle('on', tab === t);
+  });
+}
+
+function jumpToEp(n) {
+  switchTab('ep');
+  setTimeout(() => highlightRow(`epr-${n}`), 60);
+}
+
+function resetTables() {
+  switchTab('ep');
+  document.querySelectorAll('#ep-filters .fb').forEach((b, i) => b.classList.toggle('on', i === 0));
+  document.querySelectorAll('#ch-filters .fb').forEach((b, i) => b.classList.toggle('on', i === 0));
+}
+
+function getSortedSeries(series) {
+  const sorted = [...series];
+  const isAsc = currentSortDir === 'asc';
+  
+  if (currentSort === 'episodes') {
+    sorted.sort((a, b) => isAsc ? a.meta.totalEpisodes - b.meta.totalEpisodes : b.meta.totalEpisodes - a.meta.totalEpisodes);
+  } else if (currentSort === 'chapters') {
+    sorted.sort((a, b) => isAsc ? a.meta.totalChapters - b.meta.totalChapters : b.meta.totalChapters - a.meta.totalChapters);
+  } else if (currentSort === 'adapted') {
+    sorted.sort((a, b) => isAsc ? a.meta.adaptedPct - b.meta.adaptedPct : b.meta.adaptedPct - a.meta.adaptedPct);
+  } else if (currentSort === 'rating') {
+    sorted.sort((a, b) => {
+      const ratingA = seriesRatings[a.id] || 0;
+      const ratingB = seriesRatings[b.id] || 0;
+      return isAsc ? ratingA - ratingB : ratingB - ratingA;
+    });
+  } else if (currentSort === 'name') {
+    sorted.sort((a, b) => isAsc ? a.meta.title.localeCompare(b.meta.title) : b.meta.title.localeCompare(a.meta.title));
+  }
+  return sorted;
+}
+
+async function loadSeriesRatings() {
+  // Fetch rating data for each series from MAL API
+  const { fetchSeriesInfo } = await import('./api.js');
+  for (const s of allSeries) {
+    const primaryId = s.config?.malIds?.primary;
+    if (primaryId) {
+      try {
+        const info = await fetchSeriesInfo(primaryId);
+        if (info && info.score) seriesRatings[s.id] = info.score;
+      } catch (e) {
+        // Silently fail if API call doesn't work
+      }
+    }
+  }
+  // Re-render grid with ratings
+  renderGrid(getSortedSeries(allSeries), id => navigate('series', id), seriesRatings);
+}
+
+function getButtonLabel(sortType, isDesc, isActive) {
+  const labels = {
+    default: 'Default',
+    episodes: `Episodes ${isActive ? (isDesc ? '↑' : '↓') : ''}`,
+    chapters: `Chapters ${isActive ? (isDesc ? '↑' : '↓') : ''}`,
+    adapted: `Adapted % ${isActive ? (isDesc ? '↑' : '↓') : ''}`,
+    rating: `Rating ${isActive ? (isDesc ? '↑' : '↓') : ''}`,
+    name: isActive ? (isDesc ? 'Name Z–A' : 'Name A–Z') : 'Name A–Z',
+  };
+  return labels[sortType] || sortType;
+}
+
+function initFilters() {
+  document.querySelectorAll('#sort-filters .filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const sortType = btn.dataset.sort;
+      const isCurrentSort = currentSort === sortType;
+      
+      // If same button clicked, toggle direction (except for default)
+      if (isCurrentSort && sortType !== 'default') {
+        currentSortDir = currentSortDir === 'asc' ? 'desc' : 'asc';
+      } else {
+        // New sort button: set to desc (high to low) by default for value sorts, asc for name
+        currentSort = sortType;
+        currentSortDir = (sortType === 'name' || sortType === 'default') ? 'asc' : 'desc';
+      }
+
+      // Update UI
+      document.querySelectorAll('#sort-filters .filter-btn').forEach(b => {
+        const isActive = b.dataset.sort === currentSort;
+        b.classList.toggle('on', isActive);
+        b.textContent = getButtonLabel(b.dataset.sort, currentSortDir === 'desc', isActive);
+      });
+      
+      renderGrid(getSortedSeries(allSeries), id => navigate('series', id), seriesRatings);
+    });
+  });
+}
+

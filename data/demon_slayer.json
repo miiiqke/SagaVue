@@ -1,0 +1,1120 @@
+{
+  "id": "demon_slayer",
+  "title": "Demon Slayer: Kimetsu no Yaiba",
+  "abbr": [
+    "KNY",
+    "Demon Slayer"
+  ],
+  "source": "Manga",
+  "animeStatus": "Ongoing",
+  "mangaStatus": "Finished",
+  "lastUpdated": "2026-03-13",
+  "tags": [
+    "Action",
+    "Dark Fantasy",
+    "Supernatural",
+    "Historical",
+    "Shounen"
+  ],
+  "malIds": {
+    "primary": 38000,
+    "manga": 96792,
+    "canonIds": [
+      38000,
+      40456,
+      49926,
+      47778,
+      51019,
+      55353,
+      58993
+    ],
+    "seasons": [
+      {
+        "name": "Season 1",
+        "malId": 38000,
+        "eps": 26
+      },
+      {
+        "name": "Mugen Train (Movie)",
+        "malId": 40456,
+        "eps": 1,
+        "type": "movie"
+      },
+      {
+        "name": "Mugen Train Arc (TV)",
+        "malId": 49926,
+        "eps": 7
+      },
+      {
+        "name": "Entertainment District Arc",
+        "malId": 47778,
+        "eps": 11
+      },
+      {
+        "name": "Swordsmith Village Arc",
+        "malId": 51019,
+        "eps": 11
+      },
+      {
+        "name": "Hashira Training Arc",
+        "malId": 55353,
+        "eps": 8
+      },
+      {
+        "name": "Infinity Castle Film I (2025)",
+        "malId": null,
+        "eps": 1,
+        "type": "movie"
+      }
+    ]
+  },
+  "meta": {
+    "totalChapters": 205,
+    "seasons": [
+      {
+        "name": "Season 1",
+        "eps": 26
+      },
+      {
+        "name": "Mugen Train Arc (TV)",
+        "eps": 7
+      },
+      {
+        "name": "Entertainment District Arc",
+        "eps": 11
+      },
+      {
+        "name": "Swordsmith Village Arc",
+        "eps": 11
+      },
+      {
+        "name": "Hashira Training Arc",
+        "eps": 8
+      }
+    ]
+  },
+  "arcs": [
+    {
+      "id": "final_selection",
+      "name": "Final Selection Arc",
+      "chapterStart": 1,
+      "chapterEnd": 9,
+      "episodeStart": 1,
+      "episodeEnd": 5
+    },
+    {
+      "id": "first_mission",
+      "name": "First Mission Arc",
+      "chapterStart": 10,
+      "chapterEnd": 13,
+      "episodeStart": 6,
+      "episodeEnd": 7
+    },
+    {
+      "id": "asakusa",
+      "name": "Asakusa Arc",
+      "chapterStart": 14,
+      "chapterEnd": 19,
+      "episodeStart": 8,
+      "episodeEnd": 10
+    },
+    {
+      "id": "tsuzumi_mansion",
+      "name": "Tsuzumi Mansion Arc",
+      "chapterStart": 20,
+      "chapterEnd": 27,
+      "episodeStart": 11,
+      "episodeEnd": 14
+    },
+    {
+      "id": "natagumo_mountain",
+      "name": "Natagumo Mountain Arc",
+      "chapterStart": 28,
+      "chapterEnd": 44,
+      "episodeStart": 15,
+      "episodeEnd": 21
+    },
+    {
+      "id": "rehabilitation_training",
+      "name": "Rehabilitation Training Arc",
+      "chapterStart": 45,
+      "chapterEnd": 53,
+      "episodeStart": 22,
+      "episodeEnd": 26
+    },
+    {
+      "id": "mugen_train_movie",
+      "name": "Mugen Train Movie",
+      "type": "movie",
+      "malId": 40456,
+      "watchAfterEpisode": 26,
+      "chapterStart": 54,
+      "chapterEnd": 69,
+      "episodeStart": 1,
+      "episodeEnd": 1,
+      "note": "A canon film that directly continues the story from Season 1. It was later re-adapted as the first 7 episodes of Season 2. Viewers can watch either the movie or the TV arc.",
+      "status": "canon"
+    },
+    {
+      "id": "mugen_train_tv",
+      "name": "Mugen Train Arc",
+      "chapterStart": 54,
+      "chapterEnd": 69,
+      "episodeStart": 27,
+      "episodeEnd": 33,
+      "note": "A 7-episode TV adaptation of the Mugen Train movie, with the first episode being entirely new anime-original content."
+    },
+    {
+      "id": "entertainment_district",
+      "name": "Entertainment District Arc",
+      "chapterStart": 70,
+      "chapterEnd": 99,
+      "episodeStart": 34,
+      "episodeEnd": 44
+    },
+    {
+      "id": "swordsmith_village",
+      "name": "Swordsmith Village Arc",
+      "chapterStart": 100,
+      "chapterEnd": 127,
+      "episodeStart": 45,
+      "episodeEnd": 55
+    },
+    {
+      "id": "hashira_training",
+      "name": "Hashira Training Arc",
+      "chapterStart": 128,
+      "chapterEnd": 139,
+      "episodeStart": 56,
+      "episodeEnd": 63
+    },
+    {
+      "id": "infinity_castle_film_i",
+      "name": "Infinity Castle Film I – Akaza Returns",
+      "type": "movie",
+      "malId": null,
+      "chapterStart": 140,
+      "chapterEnd": 157,
+      "episodeStart": 1,
+      "episodeEnd": 1,
+      "note": "Released July 18 2025 (Japan) / September 12 2025 (internationally). Covers Tanjiro & Giyu vs. Akaza, Zenitsu vs. Kaigaku, Shinobu vs. Doma through chapter 157. Runtime: ~2h 30m. Part 1 of the Infinity Castle film trilogy.",
+      "status": "canon"
+    },
+    {
+      "id": "infinity_castle",
+      "name": "Infinity Castle Arc (Part 2 onwards)",
+      "chapterStart": 158,
+      "chapterEnd": 183,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Ch 140–157 are covered by Infinity Castle Film I (2025). Ch 158–183 and the Sunrise Countdown arc (ch 184–205) will be covered by Films II and III."
+    },
+    {
+      "id": "sunrise_countdown",
+      "name": "Sunrise Countdown Arc",
+      "chapterStart": 184,
+      "chapterEnd": 205,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "The final arc of the series. To be adapted after the Infinity Castle movies."
+    }
+  ],
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "Cruelty",
+      "arc": "final_selection",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "ep": 2,
+      "title": "Trainer Sakonji Urokodaki",
+      "arc": "final_selection",
+      "chapters": [
+        2,
+        3
+      ]
+    },
+    {
+      "ep": 3,
+      "title": "Sabito and Makomo",
+      "arc": "final_selection",
+      "chapters": [
+        4,
+        5
+      ]
+    },
+    {
+      "ep": 4,
+      "title": "Final Selection",
+      "arc": "final_selection",
+      "chapters": [
+        6,
+        7
+      ]
+    },
+    {
+      "ep": 5,
+      "title": "My Own Steel",
+      "arc": "final_selection",
+      "chapters": [
+        8,
+        9
+      ]
+    },
+    {
+      "ep": 6,
+      "title": "Swordsman Accompanying a Demon",
+      "arc": "first_mission",
+      "chapters": [
+        10,
+        11
+      ]
+    },
+    {
+      "ep": 7,
+      "title": "Muzan Kibutsuji",
+      "arc": "first_mission",
+      "chapters": [
+        12,
+        13
+      ]
+    },
+    {
+      "ep": 8,
+      "title": "The Smell of Enchanting Blood",
+      "arc": "asakusa",
+      "chapters": [
+        14,
+        15
+      ]
+    },
+    {
+      "ep": 9,
+      "title": "Temari Demon and Arrow Demon",
+      "arc": "asakusa",
+      "chapters": [
+        16,
+        17
+      ]
+    },
+    {
+      "ep": 10,
+      "title": "Together Forever",
+      "arc": "asakusa",
+      "chapters": [
+        18,
+        19
+      ]
+    },
+    {
+      "ep": 11,
+      "title": "Tsuzumi Mansion",
+      "arc": "tsuzumi_mansion",
+      "chapters": [
+        20,
+        21
+      ]
+    },
+    {
+      "ep": 12,
+      "title": "The Boar Bares its Fangs, Zenitsu Sleeps",
+      "arc": "tsuzumi_mansion",
+      "chapters": [
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "ep": 13,
+      "title": "Something More Important Than Life",
+      "arc": "tsuzumi_mansion",
+      "chapters": [
+        25,
+        26
+      ]
+    },
+    {
+      "ep": 14,
+      "title": "The House with the Wisteria Family Crest",
+      "arc": "tsuzumi_mansion",
+      "chapters": [
+        26,
+        27
+      ]
+    },
+    {
+      "ep": 15,
+      "title": "Mount Natagumo",
+      "arc": "natagumo_mountain",
+      "chapters": [
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "ep": 16,
+      "title": "Letting Someone Else Go First",
+      "arc": "natagumo_mountain",
+      "chapters": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "ep": 17,
+      "title": "You Must Master a Single Thing",
+      "arc": "natagumo_mountain",
+      "chapters": [
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "ep": 18,
+      "title": "A Forged Bond",
+      "arc": "natagumo_mountain",
+      "chapters": [
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "ep": 19,
+      "title": "Hinokami",
+      "arc": "natagumo_mountain",
+      "chapters": [
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "ep": 20,
+      "title": "Pretend Family",
+      "arc": "natagumo_mountain",
+      "chapters": [
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "ep": 21,
+      "title": "Against Corps Rules",
+      "arc": "natagumo_mountain",
+      "chapters": [
+        43,
+        44
+      ]
+    },
+    {
+      "ep": 22,
+      "title": "Master of the Mansion",
+      "arc": "rehabilitation_training",
+      "chapters": [
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "ep": 23,
+      "title": "Hashira Meeting",
+      "arc": "rehabilitation_training",
+      "chapters": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "ep": 24,
+      "title": "Rehabilitation Training",
+      "arc": "rehabilitation_training",
+      "chapters": [
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "ep": 25,
+      "title": "Tsuguko, Kanao Tsuyuri",
+      "arc": "rehabilitation_training",
+      "chapters": [
+        52,
+        53
+      ]
+    },
+    {
+      "ep": 26,
+      "title": "New Mission",
+      "arc": "rehabilitation_training",
+      "chapters": [
+        53
+      ]
+    },
+    {
+      "ep": 27,
+      "title": "Flame Hashira Kyojuro Rengoku",
+      "arc": "mugen_train_tv",
+      "chapters": [
+        "Anime Original"
+      ]
+    },
+    {
+      "ep": 28,
+      "title": "Deep Sleep",
+      "arc": "mugen_train_tv",
+      "chapters": [
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "ep": 29,
+      "title": "Should Have Been",
+      "arc": "mugen_train_tv",
+      "chapters": [
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "ep": 30,
+      "title": "Insult",
+      "arc": "mugen_train_tv",
+      "chapters": [
+        60,
+        61
+      ]
+    },
+    {
+      "ep": 31,
+      "title": "Akaza",
+      "arc": "mugen_train_tv",
+      "chapters": [
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "ep": 32,
+      "title": "Set Your Heart Ablaze",
+      "arc": "mugen_train_tv",
+      "chapters": [
+        65,
+        66
+      ]
+    },
+    {
+      "ep": 33,
+      "title": "Move Forward!",
+      "arc": "mugen_train_tv",
+      "chapters": [
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "ep": 34,
+      "title": "Sound Hashira Tengen Uzui",
+      "arc": "entertainment_district",
+      "chapters": [
+        70,
+        71
+      ]
+    },
+    {
+      "ep": 35,
+      "title": "Infiltrating the Entertainment District",
+      "arc": "entertainment_district",
+      "chapters": [
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "ep": 36,
+      "title": "What Are You?",
+      "arc": "entertainment_district",
+      "chapters": [
+        75,
+        76
+      ]
+    },
+    {
+      "ep": 37,
+      "title": "Tonight",
+      "arc": "entertainment_district",
+      "chapters": [
+        77,
+        78,
+        79
+      ]
+    },
+    {
+      "ep": 38,
+      "title": "Things Are Gonna Get Real Flashy!!",
+      "arc": "entertainment_district",
+      "chapters": [
+        80,
+        81,
+        82
+      ]
+    },
+    {
+      "ep": 39,
+      "title": "Layered Memories",
+      "arc": "entertainment_district",
+      "chapters": [
+        83,
+        84
+      ]
+    },
+    {
+      "ep": 40,
+      "title": "Transformation",
+      "arc": "entertainment_district",
+      "chapters": [
+        85,
+        86
+      ]
+    },
+    {
+      "ep": 41,
+      "title": "Gathering",
+      "arc": "entertainment_district",
+      "chapters": [
+        87,
+        88,
+        89
+      ]
+    },
+    {
+      "ep": 42,
+      "title": "Defeating an Upper Rank Demon",
+      "arc": "entertainment_district",
+      "chapters": [
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "ep": 43,
+      "title": "Never Give Up",
+      "arc": "entertainment_district",
+      "chapters": [
+        93,
+        94,
+        95
+      ]
+    },
+    {
+      "ep": 44,
+      "title": "No Matter How Many Lives",
+      "arc": "entertainment_district",
+      "chapters": [
+        96,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "ep": 45,
+      "title": "Someone's Dream",
+      "arc": "swordsmith_village",
+      "chapters": [
+        100,
+        101
+      ]
+    },
+    {
+      "ep": 46,
+      "title": "Yoriichi Type Zero",
+      "arc": "swordsmith_village",
+      "chapters": [
+        102,
+        103,
+        104
+      ]
+    },
+    {
+      "ep": 47,
+      "title": "A Sword from Over 300 Years Ago",
+      "arc": "swordsmith_village",
+      "chapters": [
+        105,
+        106
+      ]
+    },
+    {
+      "ep": 48,
+      "title": "Thank You, Tokito",
+      "arc": "swordsmith_village",
+      "chapters": [
+        107,
+        108,
+        109
+      ]
+    },
+    {
+      "ep": 49,
+      "title": "Bright Red Sword",
+      "arc": "swordsmith_village",
+      "chapters": [
+        110,
+        111,
+        112
+      ]
+    },
+    {
+      "ep": 50,
+      "title": "Aren't You Going to Be a Hashira?",
+      "arc": "swordsmith_village",
+      "chapters": [
+        113,
+        114,
+        115
+      ]
+    },
+    {
+      "ep": 51,
+      "title": "Awful Villain",
+      "arc": "swordsmith_village",
+      "chapters": [
+        116,
+        117
+      ]
+    },
+    {
+      "ep": 52,
+      "title": "The Mu in Muichiro",
+      "arc": "swordsmith_village",
+      "chapters": [
+        118,
+        119,
+        120
+      ]
+    },
+    {
+      "ep": 53,
+      "title": "A Connected Bond: Daybreak and First Light",
+      "arc": "swordsmith_village",
+      "chapters": [
+        121,
+        122,
+        123
+      ]
+    },
+    {
+      "ep": 54,
+      "title": "Mist Hashira Muichiro Tokito",
+      "arc": "swordsmith_village",
+      "chapters": [
+        124,
+        125,
+        126
+      ]
+    },
+    {
+      "ep": 55,
+      "title": "The Connected Bonds: Twilight and Dawn",
+      "arc": "swordsmith_village",
+      "chapters": [
+        127
+      ]
+    },
+    {
+      "ep": 56,
+      "title": "To Defeat Muzan Kibutsuji",
+      "arc": "hashira_training",
+      "chapters": [
+        128,
+        129
+      ]
+    },
+    {
+      "ep": 57,
+      "title": "Water Hashira Giyu Tomioka's Pain",
+      "arc": "hashira_training",
+      "chapters": [
+        130,
+        131
+      ]
+    },
+    {
+      "ep": 58,
+      "title": "Fully Recovered Tanjiro Joins the Hashira Training!!",
+      "arc": "hashira_training",
+      "chapters": [
+        132,
+        133
+      ]
+    },
+    {
+      "ep": 59,
+      "title": "To Eat Demons",
+      "arc": "hashira_training",
+      "chapters": [
+        133,
+        134
+      ]
+    },
+    {
+      "ep": 60,
+      "title": "The Ultimate Demon Slayer",
+      "arc": "hashira_training",
+      "chapters": [
+        134,
+        135
+      ]
+    },
+    {
+      "ep": 61,
+      "title": "Stone Hashira Gyomei Himejima",
+      "arc": "hashira_training",
+      "chapters": [
+        135,
+        136
+      ]
+    },
+    {
+      "ep": 62,
+      "title": "Hashira United",
+      "arc": "hashira_training",
+      "chapters": [
+        137,
+        138
+      ]
+    },
+    {
+      "ep": 63,
+      "title": "Falling",
+      "arc": "hashira_training",
+      "chapters": [
+        139
+      ]
+    },
+    {
+      "type": "movie",
+      "title": "Infinity Castle Film I – Akaza Returns",
+      "arc": "infinity_castle_film_i",
+      "malId": null,
+      "chapters": [
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157
+      ],
+      "note": "Released July 18 2025 in Japan. First film of the Infinity Castle trilogy adapting the final arc of the manga.",
+      "status": "canon"
+    }
+  ],
+  "chapterTitles": {
+    "1": "Cruelty",
+    "2": "A Stranger",
+    "3": "You Will Return",
+    "4": "Tanjiro's Journal, Part 1",
+    "5": "Tanjiro's Journal, Part 2",
+    "6": "A Mountain of Hands",
+    "7": "Spirits of the Dead",
+    "8": "Big Brother",
+    "9": "Welcome Home",
+    "10": "Swamp of Abduction",
+    "11": "Suggestion",
+    "12": "I Can't Tell You",
+    "13": "Nezuko",
+    "14": "The Doctor's Opinion",
+    "15": "The Scent of Blood",
+    "16": "Muzan Kibutsuji",
+    "17": "The Temari Demon",
+    "18": "The Arrow Demon",
+    "19": "The End and the Beginning",
+    "20": "Tsuzumi Mansion",
+    "21": "Kyogai",
+    "22": "Sudden Pig Assault",
+    "23": "The Boar Bares its Fangs, Zenitsu Sleeps",
+    "24": "Former Twelve Kizuki",
+    "25": "Something More Important Than Life",
+    "26": "Bare-Handed",
+    "27": "Inosuke Hashibira",
+    "28": "Urgent Summons",
+    "29": "Mount Natagumo",
+    "30": "Puppets",
+    "31": "Letting Someone Else Go First",
+    "32": "Swinging the Sword",
+    "33": "You Must Master a Single Thing",
+    "34": "Cowardly Judgment",
+    "35": "A Forged Bond",
+    "36": "The Twelve Kizuki",
+    "37": "Broken Blade",
+    "38": "Real and Fake",
+    "39": "Hinokami",
+    "40": "Dance of the Fire God",
+    "41": "Shinobu Kocho",
+    "42": "Behind",
+    "43": "Spider Web",
+    "44": "Against Corps Rules",
+    "45": "The Trial of the Hashira",
+    "46": "Master of the Mansion",
+    "47": "Oyakata-sama",
+    "48": "Butterfly Mansion",
+    "49": "Rehabilitation Training, Part 1",
+    "50": "Rehabilitation Training, Part 2",
+    "51": "Kanao Tsuyuri",
+    "52": "Good Day",
+    "53": "New Mission",
+    "54": "Good Evening, Rengoku-san",
+    "55": "Mugen Train",
+    "56": "Deep Sleep",
+    "57": "Spiritual Core",
+    "58": "Good Morning",
+    "59": "Should Have Been",
+    "60": "Insult",
+    "61": "On the Belly of the Train",
+    "62": "Akaza",
+    "63": "Upper Rank",
+    "64": "Close Fight",
+    "65": "Whose Victory",
+    "66": "Set Your Heart Ablaze",
+    "67": "Searching for a New Sword",
+    "68": "Dream",
+    "69": "Move Forward!",
+    "70": "Infiltrating the Entertainment District",
+    "71": "Sound Hashira Tengen Uzui",
+    "72": "Wives",
+    "73": "Chasing",
+    "74": "Daki",
+    "75": "Each Person's Feelings",
+    "76": "What Are You?",
+    "77": "Tonight",
+    "78": "Layered Memories",
+    "79": "Transformation",
+    "80": "Value",
+    "81": "Gathering",
+    "82": "Human and Demon",
+    "83": "Defeating an Upper Rank Demon",
+    "84": "Never Give Up",
+    "85": "Thriving",
+    "86": "After the Fight",
+    "87": "When the Moon is Full",
+    "88": "No Matter How Many Lives",
+    "89": "A Close Call",
+    "90": "Thank You",
+    "91": "The Situation is Changing",
+    "92": "The Aftermath",
+    "93": "Dream On",
+    "94": "Do Something",
+    "95": "The Final Moments",
+    "96": "I am",
+    "97": "No Matter How Many Times We Are Reborn",
+    "98": "The Upper Ranks Gather",
+    "99": "Someone's Dream",
+    "100": "To the Swordsmith Village",
+    "101": "Secret",
+    "102": "Hello, Tokito-kun",
+    "103": "Yoriichi Type Zero",
+    "104": "Kotetsu-kun",
+    "105": "The Smell of an Oncoming Attack",
+    "106": "Enemy Attack",
+    "107": "A Sword from Over 300 Years Ago",
+    "108": "Thank You, Tokito",
+    "109": "Bright Red Sword",
+    "110": "Come On",
+    "111": "Artistic Sensibilities",
+    "112": "Transition",
+    "113": "Aren't You Going to Be a Hashira?",
+    "114": "Awful Villain",
+    "115": "To Be a Hashira",
+    "116": "The Mu in Muichiro",
+    "117": "Swordsmith",
+    "118": "A Connected Bond: Daybreak and First Light",
+    "119": "Restoration",
+    "120": "A Slap Fight",
+    "121": "Abnormal Situation",
+    "122": "A Fleeting Moment",
+    "123": "A Connected Bond: Twilight and Dawn",
+    "124": "Don't Be a Picky Eater",
+    "125": "The Roar of Victory",
+    "126": "Dawn Breaks",
+    "127": "The Smell of Sunlight",
+    "128": "To Defeat Muzan Kibutsuji",
+    "129": "The Mark Appears",
+    "130": "A Place to Belong",
+    "131": "Visitor",
+    "132": "Full Power Training",
+    "133": "Welcome...",
+    "134": "Repetitive Action",
+    "135": "Gyomei Himejima",
+    "136": "Move",
+    "137": "Undying",
+    "138": "A Sudden Turn",
+    "139": "Falling",
+    "140": "The Final Battle Begins",
+    "141": "Vengeance",
+    "142": "Insect Hashira",
+    "143": "Wrath",
+    "144": "Successor",
+    "145": "A World Without You",
+    "146": "Pride",
+    "147": "Small Cogwheels",
+    "148": "Clash",
+    "149": "Disgust",
+    "150": "Noticing",
+    "151": "Bell-Ringing",
+    "152": "The Transparent World",
+    "153": "Trapped",
+    "154": "Overwhelmed",
+    "155": "Useless Person",
+    "156": "Thank You, Genya",
+    "157": "The World of the Living",
+    "158": "A Ripping Sound",
+    "159": "Face",
+    "160": "The First of the Upper Ranks",
+    "161": "The Butterfly's Wings",
+    "162": "Threefold",
+    "163": "A Heart-Pounding Night",
+    "164": "A Little Too Much",
+    "165": "Stunned and Trembling",
+    "166": "True Feelings",
+    "167": "A Request",
+    "168": "Never-Ending",
+    "169": "Ripples",
+    "170": "The Unbreakable Heart and Indomitable Sword",
+    "171": "Transformation",
+    "172": "A Weakling's Potential",
+    "173": "A Path to the Future",
+    "174": "Nightmare on the Red Moon",
+    "175": "The Respectable Descendants",
+    "176": "The Samurai",
+    "177": "Younger Brother",
+    "178": "Even If You Reach Out Your Hand",
+    "179": "Brotherly Love",
+    "180": "Recovery",
+    "181": "A Big Calamity",
+    "182": "Rage",
+    "183": "A Great Clash",
+    "184": "Out of the Way",
+    "185": "A World Without Smell",
+    "186": "The Old Days",
+    "187": "Innocent Person",
+    "188": "Sad Love",
+    "189": "A Comforting Presence",
+    "190": "Shaking",
+    "191": "Which One of Us is the Demon",
+    "192": "The Wheels of Fate",
+    "193": "The Door of Beginning",
+    "194": "The Scorching Scarlet",
+    "195": "Bewilderment",
+    "196": "I Am",
+    "197": "Tenacity",
+    "198": "The Final Moments",
+    "199": "The Brink of Dawn",
+    "200": "The Price of Victory",
+    "201": "The King of Demons",
+    "202": "Let's Go Home",
+    "203": "Don't Give Up",
+    "204": "A World Without Demons",
+    "205": "Life Shining Across the Years"
+  },
+  "prequelChapters": [],
+  "watchGuide": [
+    {
+      "step": 1,
+      "type": "anime",
+      "title": "Season 1",
+      "subtitle": "26 episodes",
+      "covers": "Ch 1–53",
+      "malId": 38000,
+      "note": "Watch all 26 episodes. Ends right as the Mugen Train story begins."
+    },
+    {
+      "step": 2,
+      "type": "choice",
+      "label": "Mugen Train — Movie or TV?",
+      "note": "Both cover the same manga chapters. The movie came first; the TV arc is a re-edit with one added anime-original intro episode.",
+      "options": [
+        {
+          "type": "movie-set",
+          "title": "Mugen Train (Film)",
+          "subtitle": "1 film · 117 min",
+          "covers": "Ch 54–69",
+          "malId": 40456,
+          "note": "The original theatrical version. Tighter pacing, no filler. Recommended."
+        },
+        {
+          "type": "anime",
+          "title": "Mugen Train Arc (TV)",
+          "subtitle": "7 episodes · Season 2 Part 1",
+          "covers": "Ch 54–69",
+          "malId": 47778,
+          "note": "Ep 27 is anime-original content. Eps 28–33 are the movie re-edited into TV format. Fine to watch, but the original film is better."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "type": "anime",
+      "title": "Entertainment District Arc",
+      "subtitle": "11 episodes · Season 2 Part 2",
+      "covers": "Ch 70–99",
+      "malId": 47778,
+      "note": "Continues directly after Mugen Train. One of the most acclaimed arcs in the series."
+    },
+    {
+      "step": 4,
+      "type": "anime",
+      "title": "Swordsmith Village Arc",
+      "subtitle": "11 episodes · Season 3",
+      "covers": "Ch 100–127",
+      "malId": 51009
+    },
+    {
+      "step": 5,
+      "type": "anime",
+      "title": "Hashira Training Arc",
+      "subtitle": "8 episodes · Season 4",
+      "covers": "Ch 128–136",
+      "malId": 54595
+    },
+    {
+      "step": 6,
+      "type": "anime",
+      "title": "Infinity Castle Film Trilogy",
+      "subtitle": "Film I released 2025 · Film II expected 2027 · Film III expected 2029",
+      "covers": "Ch 140–205",
+      "note": "Film I ('Akaza Returns') was released July 2025 and covers Ch 140–157. Parts 2 and 3 will adapt the rest of the Infinity Castle arc and the Sunrise Countdown arc through Ch 205, concluding the series."
+    }
+  ]
+}

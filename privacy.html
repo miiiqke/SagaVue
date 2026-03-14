@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy — SagaVue</title>
+  <link rel="icon" type="image/png" sizes="256x256" href="assets/favicons/favicon-256x256.png">
+  <link rel="icon" type="image/png" sizes="32x32"   href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16"   href="assets/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180"      href="assets/favicons/favicon-180x180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav id="nav">
+    <span class="nav-logo">
+      <img src="assets/img/logo.png" alt="SagaVue" class="nav-logo-img">
+      <img src="assets/favicons/favicon-48x48.png" alt="SagaVue" class="nav-favicon-img">
+    </span>
+    <div class="nav-bc">
+      <span class="crumb" onclick="history.back()" style="cursor:pointer">←</span>
+      <span style="color:var(--text3)">›</span>
+      <span>Privacy</span>
+    </div>
+    <button class="nav-back-mobile" onclick="history.back()" aria-label="Go back">←</button>
+  </nav>
+
+  <main class="static-page">
+    <div class="static-inner">
+
+      <p class="eyebrow">/ legal</p>
+      <h1 class="static-title">Privacy Policy</h1>
+      <p class="static-lead">SagaVue is a fan resource. Here is exactly what we do — and don't do — with your data.</p>
+
+      <div class="static-body">
+
+        <section class="static-section">
+          <h2>No data collection</h2>
+          <p>SagaVue does not collect, store, or process any personal data. There are no user accounts, no sign-up forms, no login systems, and no sessions.</p>
+        </section>
+
+        <section class="static-section">
+          <h2>No cookies</h2>
+          <p>We do not set any cookies — not for analytics, not for preferences, not for anything. Your browser stores nothing on our behalf.</p>
+        </section>
+
+        <section class="static-section">
+          <h2>No tracking</h2>
+          <p>There are no analytics scripts, no advertising trackers, no pixel tags, and no third-party monitoring tools embedded in this site.</p>
+        </section>
+
+        <section class="static-section">
+          <h2>Third-party data</h2>
+          <p>When you open a series page, SagaVue fetches publicly available data from the <a href="https://jikan.moe" target="_blank" rel="noopener">Jikan API</a> — an unofficial read-only wrapper around MyAnimeList. This request is made from your browser directly to the Jikan API. No information about you is included in that request beyond a standard HTTP call. We have no control over Jikan's own privacy practices; you can review them at <a href="https://jikan.moe" target="_blank" rel="noopener">jikan.moe</a>.</p>
+          <p>Google Fonts is loaded to serve the Fira Code typeface. This is a standard web font request; see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a> for details. If you prefer, you can self-host the font and remove the Google Fonts link from the HTML.</p>
+        </section>
+
+        <section class="static-section">
+          <h2>Hosting</h2>
+          <p>This site is hosted on Cloudflare Pages. Cloudflare may process standard server logs (IP address, request path, timestamp) as part of delivering the site. See <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare's privacy policy</a> for details.</p>
+        </section>
+
+        <section class="static-section">
+          <h2>Open source</h2>
+          <p>SagaVue is fully open source. You can inspect every line of code on <a href="https://github.com/miiiqke/SagaVue" target="_blank" rel="noopener">GitHub</a> to verify these claims.</p>
+        </section>
+
+        <section class="static-section">
+          <h2>Contact</h2>
+          <p>Questions? Open an issue on <a href="https://github.com/miiiqke/SagaVue/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+        </section>
+
+        <p class="static-updated">Last updated: March 2026</p>
+
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="js/render-footer.js"></script>
+  <script type="module">
+    import { renderFooter } from './js/render-footer.js';
+    renderFooter();
+  </script>
+
+</body>
+</html>

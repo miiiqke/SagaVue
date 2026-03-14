@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SagaVue — Adaptation Navigator</title>
+  <link rel="icon" type="image/png" sizes="256x256" href="assets/favicons/favicon-256x256.png">
+  <link rel="icon" type="image/png" sizes="48x48"  href="assets/favicons/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="32x32"  href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16"  href="assets/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180"     href="assets/favicons/favicon-180x180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav id="nav">
+    <span class="nav-logo" id="nav-logo">
+      <img src="assets/img/logo.png" alt="SagaVue" class="nav-logo-img">
+      <img src="assets/favicons/favicon-48x48.png" alt="SagaVue" class="nav-favicon-img">
+    </span>
+    <div class="nav-search hidden" id="nav-search">
+      <div class="search-wrap">
+        <div class="search-inner">
+          <span class="s-icon">⌕</span>
+          <input id="nav-search-input" type="text" placeholder="Search..." autocomplete="off" spellcheck="false" />
+        </div>
+      </div>
+      <div id="nav-search-results"></div>
+    </div>
+    <div class="nav-bc" id="nav-bc"></div>
+    <button class="nav-back-mobile hidden" id="nav-back-mobile" aria-label="Back to all series">←</button>
+  </nav>
+
+  <!-- HOME -->
+  <div class="page" id="home-page">
+    <p class="eyebrow">/ adaptation navigator</p>
+    <h1 class="home-title">Know where you are.<br><span class="grad">Never get spoiled.</span></h1>
+    <p class="home-sub">Search any episode, chapter, arc, or film. See what's canon, what's filler, and find the right watch order.</p>
+    <div class="search-container">
+      <div class="search-wrap">
+        <div class="search-glow"></div>
+        <div class="search-inner">
+          <span class="s-icon">⌕</span>
+          <input id="search-input" type="text" placeholder="Search series, arc, episode, chapter, film…" autocomplete="off" spellcheck="false" />
+          <span class="s-kbd">⌘K</span>
+        </div>
+      </div>
+      <div id="search-results"></div>
+    </div>
+    <div class="filters-panel" id="filters-panel">
+      <div class="filter-group">
+        <label class="filter-label">Sort by:</label>
+        <div class="filter-options" id="sort-filters">
+          <button class="filter-btn on" data-sort="default">Default</button>
+          <button class="filter-btn" data-sort="episodes">Episodes</button>
+          <button class="filter-btn" data-sort="chapters">Chapters</button>
+          <button class="filter-btn" data-sort="adapted">Adapted %</button>
+          <button class="filter-btn" data-sort="rating">Rating</button>
+          <button class="filter-btn" data-sort="name">Name A–Z</button>
+        </div>
+      </div>
+    </div>
+    <div class="series-grid" id="series-grid"></div>
+  </div>
+
+  <!-- SERIES PAGE -->
+  <div class="page hidden" id="series-page">
+    <button class="back-btn" id="back-btn">← All Series</button>
+
+    <div class="sp-header">
+      <div class="sp-cover-container" id="sp-cover-container"></div>
+      <div class="sp-header-content">
+        <div class="sp-sub" id="sp-sub"></div>
+        <h1 class="sp-title" id="sp-title"></h1>
+        <div class="sp-status-pills hidden" id="sp-status-pills"></div>
+        <div class="sp-tags" id="sp-tags"></div>
+        <div class="sp-desc" id="sp-desc"></div>
+      </div>
+    </div>
+
+    <!-- MAL info bar -->
+    <div class="info-panel" id="info-panel">
+      <div class="info-stat"><div class="info-stat-val" id="ip-score">—</div><div class="info-stat-lbl">MAL Score</div></div>
+      <div class="info-stat"><div class="info-stat-val" id="ip-rank">—</div><div class="info-stat-lbl">Global Rank</div></div>
+      <div class="info-stat"><div class="info-stat-val" id="ip-members">—</div><div class="info-stat-lbl">Members</div></div>
+      <div class="info-stat"><div class="info-stat-val" id="ip-status">—</div><div class="info-stat-lbl">Status</div></div>
+      <div class="ip-source-strip" id="ip-medium"></div>
+    </div>
+
+    <!-- Adaptation bar -->
+    <div class="ov-panel">
+      <div class="ov-stats" id="ov-stats"></div>
+      <div class="bar-labels"><span id="bl-left"></span><span id="bl-right"></span></div>
+      <div class="bar"><div class="bar-fill" id="bar-fill"></div></div>
+      <div class="tip" id="bar-tip"></div>
+    </div>
+
+    <!-- Seasons -->
+    <div id="seasons-section" class="hidden">
+      <div class="sec-hdr"><span class="sec-lbl">01</span><h2 class="sec-title">Seasons & Parts</h2><div class="sec-line"></div></div>
+      <div class="seasons-list" id="seasons-list"></div>
+    </div>
+
+    <!-- Watch Guide (shown only for series with watchGuide data) -->
+    <div id="watch-guide-section" class="hidden">
+      <div class="sec-hdr wg-sec-hdr-row">
+        <span class="sec-lbl" id="wg-lbl">02</span>
+        <div class="wg-header-box" id="watch-guide-hdr" onclick="window.app.toggleWatchGuide()" style="cursor:pointer;user-select:none">
+          <h2 class="sec-title">How to Watch &amp; Read</h2>
+          <span class="wg-badge" id="wg-badge"></span>
+          <div class="wg-header-line"></div>
+          <span class="wg-hint" id="wg-hint">expand</span>
+          <span class="wg-chev" id="wg-chev">▾</span>
+        </div>
+      </div>
+      <div class="wg-body" id="wg-body">
+        <div class="wg-list" id="watch-guide-list"></div>
+      </div>
+    </div>
+
+    <!-- Watch order arcs -->
+    <div class="sec-hdr">
+      <span class="sec-lbl" id="arc-lbl">02</span>
+      <h2 class="sec-title">Watch Order & Story Arcs</h2>
+      <div class="sec-line"></div>
+    </div>
+    <div class="arcs-grid" id="arcs-grid"></div>
+
+    <!-- Tables -->
+    <div class="sec-hdr">
+      <span class="sec-lbl" id="table-lbl">03</span>
+      <h2 class="sec-title">Episode & Chapter Map</h2>
+      <div class="sec-line"></div>
+    </div>
+    <div class="bar-last-updated hidden" id="bar-last-updated"></div>
+    <div class="tabs">
+      <button class="tab-btn on" id="tbn-ep" onclick="window.app.switchTab('ep')">Episodes</button>
+      <button class="tab-btn" id="tbn-sv" onclick="window.app.switchTab('sv')">Season Map</button>
+      <button class="tab-btn" id="tbn-ch" onclick="window.app.switchTab('ch')">Manga Chapters</button>
+    </div>
+
+    <div class="tsec on" id="tsec-ep">
+      <div class="sticky-group">
+        <div class="toolbar">
+          <div class="filters" id="ep-filters">
+            <button class="fb on" onclick="window.app.filterEp('all',this)">All</button>
+            <button class="fb" onclick="window.app.filterEp('canon',this)">Canon</button>
+            <button class="fb" onclick="window.app.filterEp('filler',this)">Filler</button>
+            <button class="fb" onclick="window.app.filterEp('mixed',this)">Mixed</button>
+          </div>
+          <div class="tcount" id="ep-count"></div>
+        </div>
+        <div class="tscroll">
+          <table class="dt dt-header">
+            <thead><tr><th>Ep #</th><th>Title</th><th>Arc</th><th>Status</th><th>Chapters</th></tr></thead>
+          </table>
+        </div>
+      </div>
+      <div class="dtw">
+        <div class="tscroll">
+          <table class="dt">
+            <tbody id="ep-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card-list" id="ep-card-list"></div>
+    </div>
+
+    <div class="tsec" id="tsec-sv">
+      <div class="sticky-group">
+        <div class="tscroll">
+          <table class="dt dt-header">
+            <thead><tr><th>Season/Part</th><th>Ep #</th><th>Overall Ep</th></tr></thead>
+          </table>
+        </div>
+      </div>
+      <div class="dtw">
+        <div class="tscroll">
+          <table class="dt">
+            <tbody id="sv-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card-list" id="sv-card-list"></div>
+    </div>
+
+    <div class="tsec" id="tsec-ch">
+      <div class="sticky-group">
+        <div class="toolbar">
+          <div class="filters" id="ch-filters">
+            <button class="fb on" onclick="window.app.filterCh('all',this)">All</button>
+            <button class="fb" onclick="window.app.filterCh('adapted',this)">Adapted</button>
+            <button class="fb" onclick="window.app.filterCh('unadapted',this)">Unadapted</button>
+          </div>
+          <div class="tcount" id="ch-count"></div>
+        </div>
+        <div class="tscroll">
+          <table class="dt dt-header">
+            <thead><tr><th>Ch #</th><th>Title</th><th>Arc</th><th>Adapted?</th><th>Episodes</th></tr></thead>
+          </table>
+        </div>
+      </div>
+      <div class="dtw">
+        <div class="tscroll">
+          <table class="dt">
+            <tbody id="ch-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card-list" id="ch-card-list"></div>
+    </div>
+
+    <!-- Non-canon / extra media -->
+    <div id="extras-section" class="hidden">
+      <div class="sec-hdr">
+        <span class="sec-lbl" id="extras-lbl">04</span>
+        <h2 class="sec-title">OVAs, Specials & Non-Canon Films</h2>
+        <div class="sec-line"></div>
+      </div>
+      <p style="font-size:0.8rem;color:var(--text3);margin-bottom:0.9rem;line-height:1.65;font-style:italic">
+        Not required for the main story — watch whenever you like.
+      </p>
+      <div class="noncanon-grid" id="noncanon-grid">
+        <div class="api-msg">Fetching from MyAnimeList…</div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

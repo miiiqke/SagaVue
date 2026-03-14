@@ -1,0 +1,660 @@
+{
+  "id": "frieren",
+  "title": "Frieren: Beyond Journey's End",
+  "abbr": [
+    "Frieren",
+    "Sousou no Frieren",
+    "Sosou no Frieren",
+    "FBJ"
+  ],
+  "source": "Manga",
+  "animeStatus": "Ongoing",
+  "mangaStatus": "Hiatus",
+  "lastUpdated": "2026-03-13",
+  "tags": [
+    "Fantasy",
+    "Adventure",
+    "Slice of Life",
+    "Drama",
+    "Shounen"
+  ],
+  "malIds": {
+    "primary": 52991,
+    "manga": 135519,
+    "canonIds": [
+      52991,
+      59978
+    ],
+    "seasons": [
+      {
+        "name": "Season 1",
+        "malId": 52991,
+        "eps": 28
+      },
+      {
+        "name": "Season 2",
+        "malId": 59978,
+        "eps": 10
+      }
+    ]
+  },
+  "meta": {
+    "totalChapters": 147,
+    "seasons": [
+      {
+        "name": "Season 1",
+        "eps": 28
+      },
+      {
+        "name": "Season 2",
+        "eps": 10
+      }
+    ],
+    "note": " The manga entered hiatus in December 2024, returned August 2025, then entered another hiatus in October 2025 with no confirmed return date. Volume 15 was released in Japan in December 2025. Season 2 (10 episodes) airs January 16–March 27 2026 on Crunchyroll."
+  },
+  "arcs": [
+    {
+      "id": "journey_end",
+      "name": "Beyond Journey's End",
+      "chapterStart": 1,
+      "chapterEnd": 13,
+      "episodeStart": 1,
+      "episodeEnd": 6
+    },
+    {
+      "id": "aura",
+      "name": "Demon Infiltration",
+      "chapterStart": 14,
+      "chapterEnd": 23,
+      "episodeStart": 7,
+      "episodeEnd": 10
+    },
+    {
+      "id": "northern",
+      "name": "Northern Travels",
+      "chapterStart": 24,
+      "chapterEnd": 36,
+      "episodeStart": 11,
+      "episodeEnd": 17
+    },
+    {
+      "id": "mage_exam",
+      "name": "First-Class Mage Exam",
+      "chapterStart": 37,
+      "chapterEnd": 58,
+      "episodeStart": 18,
+      "episodeEnd": 28
+    },
+    {
+      "id": "northern_plateau",
+      "name": "Continued Northern Travels",
+      "chapterStart": 59,
+      "chapterEnd": 70,
+      "episodeStart": 29,
+      "episodeEnd": 33
+    },
+    {
+      "id": "shogun",
+      "name": "Shōgun Subjugation",
+      "chapterStart": 71,
+      "chapterEnd": 76,
+      "episodeStart": 34,
+      "episodeEnd": 36
+    },
+    {
+      "id": "el_dorado_travels",
+      "name": "Travels to El Dorado",
+      "chapterStart": 77,
+      "chapterEnd": 80,
+      "episodeStart": 37,
+      "episodeEnd": 38,
+      "note": "Begins the El Dorado Travels sub-arc. Season 2 ends mid-arc with episodes 37–38 (airing March 20 & 27 2026)."
+    },
+    {
+      "id": "el_dorado",
+      "name": "El Dorado",
+      "chapterStart": 81,
+      "chapterEnd": 104,
+      "episodeStart": 0,
+      "episodeEnd": 0
+    },
+    {
+      "id": "ernst",
+      "name": "Ernst Region & Wissen Mountains",
+      "chapterStart": 105,
+      "chapterEnd": 106,
+      "episodeStart": 0,
+      "episodeEnd": 0
+    },
+    {
+      "id": "goddess",
+      "name": "Goddess's Monument",
+      "chapterStart": 107,
+      "chapterEnd": 119,
+      "episodeStart": 0,
+      "episodeEnd": 0
+    },
+    {
+      "id": "imperial",
+      "name": "Imperial Territory Travels",
+      "chapterStart": 120,
+      "chapterEnd": 125,
+      "episodeStart": 0,
+      "episodeEnd": 0
+    },
+    {
+      "id": "foundation",
+      "name": "Foundation Festival",
+      "chapterStart": 126,
+      "chapterEnd": 147,
+      "episodeStart": 0,
+      "episodeEnd": 0
+    }
+  ],
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "The Journey's End",
+      "arc": "journey_end",
+      "chapters": [
+        1,
+        2
+      ]
+    },
+    {
+      "ep": 2,
+      "title": "It Didn't Have to Be Magic…",
+      "arc": "journey_end",
+      "chapters": [
+        2,
+        3
+      ]
+    },
+    {
+      "ep": 3,
+      "title": "Killing Magic",
+      "arc": "journey_end",
+      "chapters": [
+        4,
+        5
+      ]
+    },
+    {
+      "ep": 4,
+      "title": "The Land Where Souls Rest",
+      "arc": "journey_end",
+      "chapters": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "ep": 5,
+      "title": "Phantoms of the Dead",
+      "arc": "journey_end",
+      "chapters": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "ep": 6,
+      "title": "The Hero of the Village",
+      "arc": "journey_end",
+      "chapters": [
+        11,
+        12
+      ]
+    },
+    {
+      "ep": 7,
+      "title": "Like a Fairy Tale",
+      "arc": "aura",
+      "chapters": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "ep": 8,
+      "title": "Frieren the Slayer",
+      "arc": "aura",
+      "chapters": [
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "ep": 9,
+      "title": "Aura the Guillotine",
+      "arc": "aura",
+      "chapters": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "ep": 10,
+      "title": "A Powerful Mage",
+      "arc": "aura",
+      "chapters": [
+        21,
+        22
+      ]
+    },
+    {
+      "ep": 11,
+      "title": "Winter in the Northern Lands",
+      "arc": "northern",
+      "chapters": [
+        23,
+        24
+      ]
+    },
+    {
+      "ep": 12,
+      "title": "A Real Hero",
+      "arc": "northern",
+      "chapters": [
+        25,
+        26
+      ]
+    },
+    {
+      "ep": 13,
+      "title": "Aversion to One’s Own Kind",
+      "arc": "northern",
+      "chapters": [
+        27,
+        28
+      ]
+    },
+    {
+      "ep": 14,
+      "title": "Privilege of the Young",
+      "arc": "northern",
+      "chapters": [
+        29,
+        30
+      ]
+    },
+    {
+      "ep": 15,
+      "title": "Smells Like Trouble",
+      "arc": "northern",
+      "chapters": [
+        31,
+        32
+      ]
+    },
+    {
+      "ep": 16,
+      "title": "Long-Lived Friends",
+      "arc": "northern",
+      "chapters": [
+        33,
+        34
+      ]
+    },
+    {
+      "ep": 17,
+      "title": "Take Care",
+      "arc": "northern",
+      "chapters": [
+        35,
+        36
+      ]
+    },
+    {
+      "ep": 18,
+      "title": "First-Class Mage Exam",
+      "arc": "mage_exam",
+      "chapters": [
+        37,
+        38
+      ]
+    },
+    {
+      "ep": 19,
+      "title": "Well-Laid Plans",
+      "arc": "mage_exam",
+      "chapters": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "ep": 20,
+      "title": "Necessary Killing",
+      "arc": "mage_exam",
+      "chapters": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "ep": 21,
+      "title": "The World of Magic",
+      "arc": "mage_exam",
+      "chapters": [
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "ep": 22,
+      "title": "Future Enemies",
+      "arc": "mage_exam",
+      "chapters": [
+        46,
+        47
+      ]
+    },
+    {
+      "ep": 23,
+      "title": "Conquering the Labyrinth",
+      "arc": "mage_exam",
+      "chapters": [
+        48,
+        49
+      ]
+    },
+    {
+      "ep": 24,
+      "title": "Perfect Replicas",
+      "arc": "mage_exam",
+      "chapters": [
+        50,
+        51
+      ]
+    },
+    {
+      "ep": 25,
+      "title": "A Fatal Vulnerability",
+      "arc": "mage_exam",
+      "chapters": [
+        52,
+        53
+      ]
+    },
+    {
+      "ep": 26,
+      "title": "The Height of Magic",
+      "arc": "mage_exam",
+      "chapters": [
+        54,
+        55
+      ]
+    },
+    {
+      "ep": 27,
+      "title": "An Era of Humans",
+      "arc": "mage_exam",
+      "chapters": [
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "ep": 28,
+      "title": "It Would Be Embarrassing When We Met Again",
+      "arc": "mage_exam",
+      "chapters": [
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "ep": 29,
+      "title": "Shall We Go, Then?",
+      "arc": "northern_plateau",
+      "chapters": [
+        61,
+        62
+      ]
+    },
+    {
+      "ep": 30,
+      "title": "Hero of the South",
+      "arc": "northern_plateau",
+      "chapters": [
+        63,
+        64
+      ]
+    },
+    {
+      "ep": 31,
+      "title": "Somewhere She’d Like",
+      "arc": "northern_plateau",
+      "chapters": [
+        65,
+        66
+      ]
+    },
+    {
+      "ep": 32,
+      "title": "Other People’s Homes",
+      "arc": "northern_plateau",
+      "chapters": [
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "ep": 33,
+      "title": "Logistics in the Northern Plateau",
+      "arc": "northern_plateau",
+      "chapters": [
+        69,
+        70
+      ]
+    },
+    {
+      "ep": 34,
+      "title": "A Demon-Slaying Request",
+      "arc": "shogun",
+      "chapters": [
+        71,
+        72
+      ]
+    },
+    {
+      "ep": 35,
+      "title": "The Divine Revolte",
+      "arc": "shogun",
+      "chapters": [
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "ep": 36,
+      "title": "A Magnificent End",
+      "arc": "shogun",
+      "chapters": [
+        75,
+        76
+      ]
+    },
+    {
+      "ep": 37,
+      "title": "TBA",
+      "arc": "el_dorado_travels",
+      "chapters": [
+        77
+      ],
+      "series": "Season 2"
+    },
+    {
+      "ep": 38,
+      "title": "TBA",
+      "arc": "el_dorado_travels",
+      "chapters": [
+        78
+      ],
+      "series": "Season 2"
+    }
+  ],
+  "chapterTitles": {
+    "1": "The Journey's End",
+    "2": "The Priest's Lie",
+    "3": "Blue-Moon Weed",
+    "4": "The Mage's Secret",
+    "5": "Killing Magic",
+    "6": "New Year's Festival",
+    "7": "The Land Where Souls Rest",
+    "8": "One One-Hundredth",
+    "9": "Phantoms of the Dead",
+    "10": "Solar Dragon",
+    "11": "The Hero of the Village",
+    "12": "The Northern Checkpoint",
+    "13": "Liberation Festival",
+    "14": "Monsters That Speak",
+    "15": "Draht",
+    "16": "The Murder of a Guard",
+    "17": "Frieren the Slayer",
+    "18": "The Undead Army",
+    "19": "Raid",
+    "20": "Master's Technique",
+    "21": "Coward",
+    "22": "The Scales of Obedience",
+    "23": "A Victory and a Funeral",
+    "24": "The Elves' Wish",
+    "25": "The Village of the Sword",
+    "26": "A Gift to a Warrior",
+    "27": "A Priest from an Ordinary Village",
+    "28": "The Priest and His Regret",
+    "29": "Ideal Adult",
+    "30": "Mirrored Lotus",
+    "31": "Chaos Flower",
+    "32": "The Orden Family",
+    "33": "Old Man Voll",
+    "34": "The Statues of Heroes",
+    "35": "A Reason to Begin the Journey",
+    "36": "Emotional Support",
+    "37": "The First-Class Exam",
+    "38": "Stille—Meteoric Iron Bird",
+    "39": "Commence Capture Strategy",
+    "40": "A Spell to Capture a Bird",
+    "41": "Time for Resolve",
+    "42": "A Reason to Fight",
+    "43": "Privilege",
+    "44": "Recapture the Stille",
+    "45": "Water-Manipulation Magic",
+    "46": "An Even-Better Flavor",
+    "47": "Fern and Her Baked Sweets",
+    "48": "The Ruins of the King's Tomb",
+    "49": "Dungeons and Magical Items",
+    "50": "Spiegel—A Water-Mirror Demon",
+    "51": "Dungeon Battle",
+    "52": "Strategy Meeting",
+    "53": "An Era of Humans",
+    "54": "A Spell that Slashes Almost Anything",
+    "55": "The Second Exam Ends",
+    "56": "Fern's Staff",
+    "57": "The Third Exam",
+    "58": "Serie's Intuition",
+    "59": "With a Little Help",
+    "60": "Departure and Farewell",
+    "61": "Magic-Nullifying Crystal",
+    "62": "Why I Set Out on This Journey",
+    "63": "The Hero of the South",
+    "64": "The Demon with a Sword",
+    "65": "The Secret Hot Spring of the Etwas Mountains",
+    "66": "The Places She Would Like",
+    "67": "Peaceful Time",
+    "68": "Northern Plateau",
+    "69": "Boshaft—The Emperor's Spirit",
+    "70": "The Norm Company",
+    "71": "Subjugation Request",
+    "72": "The General",
+    "73": "Encounter Battle",
+    "74": "Divine Revolte",
+    "75": "Erilfrachte—The Spell to Dispel Fog",
+    "76": "Settling",
+    "77": "A Thunder of Dragons",
+    "78": "Lake Korridor",
+    "79": "The Great Tor Canyon",
+    "80": "Holy Snow Crystals",
+    "81": "The Golden Land",
+    "82": "Diagoldze—The Spell to Transmute All Creation into Gold",
+    "83": "Stone Bracelet of Servitude",
+    "84": "Daredevil",
+    "85": "Malice",
+    "86": "Discussions",
+    "87": "Affection",
+    "88": "Solitär",
+    "89": "Guilt",
+    "90": "Glück",
+    "91": "Onstage",
+    "92": "The End of Weise",
+    "93": "The Great Barrier",
+    "94": "Analysis",
+    "95": "Nameless Greater Demon",
+    "96": "Master and Apprentice",
+    "97": "Observation",
+    "98": "Retribution",
+    "99": "Offense and Defense",
+    "100": "The Fundamentals of Mages",
+    "101": "Breakthrough",
+    "102": "A Draw",
+    "103": "Time for Retribution",
+    "104": "A Visit to Her Grave",
+    "105": "Golem",
+    "106": "Sky-Mountain Dragon",
+    "107": "The Monument of the Goddess",
+    "108": "Reunion",
+    "109": "Zart the Remnant",
+    "110": "The Party of Heroes",
+    "111": "Escort Mission",
+    "112": "Faith",
+    "113": "Abyssal Dragon",
+    "114": "The Sword of the Hero",
+    "115": "Best Friend",
+    "116": "Spell to Return",
+    "117": "Miraculous Illusion",
+    "118": "Vialathor",
+    "119": "Memories",
+    "120": "False Image of a Hero",
+    "121": "Monsters on the Road",
+    "122": "The Titan Fortress Ruins",
+    "123": "Proof of Perseverance",
+    "124": "Shadow Warrior",
+    "125": "Family",
+    "126": "A New Mission",
+    "127": "Retrieval Mission",
+    "128": "Magic Special Forces",
+    "129": "Shadow of the Empire",
+    "130": "Beneath the Water's Surface",
+    "131": "Escape",
+    "132": "Chase",
+    "133": "Silver Coins",
+    "134": "Trace Back",
+    "135": "Prelude",
+    "136": "Reunion",
+    "137": "Repel",
+    "138": "Traitor",
+    "139": "Kreis the Blacksmith",
+    "140": "Ballroom",
+    "141": "Symbol of Peace",
+    "142": "Enemy Encounter",
+    "143": "Mind Games",
+    "144": "Prophetic Dream",
+    "145": "Clairvoyance",
+    "146": "The Strongest Warrior",
+    "147": "The Land with No Hero"
+  }
+}

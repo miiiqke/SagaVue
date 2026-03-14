@@ -1,0 +1,1150 @@
+{
+  "id": "aot",
+  "title": "Attack on Titan",
+  "abbr": [
+    "AOT",
+    "Shingeki"
+  ],
+  "source": "Manga",
+  "animeStatus": "Finished",
+  "mangaStatus": "Finished",
+  "lastUpdated": "2026-03-13",
+  "tags": [
+    "Dark Fantasy",
+    "Action",
+    "Mystery",
+    "Psychological",
+    "Shounen"
+  ],
+  "malIds": {
+    "primary": 16498,
+    "manga": 23405,
+    "canonIds": [],
+    "seasons": [
+      {
+        "name": "Season 1",
+        "malId": 16498,
+        "eps": 25
+      },
+      {
+        "name": "Season 2",
+        "malId": 25777,
+        "eps": 12
+      },
+      {
+        "name": "Season 3 Part 1",
+        "malId": 35760,
+        "eps": 12
+      },
+      {
+        "name": "Season 3 Part 2",
+        "malId": 38524,
+        "eps": 10
+      },
+      {
+        "name": "The Final Season Part 1",
+        "malId": 40028,
+        "eps": 16
+      },
+      {
+        "name": "The Final Season Part 2",
+        "malId": 49387,
+        "eps": 12
+      },
+      {
+        "name": "The Final Chapters Part 1",
+        "malId": 51535,
+        "eps": 1
+      },
+      {
+        "name": "The Final Chapters Part 2",
+        "malId": 56185,
+        "eps": 1
+      },
+      {
+        "name": "Season 4 Final Chapters: Special 1",
+        "malId": 51535,
+        "eps": 1
+      },
+      {
+        "name": "Season 4 Final Chapters: Special 2",
+        "malId": 54112,
+        "eps": 1
+      }
+    ]
+  },
+  "meta": {
+    "totalChapters": 139,
+    "seasons": [
+      {
+        "name": "Season 1",
+        "eps": 25
+      },
+      {
+        "name": "Season 2",
+        "eps": 12
+      },
+      {
+        "name": "Season 3 Part 1",
+        "eps": 12
+      },
+      {
+        "name": "Season 3 Part 2",
+        "eps": 10
+      },
+      {
+        "name": "Season 4 Part 1",
+        "eps": 16
+      },
+      {
+        "name": "Season 4 Part 2",
+        "eps": 12
+      },
+      {
+        "name": "Season 4 Final Chapters (Part 3)",
+        "malId": null,
+        "eps": 3
+      },
+      {
+        "name": "Season 4 Final Chapters (Part 4)",
+        "malId": null,
+        "eps": 4
+      }
+    ],
+    "note": " Episodes 88–90 (Special 1, originally aired March 4 2023) and 91–94 (Special 2, originally aired November 5 2023) were released as individual streaming episodes in November 2023. Both specials were also compiled into the theatrical film 'The Last Attack' (November 2024)."
+  },
+  "arcs": [
+    {
+      "id": "fall",
+      "name": "Fall of Shiganshina",
+      "chapterStart": 1,
+      "chapterEnd": 2,
+      "episodeStart": 1,
+      "episodeEnd": 2
+    },
+    {
+      "id": "trost",
+      "name": "Battle of Trost District",
+      "chapterStart": 3,
+      "chapterEnd": 14,
+      "episodeStart": 3,
+      "episodeEnd": 13
+    },
+    {
+      "id": "cadet",
+      "name": "104th Cadet Corps",
+      "chapterStart": 15,
+      "chapterEnd": 18,
+      "episodeStart": 14,
+      "episodeEnd": 16
+    },
+    {
+      "id": "female",
+      "name": "Female Titan",
+      "chapterStart": 19,
+      "chapterEnd": 34,
+      "episodeStart": 17,
+      "episodeEnd": 25
+    },
+    {
+      "id": "clash",
+      "name": "Clash of the Titans",
+      "chapterStart": 35,
+      "chapterEnd": 50,
+      "episodeStart": 26,
+      "episodeEnd": 37
+    },
+    {
+      "id": "royal",
+      "name": "Royal Government",
+      "chapterStart": 51,
+      "chapterEnd": 72,
+      "episodeStart": 38,
+      "episodeEnd": 50
+    },
+    {
+      "id": "return",
+      "name": "Return to Shiganshina",
+      "chapterStart": 73,
+      "chapterEnd": 90,
+      "episodeStart": 51,
+      "episodeEnd": 59
+    },
+    {
+      "id": "marley",
+      "name": "Marley",
+      "chapterStart": 91,
+      "chapterEnd": 106,
+      "episodeStart": 61,
+      "episodeEnd": 75
+    },
+    {
+      "id": "war",
+      "name": "War for Paradis",
+      "chapterStart": 107,
+      "chapterEnd": 139,
+      "episodeStart": 76,
+      "episodeEnd": 94
+    }
+  ],
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "To You, in 2000 Years",
+      "arc": "fall",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "ep": 2,
+      "title": "That Day",
+      "arc": "fall",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "ep": 3,
+      "title": "A Dim Light Amid Despair",
+      "arc": "trost",
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "ep": 4,
+      "title": "The Night of the Closing Ceremony",
+      "arc": "trost",
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "ep": 5,
+      "title": "First Battle",
+      "arc": "trost",
+      "chapters": [
+        5,
+        6
+      ]
+    },
+    {
+      "ep": 6,
+      "title": "The World the Girl Saw",
+      "arc": "trost",
+      "chapters": [
+        6,
+        7
+      ]
+    },
+    {
+      "ep": 7,
+      "title": "Small Blade",
+      "arc": "trost",
+      "chapters": [
+        7,
+        8
+      ]
+    },
+    {
+      "ep": 8,
+      "title": "I Can Hear His Heartbeat",
+      "arc": "trost",
+      "chapters": [
+        8,
+        9
+      ]
+    },
+    {
+      "ep": 9,
+      "title": "Whereabouts of His Left Arm",
+      "arc": "trost",
+      "chapters": [
+        9,
+        10
+      ]
+    },
+    {
+      "ep": 10,
+      "title": "Response",
+      "arc": "trost",
+      "chapters": [
+        10,
+        11
+      ]
+    },
+    {
+      "ep": 11,
+      "title": "Idol: The Struggle for Trost",
+      "arc": "trost",
+      "chapters": [
+        11,
+        12
+      ]
+    },
+    {
+      "ep": 12,
+      "title": "Wound: The Struggle for Trost",
+      "arc": "trost",
+      "chapters": [
+        12,
+        13
+      ]
+    },
+    {
+      "ep": 13,
+      "title": "Primal Desire: The Struggle for Trost",
+      "arc": "trost",
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "ep": 14,
+      "title": "Still Can't See",
+      "arc": "cadet",
+      "chapters": [
+        15,
+        16
+      ]
+    },
+    {
+      "ep": 15,
+      "title": "Special Operations Squad",
+      "arc": "cadet",
+      "chapters": [
+        17
+      ]
+    },
+    {
+      "ep": 16,
+      "title": "What Needs to be Done Now",
+      "arc": "cadet",
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "ep": 17,
+      "title": "Female Titan",
+      "arc": "female",
+      "chapters": [
+        19,
+        20
+      ]
+    },
+    {
+      "ep": 18,
+      "title": "Forest of Giant Trees",
+      "arc": "female",
+      "chapters": [
+        21,
+        22
+      ]
+    },
+    {
+      "ep": 19,
+      "title": "Bite",
+      "arc": "female",
+      "chapters": [
+        23
+      ]
+    },
+    {
+      "ep": 20,
+      "title": "Erwin Smith",
+      "arc": "female",
+      "chapters": [
+        24,
+        25
+      ]
+    },
+    {
+      "ep": 21,
+      "title": "Crushing Blow",
+      "arc": "female",
+      "chapters": [
+        26,
+        27
+      ]
+    },
+    {
+      "ep": 22,
+      "title": "The Defeated",
+      "arc": "female",
+      "chapters": [
+        28
+      ]
+    },
+    {
+      "ep": 23,
+      "title": "Smile",
+      "arc": "female",
+      "chapters": [
+        29,
+        30
+      ]
+    },
+    {
+      "ep": 24,
+      "title": "The Titan's Forest",
+      "arc": "female",
+      "chapters": [
+        31,
+        32
+      ]
+    },
+    {
+      "ep": 25,
+      "title": "Wall",
+      "arc": "female",
+      "chapters": [
+        33,
+        34
+      ]
+    },
+    {
+      "ep": 26,
+      "title": "Beast Titan",
+      "arc": "clash",
+      "chapters": [
+        35,
+        36
+      ]
+    },
+    {
+      "ep": 27,
+      "title": "I'm Home",
+      "arc": "clash",
+      "chapters": [
+        37
+      ]
+    },
+    {
+      "ep": 28,
+      "title": "Southwestward",
+      "arc": "clash",
+      "chapters": [
+        38
+      ]
+    },
+    {
+      "ep": 29,
+      "title": "Crushing Blow",
+      "arc": "clash",
+      "chapters": [
+        39,
+        40
+      ]
+    },
+    {
+      "ep": 30,
+      "title": "Historia",
+      "arc": "clash",
+      "chapters": [
+        41
+      ]
+    },
+    {
+      "ep": 31,
+      "title": "Warrior",
+      "arc": "clash",
+      "chapters": [
+        42
+      ]
+    },
+    {
+      "ep": 32,
+      "title": "Close Combat",
+      "arc": "clash",
+      "chapters": [
+        43
+      ]
+    },
+    {
+      "ep": 33,
+      "title": "The Wall",
+      "arc": "clash",
+      "chapters": [
+        44,
+        45
+      ]
+    },
+    {
+      "ep": 34,
+      "title": "Mercy",
+      "arc": "clash",
+      "chapters": [
+        46
+      ]
+    },
+    {
+      "ep": 35,
+      "title": "Smile: Raid on Stohess District",
+      "arc": "clash",
+      "chapters": [
+        47
+      ]
+    },
+    {
+      "ep": 36,
+      "title": "Survival of the Fittest",
+      "arc": "clash",
+      "chapters": [
+        48,
+        49
+      ]
+    },
+    {
+      "ep": 37,
+      "title": "Scream",
+      "arc": "clash",
+      "chapters": [
+        50
+      ]
+    },
+    {
+      "ep": 38,
+      "title": "Ruler of the Walls",
+      "arc": "royal",
+      "chapters": [
+        51,
+        52
+      ]
+    },
+    {
+      "ep": 39,
+      "title": "Historia",
+      "arc": "royal",
+      "chapters": [
+        53
+      ]
+    },
+    {
+      "ep": 40,
+      "title": "Soldier",
+      "arc": "royal",
+      "chapters": [
+        54,
+        55
+      ]
+    },
+    {
+      "ep": 41,
+      "title": "Trust",
+      "arc": "royal",
+      "chapters": [
+        56
+      ]
+    },
+    {
+      "ep": 42,
+      "title": "Reply",
+      "arc": "royal",
+      "chapters": [
+        57
+      ]
+    },
+    {
+      "ep": 43,
+      "title": "Sin",
+      "arc": "royal",
+      "chapters": [
+        58,
+        59
+      ]
+    },
+    {
+      "ep": 44,
+      "title": "Wish",
+      "arc": "royal",
+      "chapters": [
+        60,
+        61
+      ]
+    },
+    {
+      "ep": 45,
+      "title": "Outside the Walls of Orvud District",
+      "arc": "royal",
+      "chapters": [
+        62
+      ]
+    },
+    {
+      "ep": 46,
+      "title": "Ruler of the Walls",
+      "arc": "royal",
+      "chapters": [
+        63,
+        64
+      ]
+    },
+    {
+      "ep": 47,
+      "title": "Children",
+      "arc": "royal",
+      "chapters": [
+        65
+      ]
+    },
+    {
+      "ep": 48,
+      "title": "Oath",
+      "arc": "royal",
+      "chapters": [
+        66
+      ]
+    },
+    {
+      "ep": 49,
+      "title": "Friends",
+      "arc": "royal",
+      "chapters": [
+        67,
+        68
+      ]
+    },
+    {
+      "ep": 50,
+      "title": "Night of the Battle to Retake the Wall",
+      "arc": "royal",
+      "chapters": [
+        69,
+        70
+      ]
+    },
+    {
+      "ep": 51,
+      "title": "Thunder Spears",
+      "arc": "return",
+      "chapters": [
+        71
+      ]
+    },
+    {
+      "ep": 52,
+      "title": "Descent",
+      "arc": "return",
+      "chapters": [
+        72
+      ]
+    },
+    {
+      "ep": 53,
+      "title": "Perfect Game",
+      "arc": "return",
+      "chapters": [
+        73
+      ]
+    },
+    {
+      "ep": 54,
+      "title": "Hero",
+      "arc": "return",
+      "chapters": [
+        74,
+        75
+      ]
+    },
+    {
+      "ep": 55,
+      "title": "War Hammer Titan",
+      "arc": "return",
+      "chapters": [
+        76,
+        77
+      ]
+    },
+    {
+      "ep": 56,
+      "title": "Brave Volunteers",
+      "arc": "return",
+      "chapters": [
+        78,
+        79
+      ]
+    },
+    {
+      "ep": 57,
+      "title": "Guides",
+      "arc": "return",
+      "chapters": [
+        80,
+        81
+      ]
+    },
+    {
+      "ep": 58,
+      "title": "Attack Titan",
+      "arc": "return",
+      "chapters": [
+        82,
+        83
+      ]
+    },
+    {
+      "ep": 59,
+      "title": "The Other Side of the Wall",
+      "arc": "return",
+      "chapters": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ]
+    },
+    {
+      "ep": 60,
+      "title": "To the Other Side of the Wall",
+      "arc": "return",
+      "chapters": [
+        90
+      ]
+    },
+    {
+      "ep": 61,
+      "title": "The Door of Hope",
+      "arc": "marley",
+      "chapters": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ]
+    },
+    {
+      "ep": 62,
+      "title": "Deceiver",
+      "arc": "marley",
+      "chapters": [
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "ep": 63,
+      "title": "Warhammer Titan",
+      "arc": "marley",
+      "chapters": [
+        100,
+        101
+      ]
+    },
+    {
+      "ep": 64,
+      "title": "Assault",
+      "arc": "marley",
+      "chapters": [
+        102,
+        103
+      ]
+    },
+    {
+      "ep": 65,
+      "title": "Crossing Paths",
+      "arc": "marley",
+      "chapters": [
+        104
+      ]
+    },
+    {
+      "ep": 66,
+      "title": "Brave Volunteers",
+      "arc": "marley",
+      "chapters": [
+        105,
+        106
+      ]
+    },
+    {
+      "ep": 67,
+      "title": "Guides",
+      "arc": "marley",
+      "chapters": [
+        107,
+        108
+      ]
+    },
+    {
+      "ep": 68,
+      "title": "Titles",
+      "arc": "marley",
+      "chapters": [
+        109
+      ]
+    },
+    {
+      "ep": 69,
+      "title": "Ragnarok",
+      "arc": "marley",
+      "chapters": [
+        110
+      ]
+    },
+    {
+      "ep": 70,
+      "title": "Deceiver",
+      "arc": "marley",
+      "chapters": [
+        111
+      ]
+    },
+    {
+      "ep": 71,
+      "title": "Guides",
+      "arc": "marley",
+      "chapters": [
+        112
+      ]
+    },
+    {
+      "ep": 72,
+      "title": "Children of the Forest",
+      "arc": "marley",
+      "chapters": [
+        113
+      ]
+    },
+    {
+      "ep": 73,
+      "title": "Savagery",
+      "arc": "marley",
+      "chapters": [
+        114
+      ]
+    },
+    {
+      "ep": 74,
+      "title": "Sole Salvation",
+      "arc": "marley",
+      "chapters": [
+        115
+      ]
+    },
+    {
+      "ep": 75,
+      "title": "Traitor",
+      "arc": "marley",
+      "chapters": [
+        116
+      ]
+    },
+    {
+      "ep": 76,
+      "title": "Dazed and Confused",
+      "arc": "war",
+      "chapters": [
+        117
+      ]
+    },
+    {
+      "ep": 77,
+      "title": "Judgment",
+      "arc": "war",
+      "chapters": [
+        118
+      ]
+    },
+    {
+      "ep": 78,
+      "title": "Two Brothers",
+      "arc": "war",
+      "chapters": [
+        119,
+        120
+      ]
+    },
+    {
+      "ep": 79,
+      "title": "Sunset",
+      "arc": "war",
+      "chapters": [
+        121,
+        122
+      ]
+    },
+    {
+      "ep": 80,
+      "title": "From You, 2000 Years Ago",
+      "arc": "war",
+      "chapters": [
+        123
+      ]
+    },
+    {
+      "ep": 81,
+      "title": "Thaddeus",
+      "arc": "war",
+      "chapters": [
+        124
+      ]
+    },
+    {
+      "ep": 82,
+      "title": "The Rumbling",
+      "arc": "war",
+      "chapters": [
+        125
+      ]
+    },
+    {
+      "ep": 83,
+      "title": "Alone",
+      "arc": "war",
+      "chapters": [
+        126
+      ]
+    },
+    {
+      "ep": 84,
+      "title": "Night of the End",
+      "arc": "war",
+      "chapters": [
+        127
+      ]
+    },
+    {
+      "ep": 85,
+      "title": "Traitor",
+      "arc": "war",
+      "chapters": [
+        128,
+        129
+      ]
+    },
+    {
+      "ep": 86,
+      "title": "Retrospective",
+      "arc": "war",
+      "chapters": [
+        130,
+        131
+      ]
+    },
+    {
+      "ep": 87,
+      "title": "The Final Chapters (Part 2 Finale)",
+      "arc": "war",
+      "chapters": [
+        132,
+        133
+      ]
+    },
+    {
+      "ep": 88,
+      "title": "The Final Chapters – Special 1, Episode 1",
+      "arc": "war",
+      "chapters": [
+        134
+      ],
+      "series": "Season 4 Final Chapters"
+    },
+    {
+      "ep": 89,
+      "title": "The Final Chapters – Special 1, Episode 2",
+      "arc": "war",
+      "chapters": [
+        135
+      ],
+      "series": "Season 4 Final Chapters"
+    },
+    {
+      "ep": 90,
+      "title": "The Final Chapters – Special 1, Episode 3",
+      "arc": "war",
+      "chapters": [
+        136
+      ],
+      "series": "Season 4 Final Chapters"
+    },
+    {
+      "ep": 91,
+      "title": "The Final Chapters – Special 2, Episode 1",
+      "arc": "war",
+      "chapters": [
+        137
+      ],
+      "series": "Season 4 Final Chapters"
+    },
+    {
+      "ep": 92,
+      "title": "The Final Chapters – Special 2, Episode 2",
+      "arc": "war",
+      "chapters": [
+        137,
+        138
+      ],
+      "series": "Season 4 Final Chapters"
+    },
+    {
+      "ep": 93,
+      "title": "The Final Chapters – Special 2, Episode 3",
+      "arc": "war",
+      "chapters": [
+        138,
+        139
+      ],
+      "series": "Season 4 Final Chapters"
+    },
+    {
+      "ep": 94,
+      "title": "The Final Chapters – Special 2, Episode 4 (Finale)",
+      "arc": "war",
+      "chapters": [
+        139
+      ],
+      "series": "Season 4 Final Chapters",
+      "note": "Ch 139 is the short epilogue chapter. It was split across eps 93–94 in the streaming episodic version."
+    }
+  ],
+  "chapterTitles": {
+    "1": "To You, in 2000 Years: The Fall of Shiganshina, Part 1",
+    "2": "That Day: The Fall of Shiganshina, Part 2",
+    "3": "Night of the Disbanding Ceremony",
+    "4": "First Battle: The Struggle for Trost, Part 1",
+    "5": "First Battle: The Struggle for Trost, Part 2",
+    "6": "The World the Girl Saw: The Struggle for Trost, Part 3",
+    "7": "Small Blade: The Struggle for Trost, Part 4",
+    "8": "I Can Hear His Heartbeat: The Struggle for Trost, Part 5",
+    "9": "Whereabouts of His Left Arm: The Struggle for Trost, Part 6",
+    "10": "Response: The Struggle for Trost, Part 7",
+    "11": "Idol: The Struggle for Trost, Part 8",
+    "12": "Icon",
+    "13": "Primal Desire: The Struggle for Trost, Final",
+    "14": "Primitive Desire",
+    "15": "One by One",
+    "16": "What Needs to Be Done Now",
+    "17": "Female Titan: 57th Expedition Beyond the Walls, Part 1",
+    "18": "Forest of Giant Trees: 57th Expedition Beyond the Walls, Part 2",
+    "19": "Forest of Giant Trees: 57th Expedition Beyond the Walls, Part 3",
+    "20": "Special Operations Squad: 57th Expedition Beyond the Walls, Part 4",
+    "21": "Crushing Blow: 57th Expedition Beyond the Walls, Part 5",
+    "22": "The Defeated: 57th Expedition Beyond the Walls, Part 6",
+    "23": "The Female Titan: 57th Expedition Beyond the Walls, Part 7",
+    "24": "Mercy",
+    "25": "Bite",
+    "26": "The Easy Path",
+    "27": "Erwin Smith",
+    "28": "Choices and Consequences",
+    "29": "Crushing Blow: 57th Expedition, Finale",
+    "30": "Smile",
+    "31": "Cadet Corps",
+    "32": "The Night Before the Decisive Battle",
+    "33": "Bystander",
+    "34": "Soldiers Dance",
+    "35": "Unto the Breach: The Defense of Trost, Part 1",
+    "36": "Unto the Breach: The Defense of Trost, Part 2",
+    "37": "Scream",
+    "38": "Utgard Castle",
+    "39": "Soldier",
+    "40": "Ymir",
+    "41": "Historia",
+    "42": "Warrior",
+    "43": "Titan",
+    "44": "Notice",
+    "45": "追う者たち",
+    "46": "Opening",
+    "47": "Children",
+    "48": "Someone",
+    "49": "Charge",
+    "50": "Humanity's Strongest",
+    "51": "Cave of the Titan",
+    "52": "Erwin Smith",
+    "53": "Smoke Signal",
+    "54": "The Uprising",
+    "55": "All of Humanity",
+    "56": "The Answer",
+    "57": "Kenny the Ripper",
+    "58": "Gunshots",
+    "59": "Transpired",
+    "60": "The Midnight Sun",
+    "61": "Reply",
+    "62": "Sin",
+    "63": "The Town Where Everything Began",
+    "64": "Ruler of the Walls",
+    "65": "Chains",
+    "66": "That Day",
+    "67": "Warrior",
+    "68": "Liar",
+    "69": "Friends",
+    "70": "Lost in the Cruel World",
+    "71": "The Other Side of the Wall",
+    "72": "The Basement",
+    "73": "Sentencing",
+    "74": "Declaration of War",
+    "75": "Sole Salvation",
+    "76": "Assaults",
+    "77": "Visitors",
+    "78": "Manipulator",
+    "79": "Midnight Train",
+    "80": "Heart",
+    "81": "Promise",
+    "82": "Night Owl",
+    "83": "Warhammer Titan",
+    "84": "Assassin's Bullet",
+    "85": "Two Brothers",
+    "86": "Where the Left Arm Went",
+    "87": "境界の彼方",
+    "88": "Attack Titan",
+    "89": "Brave Volunteers",
+    "90": "To the Other Side of the Sea",
+    "91": "The Marleyan Soldier",
+    "92": "Brief Encounter",
+    "93": "The Other Side of the Sea",
+    "94": "The Wrath of Marley",
+    "95": "Midnight Crisis",
+    "96": "Divine and Diabolical",
+    "97": "From You, 2000 Years Ago",
+    "98": "Smell",
+    "99": "Guides",
+    "100": "Declaration of War",
+    "101": "The Door of Hope",
+    "102": "Sneak Attack",
+    "103": "Countermeasures",
+    "104": "Victors",
+    "105": "Assassin's Bullet",
+    "106": "On That Day",
+    "107": "Deceiver",
+    "108": "A Long Dream",
+    "109": "Guides",
+    "110": "Traitor",
+    "111": "Deceiver",
+    "112": "Ignorance",
+    "113": "Savagery",
+    "114": "Wings of Freedom",
+    "115": "Sole Salvation",
+    "116": "Above and Below",
+    "117": "Judgement",
+    "118": "Midnight Sun",
+    "119": "Two Brothers",
+    "120": "My Pace",
+    "121": "Predestined Paths",
+    "122": "From You, 2000 Years Ago",
+    "123": "Island Devils",
+    "124": "Thaw",
+    "125": "Sunset",
+    "126": "Pride",
+    "127": "Traitor",
+    "128": "Unanimity",
+    "129": "Retrospective",
+    "130": "Devote Your Heart",
+    "131": "The Rumbling",
+    "132": "The Wings of Freedom",
+    "133": "Sinners",
+    "134": "In the Depths of Despair",
+    "135": "The Battle of Heaven and Earth",
+    "136": "The Path of Ruin",
+    "137": "Titans",
+    "138": "A Long Dream",
+    "139": "Toward the Tree on That Hill"
+  }
+}

@@ -1,0 +1,1281 @@
+{
+  "id": "berserk",
+  "title": "Berserk",
+  "abbr": [
+    "Berserk"
+  ],
+  "source": "Manga",
+  "animeStatus": "Incomplete",
+  "mangaStatus": "Ongoing",
+  "lastUpdated": "2026-03-13",
+  "tags": [
+    "Dark Fantasy",
+    "Action",
+    "Horror",
+    "Supernatural",
+    "Seinen"
+  ],
+  "watchGuide": [
+    {
+      "step": 1,
+      "type": "choice",
+      "label": "Golden Age — Pick ONE",
+      "note": "Both options cover the same manga chapters (Ch 9–94). Watch one or the other, not both.",
+      "options": [
+        {
+          "type": "anime",
+          "title": "Berserk (1997)",
+          "subtitle": "25 episodes",
+          "covers": "Ch 1–2, 9–94",
+          "malId": 33,
+          "note": "Partially covers Black Swordsman arc (ch 1–2), then tells the full Golden Age. Ends on a cliffhanger — no post-Eclipse resolution."
+        },
+        {
+          "type": "movie-set",
+          "title": "Golden Age Arc Film Trilogy",
+          "subtitle": "3 films",
+          "covers": "Ch 9–94",
+          "malIds": [
+            10218,
+            12113,
+            12115
+          ],
+          "note": "Retelling with updated animation. Skips the Black Swordsman opening. Film III has an extended Eclipse sequence."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "type": "manga-required",
+      "title": "Read Manga — Lost Children Chapter",
+      "covers": "Ch 95–116",
+      "note": "This entire sub-arc was NEVER animated — skipped by the 2016 anime with no explanation. You must read it in the manga or you will be confused by what follows."
+    },
+    {
+      "step": 3,
+      "type": "anime",
+      "title": "Berserk (2016)",
+      "subtitle": "12 episodes",
+      "covers": "Ch 117–176",
+      "malId": 32379,
+      "note": "Picks up after the Eclipse. Covers the Binding Chain and Birth Ceremony chapters of the Conviction Arc."
+    },
+    {
+      "step": 4,
+      "type": "anime",
+      "title": "Berserk (2017)",
+      "subtitle": "12 episodes",
+      "covers": "Ch 177–237",
+      "malId": 34055,
+      "note": "Continues directly from 2016. Covers the Holy Evil War chapter of the Millennium Empire Arc — but ends abruptly and leaves large sections unadapted."
+    },
+    {
+      "step": 5,
+      "type": "manga-required",
+      "title": "Continue Manga — From Chapter 238",
+      "covers": "Ch 238–ongoing",
+      "startChapter": 238,
+      "note": "The anime ends here. The rest of the Millennium Empire Arc (Falconia chapter) and the entire Fantasia Arc have never been animated. The manga is ongoing."
+    }
+  ],
+  "malIds": {
+    "primary": 33,
+    "manga": 2,
+    "canonIds": [
+      33,
+      10218,
+      12113,
+      12115,
+      32379,
+      34055,
+      51371
+    ],
+    "seasons": [
+      {
+        "name": "Berserk (1997)",
+        "malId": 33,
+        "eps": 25
+      },
+      {
+        "name": "Berserk (2016)",
+        "malId": 32379,
+        "eps": 12
+      },
+      {
+        "name": "Berserk (2017)",
+        "malId": 34055,
+        "eps": 12
+      }
+    ],
+    "alternativeSeries": [
+      {
+        "name": "Golden Age Arc I – The Egg of the King (2012)",
+        "malId": 10218,
+        "eps": 1,
+        "type": "movie",
+        "note": "Film retelling of Golden Age. Alternative to 1997 eps 2–11."
+      },
+      {
+        "name": "Golden Age Arc II – The Battle for Doldrey (2012)",
+        "malId": 12113,
+        "eps": 1,
+        "type": "movie",
+        "note": "Alternative to 1997 eps 12–18."
+      },
+      {
+        "name": "Golden Age Arc III – The Advent (2013)",
+        "malId": 12115,
+        "eps": 1,
+        "type": "movie",
+        "note": "Alternative to 1997 eps 19–25. Extended Eclipse sequence."
+      },
+      {
+        "name": "Berserk: Memorial Edition (2022)",
+        "malId": 51371,
+        "eps": 13,
+        "type": "tv",
+        "note": "TV recut of the film trilogy with recap segments. Not a new adaptation."
+      }
+    ]
+  },
+  "meta": {
+    "totalChapters": 383,
+    "note": "Berserk's manga uses 'episodes' (話) for individual ~20-page installments. This JSON calls them 'chapters' to match the JJK template convention. The manga is ongoing under Studio Gaga / Kouji Mori. The anime adaptations are fragmented across multiple productions and do NOT cover the full manga. The Lost Children sub-arc (ch 95–116) was entirely skipped by the 2016 anime. The Fantasia arc (ch 308+) has never been animated.",
+    "seasons": [
+      {
+        "name": "Berserk (1997)",
+        "eps": 25
+      },
+      {
+        "name": "Berserk (2016)",
+        "eps": 12
+      },
+      {
+        "name": "Berserk (2017)",
+        "eps": 12
+      }
+    ]
+  },
+  "arcs": [
+    {
+      "id": "black_swordsman",
+      "name": "Black Swordsman Arc",
+      "chapterStart": 1,
+      "chapterEnd": 8,
+      "episodeStart": 1,
+      "episodeEnd": 1,
+      "note": "Only partially adapted in episode 1 of the 1997 series (the opening scene). The Count and Snake Lord sub-stories were not animated in any TV series."
+    },
+    {
+      "id": "golden_age",
+      "name": "Golden Age Arc",
+      "chapterStart": 9,
+      "chapterEnd": 94,
+      "episodeStart": 2,
+      "episodeEnd": 25
+    },
+    {
+      "id": "golden_age_films",
+      "name": "Golden Age Arc Film Trilogy",
+      "type": "movies",
+      "malIds": [
+        10218,
+        12113,
+        12115
+      ],
+      "watchAfterEpisode": 25,
+      "chapterStart": 9,
+      "chapterEnd": 94,
+      "episodeStart": 1,
+      "episodeEnd": 3,
+      "note": "A trilogy of theatrical films retelling the Golden Age Arc. Film I: The Egg of the King (2012), Film II: The Battle for Doldrey (2012), Film III: The Advent (2013). These cover the same manga material as the 1997 series episodes 2–25 with updated animation. A Memorial Edition TV recut (13 eps) aired in 2022. Watch either the 1997 series OR the films before continuing to Berserk 2016. The episode range (1-3) is symbolic for the three movies.",
+      "status": "canon"
+    },
+    {
+      "id": "lost_children",
+      "name": "Lost Children Chapter (Conviction Arc)",
+      "chapterStart": 95,
+      "chapterEnd": 116,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Never animated. Skipped entirely by the 2016 anime. Must be read in the manga."
+    },
+    {
+      "id": "binding_chain",
+      "name": "Binding Chain Chapter (Conviction Arc)",
+      "chapterStart": 117,
+      "chapterEnd": 130,
+      "episodeStart": 26,
+      "episodeEnd": 29
+    },
+    {
+      "id": "birth_ceremony",
+      "name": "Birth Ceremony Chapter (Conviction Arc)",
+      "chapterStart": 131,
+      "chapterEnd": 176,
+      "episodeStart": 30,
+      "episodeEnd": 37
+    },
+    {
+      "id": "holy_evil_war",
+      "name": "Holy Evil War Chapter (Falcon of the Millennium Empire Arc)",
+      "chapterStart": 177,
+      "chapterEnd": 237,
+      "episodeStart": 38,
+      "episodeEnd": 49,
+      "note": "Only partially adapted in the 2017 anime (12 episodes). Coverage is incomplete."
+    },
+    {
+      "id": "falconia",
+      "name": "Falconia Chapter (Falcon of the Millennium Empire Arc)",
+      "chapterStart": 238,
+      "chapterEnd": 307,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Never animated."
+    },
+    {
+      "id": "elf_island",
+      "name": "Elf Island Chapter (Fantasia Arc)",
+      "chapterStart": 308,
+      "chapterEnd": 373,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Never animated."
+    },
+    {
+      "id": "eastern_exile",
+      "name": "Eastern Exile Chapter (Fantasia Arc)",
+      "chapterStart": 374,
+      "chapterEnd": 383,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Currently ongoing under Studio Gaga / Kouji Mori. Never animated. Chapters continue the Eastern Exile arc as Guts navigates the Kushan Empire. Mori confirmed in January 2026 that work on the manga is continuing. As of September 2025, the latest chapter is 383 ('Anadi-avidya')."
+    }
+  ],
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "The Black Swordsman",
+      "arc": "black_swordsman",
+      "chapters": [
+        1,
+        2
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 2,
+      "title": "Band of the Hawk",
+      "arc": "golden_age",
+      "chapters": [
+        9,
+        10,
+        11
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 3,
+      "title": "First Battle",
+      "arc": "golden_age",
+      "chapters": [
+        11,
+        12,
+        13
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 4,
+      "title": "The Hand of God",
+      "arc": "golden_age",
+      "chapters": [
+        14,
+        15,
+        16
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 5,
+      "title": "A Wind of Swords",
+      "arc": "golden_age",
+      "chapters": [
+        17,
+        18
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 6,
+      "title": "Zodd the Immortal",
+      "arc": "golden_age",
+      "chapters": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 7,
+      "title": "The Sword's Owner",
+      "arc": "golden_age",
+      "chapters": [
+        23,
+        24,
+        25
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 8,
+      "title": "Conspiracy",
+      "arc": "golden_age",
+      "chapters": [
+        26,
+        27,
+        28
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 9,
+      "title": "Assassination",
+      "arc": "golden_age",
+      "chapters": [
+        29,
+        30,
+        31
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 10,
+      "title": "Noble Man",
+      "arc": "golden_age",
+      "chapters": [
+        32,
+        33,
+        34
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 11,
+      "title": "Battle",
+      "arc": "golden_age",
+      "chapters": [
+        35,
+        36,
+        37
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 12,
+      "title": "Together",
+      "arc": "golden_age",
+      "chapters": [
+        38,
+        39,
+        40
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 13,
+      "title": "Prepared for Death",
+      "arc": "golden_age",
+      "chapters": [
+        41,
+        42,
+        43
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 14,
+      "title": "Bonfire of Dreams",
+      "arc": "golden_age",
+      "chapters": [
+        43,
+        44,
+        45
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 15,
+      "title": "The Decisive Battle",
+      "arc": "golden_age",
+      "chapters": [
+        46,
+        47,
+        48
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 16,
+      "title": "The Conqueror",
+      "arc": "golden_age",
+      "chapters": [
+        49,
+        50,
+        51
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 17,
+      "title": "Moment of Glory",
+      "arc": "golden_age",
+      "chapters": [
+        52,
+        53,
+        54
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 18,
+      "title": "Tombstone of Flames",
+      "arc": "golden_age",
+      "chapters": [
+        55,
+        56,
+        57
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 19,
+      "title": "Parting",
+      "arc": "golden_age",
+      "chapters": [
+        58,
+        59,
+        60
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 20,
+      "title": "Sparks",
+      "arc": "golden_age",
+      "chapters": [
+        61,
+        62,
+        63
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 21,
+      "title": "Confession",
+      "arc": "golden_age",
+      "chapters": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 22,
+      "title": "Infiltration",
+      "arc": "golden_age",
+      "chapters": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 23,
+      "title": "Eve of the Feast",
+      "arc": "golden_age",
+      "chapters": [
+        72,
+        73,
+        74,
+        75
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 24,
+      "title": "The Eclipse",
+      "arc": "golden_age",
+      "chapters": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "ep": 25,
+      "title": "Time of Eternity",
+      "arc": "golden_age",
+      "chapters": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "series": "Berserk (1997)"
+    },
+    {
+      "type": "movie",
+      "title": "The Golden Age Arc I - The Egg of the King",
+      "arc": "golden_age_films",
+      "malId": 10218,
+      "chapters": [
+        "9–38 (approx)"
+      ],
+      "note": "Covers Guts' childhood, recruitment into the Band of the Hawk, and early battles. Alternative to 1997 eps 2–11.",
+      "status": "canon"
+    },
+    {
+      "type": "movie",
+      "title": "The Golden Age Arc II - The Battle for Doldrey",
+      "arc": "golden_age_films",
+      "malId": 12113,
+      "chapters": [
+        "39–55 (approx)"
+      ],
+      "note": "Covers the siege of Doldrey and Griffith's political rise. Alternative to 1997 eps 12–18.",
+      "status": "canon"
+    },
+    {
+      "type": "movie",
+      "title": "The Golden Age Arc III - The Advent",
+      "arc": "golden_age_films",
+      "malId": 12115,
+      "chapters": [
+        "56–94 (approx)"
+      ],
+      "note": "Covers Griffith's imprisonment, rescue, and the Eclipse. Alternative to 1997 eps 19–25.",
+      "status": "canon"
+    },
+    {
+      "ep": 26,
+      "title": "The Branded Swordsman",
+      "arc": "binding_chain",
+      "chapters": [
+        117,
+        118,
+        119
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 27,
+      "title": "The Holy Iron Chain Knights",
+      "arc": "binding_chain",
+      "chapters": [
+        120,
+        121,
+        122
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 28,
+      "title": "Night of Miracles",
+      "arc": "binding_chain",
+      "chapters": [
+        123,
+        124,
+        125
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 29,
+      "title": "Epiphany",
+      "arc": "binding_chain",
+      "chapters": [
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 30,
+      "title": "Tower of Conviction",
+      "arc": "birth_ceremony",
+      "chapters": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 31,
+      "title": "A Night of Falling Stars",
+      "arc": "birth_ceremony",
+      "chapters": [
+        135,
+        136,
+        137,
+        138
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 32,
+      "title": "The Black Witch",
+      "arc": "birth_ceremony",
+      "chapters": [
+        139,
+        140,
+        141,
+        142
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 33,
+      "title": "Reunion in the Den of Evil",
+      "arc": "birth_ceremony",
+      "chapters": [
+        143,
+        144,
+        145,
+        146
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 34,
+      "title": "The Eyes of a Beast",
+      "arc": "birth_ceremony",
+      "chapters": [
+        147,
+        148,
+        149,
+        150
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 35,
+      "title": "Hell's Angels",
+      "arc": "birth_ceremony",
+      "chapters": [
+        151,
+        152,
+        153,
+        154,
+        155
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 36,
+      "title": "Shadows of Ideas",
+      "arc": "birth_ceremony",
+      "chapters": [
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 37,
+      "title": "Those Who Cling, Those Who Struggle",
+      "arc": "birth_ceremony",
+      "chapters": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176
+      ],
+      "series": "Berserk (2016)"
+    },
+    {
+      "ep": 38,
+      "title": "The Rent World",
+      "arc": "holy_evil_war",
+      "chapters": [
+        177,
+        178,
+        179
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 39,
+      "title": "Winter Journey",
+      "arc": "holy_evil_war",
+      "chapters": [
+        180,
+        181,
+        182
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 40,
+      "title": "Companions",
+      "arc": "holy_evil_war",
+      "chapters": [
+        183,
+        184,
+        185,
+        186
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 41,
+      "title": "Forest of Demonic Beasts",
+      "arc": "holy_evil_war",
+      "chapters": [
+        187,
+        188,
+        189,
+        190
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 42,
+      "title": "Spirit Realm",
+      "arc": "holy_evil_war",
+      "chapters": [
+        191,
+        192,
+        193,
+        194
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 43,
+      "title": "Fight for Survival Against the Demonic Legion",
+      "arc": "holy_evil_war",
+      "chapters": [
+        195,
+        196,
+        197,
+        198
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 44,
+      "title": "The Berserker Armor",
+      "arc": "holy_evil_war",
+      "chapters": [
+        199,
+        200,
+        201,
+        202
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 45,
+      "title": "The Corruption of the Holy See",
+      "arc": "holy_evil_war",
+      "chapters": [
+        203,
+        204,
+        205,
+        206
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 46,
+      "title": "The Arrival of War",
+      "arc": "holy_evil_war",
+      "chapters": [
+        207,
+        208,
+        209,
+        210
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 47,
+      "title": "The City of Humans",
+      "arc": "holy_evil_war",
+      "chapters": [
+        211,
+        212,
+        213,
+        214
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 48,
+      "title": "Proclaimed Omens",
+      "arc": "holy_evil_war",
+      "chapters": [
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221
+      ],
+      "series": "Berserk (2017)"
+    },
+    {
+      "ep": 49,
+      "title": "Falconia",
+      "arc": "holy_evil_war",
+      "chapters": [
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237
+      ],
+      "series": "Berserk (2017)",
+      "note": "Heavily condensed. The 2017 anime ends here; the rest of the Millennium Empire arc and all subsequent arcs are manga-only."
+    }
+  ],
+  "chapterTitles": {
+    "1": "The Black Swordsman",
+    "2": "The Brand",
+    "3": "The Guardians of Desire (1)",
+    "4": "The Guardians of Desire (2)",
+    "5": "The Guardians of Desire (3)",
+    "6": "The Guardians of Desire (4)",
+    "7": "The Guardians of Desire (5)",
+    "8": "The Guardians of Desire (6)",
+    "9": "The Golden Age (1)",
+    "10": "The Golden Age (2)",
+    "11": "The Golden Age (3)",
+    "12": "The Golden Age (4)",
+    "13": "The Golden Age (5)",
+    "14": "The Golden Age (6)",
+    "15": "The Golden Age (7)",
+    "16": "The Golden Age (8)",
+    "17": "The Golden Age (9)",
+    "18": "The Golden Age (10)",
+    "19": "Nosferatu Zodd (1)",
+    "20": "Nosferatu Zodd (2)",
+    "21": "Nosferatu Zodd (3)",
+    "22": "Nosferatu Zodd (4)",
+    "23": "The Assassin (1)",
+    "24": "The Assassin (2)",
+    "25": "The Assassin (3)",
+    "26": "The Battle for Doldrey (1)",
+    "27": "The Battle for Doldrey (2)",
+    "28": "The Battle for Doldrey (3)",
+    "29": "The Battle for Doldrey (4)",
+    "30": "The Battle for Doldrey (5)",
+    "31": "The Battle for Doldrey (6)",
+    "32": "The Conqueror",
+    "33": "The Fugitives",
+    "34": "The Morning Departure (1)",
+    "35": "The Morning Departure (2)",
+    "36": "The Morning Departure (3)",
+    "37": "Departure for the Front",
+    "38": "The Decisive Battle",
+    "39": "Precious Thing",
+    "40": "Moment of Glory",
+    "41": "Tombstone of Flames (1)",
+    "42": "Tombstone of Flames (2)",
+    "43": "Bonfire of Dreams",
+    "44": "Sparks (1)",
+    "45": "Sparks (2)",
+    "46": "Parting",
+    "47": "The Cliff",
+    "48": "Infiltration",
+    "49": "The Dungeon",
+    "50": "Rescue",
+    "51": "The Promised Time",
+    "52": "The Castle",
+    "53": "Eclipse",
+    "54": "God of the Abyss",
+    "55": "Sacrifice (1)",
+    "56": "Sacrifice (2)",
+    "57": "Birth",
+    "58": "Femto",
+    "59": "Quickening",
+    "60": "Afterglow of the Right Eye",
+    "61": "Awakening (1)",
+    "62": "Awakening (2)",
+    "63": "The Feast",
+    "64": "Escape",
+    "65": "Vow of Retaliation",
+    "66": "Branded",
+    "67": "Shadows of Spirits",
+    "68": "Demon Knight",
+    "69": "Requiem of the Wind",
+    "70": "Master of the Sword",
+    "71": "Those Who Meet Again",
+    "72": "Together for a Night",
+    "73": "Moment of Farewell",
+    "74": "The Eclipse Continues",
+    "75": "Inhuman Battlefield",
+    "76": "Scattered Time",
+    "77": "Solitary",
+    "78": "Going South",
+    "79": "Tidal Wave of Darkness (1)",
+    "80": "Tidal Wave of Darkness (2)",
+    "81": "Reunion in the Abyss",
+    "82": "Demon Dog (1)",
+    "83": "Demon Dog (2)",
+    "84": "Crevice",
+    "85": "Sky Demon",
+    "86": "Advent",
+    "87": "Prologue to the War",
+    "88": "Omen",
+    "89": "Ambush",
+    "90": "The Sprint",
+    "91": "The End of the Dream",
+    "92": "Triumphant Return",
+    "93": "The Escape",
+    "94": "Reunion",
+    "95": "Lost Children (1)",
+    "96": "Lost Children (2)",
+    "97": "Lost Children (3)",
+    "98": "Lost Children (4)",
+    "99": "Lost Children (5)",
+    "100": "Lost Children (6)",
+    "101": "Lost Children (7)",
+    "102": "Jill",
+    "103": "Rosine",
+    "104": "Cocoon",
+    "105": "Elves of Misty Valley (1)",
+    "106": "Elves of Misty Valley (2)",
+    "107": "Elves of Misty Valley (3)",
+    "108": "Elves of Misty Valley (4)",
+    "109": "Elves of Misty Valley (5)",
+    "110": "Queen",
+    "111": "Firefly",
+    "112": "Demon Child",
+    "113": "Shoot Down the Black Swordsman (1)",
+    "114": "Shoot Down the Black Swordsman (2)",
+    "115": "Morning of Truth",
+    "116": "Under the Guiding Cherry Blossoms",
+    "117": "Binding Chain (1)",
+    "118": "Binding Chain (2)",
+    "119": "Binding Chain (3)",
+    "120": "Binding Chain (4)",
+    "121": "Binding Chain (5)",
+    "122": "Binding Chain (6)",
+    "123": "Binding Chain (7)",
+    "124": "Binding Chain (8)",
+    "125": "Binding Chain (9)",
+    "126": "Wilderness Reunion",
+    "127": "Burning Wagon",
+    "128": "Ambition Boy",
+    "129": "Qliphoth",
+    "130": "Night of Falling Stars",
+    "131": "Birth Ceremony (1)",
+    "132": "Birth Ceremony (2)",
+    "133": "Birth Ceremony (3)",
+    "134": "Birth Ceremony (4)",
+    "135": "Birth Ceremony (5)",
+    "136": "Birth Ceremony (6)",
+    "137": "Tower of Shadows (1)",
+    "138": "Tower of Shadows (2)",
+    "139": "Bowels of the Holy Ground",
+    "140": "Inquisitor",
+    "141": "Mozgus",
+    "142": "Torturers",
+    "143": "The Devil of the Abyss",
+    "144": "Reunion in the Den of Evil",
+    "145": "The Eyes of a Beast",
+    "146": "Tidal Wave of Darkness (3)",
+    "147": "Clad in Darkness",
+    "148": "Spirit Road (1)",
+    "149": "Spirit Road (2)",
+    "150": "Cloth",
+    "151": "Fire (1)",
+    "152": "Fire (2)",
+    "153": "Magic Stone",
+    "154": "The Corruption of the World",
+    "155": "Hawk of Light (1)",
+    "156": "Hawk of Light (2)",
+    "157": "Flames (1)",
+    "158": "Flames (2)",
+    "159": "Recollections of the Witch",
+    "160": "Determination and Departure",
+    "161": "Beast Swordsman vs. Black Swordsman",
+    "162": "Tower of Retribution (1)",
+    "163": "Tower of Retribution (2)",
+    "164": "Tower of Retribution (3)",
+    "165": "Tower of Retribution (4)",
+    "166": "Birth",
+    "167": "Shadow of the Commander",
+    "168": "Colosseum",
+    "169": "Thousand-Year Fiefdom",
+    "170": "God Breathing",
+    "171": "Erosion",
+    "172": "Fierce Kushan Attack",
+    "173": "The Sleeping Princess Awakens",
+    "174": "Blaze Rod",
+    "175": "Demon Parasite",
+    "176": "Reunion",
+    "177": "Rent",
+    "178": "Proclaimed Omens",
+    "179": "Homing",
+    "180": "Winter's Journey (1)",
+    "181": "Winter's Journey (2)",
+    "182": "Companions",
+    "183": "Forest of Corpses and Thorny Cedars",
+    "184": "Trolls (1)",
+    "185": "Trolls (2)",
+    "186": "Village Raid",
+    "187": "Witch",
+    "188": "Magic",
+    "189": "Astral World",
+    "190": "Departure of Flames",
+    "191": "War Cry of the Wind (1)",
+    "192": "War Cry of the Wind (2)",
+    "193": "Fire Dragon",
+    "194": "Grunbeld",
+    "195": "Mortal Combat (1)",
+    "196": "Mortal Combat (2)",
+    "197": "Berserker Armor (1)",
+    "198": "Berserker Armor (2)",
+    "199": "Once More",
+    "200": "Beneath the Sun",
+    "201": "Determination",
+    "202": "Onslaught of the Kushan",
+    "203": "Bridge of Parting",
+    "204": "Falconia",
+    "205": "The Flight",
+    "206": "Fight for Survival Against the Demonic Legion (1)",
+    "207": "Fight for Survival Against the Demonic Legion (2)",
+    "208": "Fight for Survival Against the Demonic Legion (3)",
+    "209": "Mansion of the Spirit Tree (1)",
+    "210": "Mansion of the Spirit Tree (2)",
+    "211": "Proclaimed Omens (2)",
+    "212": "The Corruption of the World (2)",
+    "213": "Pandemonium",
+    "214": "War (1)",
+    "215": "War (2)",
+    "216": "War (3)",
+    "217": "War (4)",
+    "218": "Kushan Attack",
+    "219": "Reborn",
+    "220": "Fierce Kushan Attack (2)",
+    "221": "The Overlapping World",
+    "222": "Reclaimed Capital",
+    "223": "Lone Swordswoman",
+    "224": "Confrontation",
+    "225": "The Dread Emperor",
+    "226": "Demon God",
+    "227": "Wind Coil",
+    "228": "Wind Blade",
+    "229": "Unleash Evil",
+    "230": "Backlighting",
+    "231": "Shiva",
+    "232": "The Moonlight Boy (1)",
+    "233": "Phantom World",
+    "234": "Demon City",
+    "235": "Rickert's Departure",
+    "236": "Slap",
+    "237": "A Triumphant Return at Dawn",
+    "238": "Falconia (2)",
+    "239": "Silat",
+    "240": "Rakshas (1)",
+    "241": "Rakshas (2)",
+    "242": "Creation",
+    "243": "Homing (2)",
+    "244": "Snow and Flames (1)",
+    "245": "Snow and Flames (2)",
+    "246": "The Wicker Man",
+    "247": "Setting Sail",
+    "248": "Sea God (1)",
+    "249": "Sea God (2)",
+    "250": "Sea God (3)",
+    "251": "Sea God (4)",
+    "252": "Sea God (5)",
+    "253": "Ship of Fools",
+    "254": "Merrow (1)",
+    "255": "Merrow (2)",
+    "256": "Merrow (3)",
+    "257": "Sea God (6)",
+    "258": "Sea God (7)",
+    "259": "Sea God (8)",
+    "260": "Sea God (9)",
+    "261": "Sea God (10)",
+    "262": "Leviathan",
+    "263": "Familiars",
+    "264": "The Sea God's Heart",
+    "265": "The Sea God's End",
+    "266": "Merrow (4)",
+    "267": "The Island",
+    "268": "Spring Flowers of Distant Days (1)",
+    "269": "Spring Flowers of Distant Days (2)",
+    "270": "Spring Flowers of Distant Days (3)",
+    "271": "Cherry Blossom Tree of Flowers",
+    "272": "Danan",
+    "273": "Capital City of Humanity",
+    "274": "Falconia (3)",
+    "275": "The Solitary Island",
+    "276": "Passage of Dreams",
+    "277": "The Sleeping Spell",
+    "278": "Paradise",
+    "279": "The Corridor of Dreams (1)",
+    "280": "The Corridor of Dreams (2)",
+    "281": "Flower Storm Monarch",
+    "282": "Elfhelm",
+    "283": "Gnaw",
+    "284": "World of the Witch",
+    "285": "Presence (1)",
+    "286": "Presence (2)",
+    "287": "Depths",
+    "288": "Awakening (3)",
+    "289": "Awakening (4)",
+    "290": "Memory Fragments",
+    "291": "Traces",
+    "292": "Plunge into the Abyss",
+    "293": "Girl in the Bloody Darkness",
+    "294": "Sacrificial Altar",
+    "295": "Broken Wings",
+    "296": "Demon Fetus",
+    "297": "Femto (2)",
+    "298": "Tainted Wings",
+    "299": "Birth of the New Hawk",
+    "300": "Brand New Journey",
+    "301": "Awakening (5)",
+    "302": "Moonlight Dance",
+    "303": "Surge of Noise",
+    "304": "Leaping Monkey",
+    "305": "Cherry Blossoms at Night",
+    "306": "Under the Full Moon",
+    "307": "The Great Roar of the Astral World",
+    "308": "Fantasia (1)",
+    "309": "Fantasia (2)",
+    "310": "Fantasia (3)",
+    "311": "Elf Island (1)",
+    "312": "Elf Island (2)",
+    "313": "War Demons (1)",
+    "314": "War Demons (2)",
+    "315": "War Demons (3)",
+    "316": "War Demons (4)",
+    "317": "War Demons (5)",
+    "318": "Remnants",
+    "319": "Solitary Island (2)",
+    "320": "Rage of the Apostle",
+    "321": "Dawn of an Empire",
+    "322": "Waves of the Astral World",
+    "323": "Awakening (6)",
+    "324": "Elfhelm (2)",
+    "325": "Cherry Blossoms",
+    "326": "The Corridor of Dreams (3)",
+    "327": "The Corridor of Dreams (4)",
+    "328": "Memory Lane",
+    "329": "Dream's End",
+    "330": "Fragments of Memory",
+    "331": "Casca's Dream (1)",
+    "332": "Casca's Dream (2)",
+    "333": "Casca's Dream (3)",
+    "334": "Corridor of Dreams (5)",
+    "335": "Corridor of Dreams (6)",
+    "336": "Corridor of Dreams (7)",
+    "337": "Fragments of Memories",
+    "338": "Fragments of Memories (2)",
+    "339": "Dog-faced Crow",
+    "340": "Demonized Soldiers",
+    "341": "Arcana of the Abyss",
+    "342": "Leaping Monkey (2)",
+    "343": "Flying Fists (1)",
+    "344": "Flying Fists (2)",
+    "345": "Bats",
+    "346": "Moonlight Boy (2)",
+    "347": "Elfhelm (3)",
+    "348": "Dream of Flowers",
+    "349": "Reunion on the Hill of Swords",
+    "350": "Tears of the Morning Dew",
+    "351": "Guts the Struggler",
+    "352": "Eclipse (2)",
+    "353": "Leaping Demon",
+    "354": "Awakening (7)",
+    "355": "Guts vs. Zodd",
+    "356": "Divine Right of Kings",
+    "357": "Awakening (8)",
+    "358": "Beneath the Moonlight (1)",
+    "359": "Beneath the Moonlight (2)",
+    "360": "Snow, Flames, and (1)",
+    "361": "Snow, Flames, and (2)",
+    "362": "Elfhelm (4)",
+    "363": "Dream's End (2)",
+    "364": "Tear of the Morning Dew (2)",
+    "365": "Warriors of Twilight",
+    "366": "Demon Dragons",
+    "367": "The Magic Stone Children",
+    "368": "Forest Spirits",
+    "369": "World Spirit (1)",
+    "370": "World Spirit (2)",
+    "371": "Boat",
+    "372": "The Journey Continues",
+    "373": "The Crippled Rusty Frame",
+    "374": "Is the Sleeping Black Beast But Biding Its Time?",
+    "375": "Dawn Breaks on the Unyielding Fog of Night",
+    "376": "Sea's Quivering Surface and Calamitous War's Shadow",
+    "377": "The Viper in His Bosom",
+    "378": "Invited Assassin",
+    "379": "Those Who Dance Through the Depths of Hell",
+    "380": "Shadows Die Twice",
+    "381": "A Crescent Moon Shines on the Exile's Back",
+    "382": "Burial Chamber",
+    "383": "Anadi-avidya"
+  },
+  "prequelChapters": []
+}

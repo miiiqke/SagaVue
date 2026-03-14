@@ -1,0 +1,179 @@
+{
+  "id": "my_series",
+  "title": "My Series Title",
+  "abbr": ["MS", "My Series", "Alternate Title"],
+  "source": "Manga",
+  "animeStatus": "Ongoing",
+  "mangaStatus": "Ongoing",
+  "lastUpdated": "2026-03-13",
+  "tags": ["Action", "Adventure", "Shonen"],
+
+  "malIds": {
+    "primary": 12345,
+    "manga": 67890,
+    "canonIds": [12345, 23456, 99999],
+    "seasons": [
+      { "name": "Season 1", "malId": 12345, "eps": 24 },
+      { "name": "Season 2", "malId": 23456, "eps": 24 },
+      { "name": "Canon Film Title (2024)", "malId": 99999, "eps": 1, "type": "movie" }
+    ],
+    "alternativeSeries": [
+      {
+        "name": "Earlier Adaptation (2001)",
+        "malId": 11111,
+        "eps": 51,
+        "type": "tv",
+        "note": "Adapts the first arc faithfully, then tells its own story. Worth watching after the main series."
+      },
+      {
+        "name": "Earlier Adaptation Film (2003)",
+        "malId": 11112,
+        "eps": 1,
+        "type": "movie",
+        "note": "Theatrical conclusion to the 2001 series."
+      }
+    ]
+  },
+
+  "watchGuide": [
+    {
+      "step": 1,
+      "type": "anime",
+      "title": "Season 1",
+      "subtitle": "24 episodes",
+      "covers": "Ch 1–50",
+      "malId": 12345
+    },
+    {
+      "step": 2,
+      "type": "choice",
+      "label": "Mugen Train — Film or TV arc? Pick ONE",
+      "note": "Both cover the same chapters. The film came first; the TV version adds one anime-original intro episode.",
+      "options": [
+        {
+          "type": "movie-set",
+          "title": "Canon Film Title (Film)",
+          "subtitle": "1 film · 117 min",
+          "covers": "Ch 51–75",
+          "malId": 99999,
+          "note": "Recommended. Original theatrical version with tighter pacing."
+        },
+        {
+          "type": "anime",
+          "title": "Canon Arc (TV)",
+          "subtitle": "7 episodes · Season 2 Part 1",
+          "covers": "Ch 51–75",
+          "malId": 23456,
+          "note": "First episode is anime-original. The rest is the film re-edited into TV format."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "type": "manga-required",
+      "title": "Read Manga — Skipped Arc Name",
+      "covers": "Ch 76–100",
+      "note": "This arc was never animated and was silently skipped by the next season. You must read it in the manga or the following episodes will be confusing."
+    },
+    {
+      "step": 4,
+      "type": "anime",
+      "title": "Season 2",
+      "subtitle": "24 episodes",
+      "covers": "Ch 101–150",
+      "malId": 23456
+    },
+    {
+      "step": 5,
+      "type": "manga-required",
+      "title": "Continue Manga — From Chapter 151",
+      "covers": "Ch 151–onwards",
+      "startChapter": 151,
+      "note": "The anime ends here. Continue the manga from this chapter."
+    }
+  ],
+
+  "meta": {
+    "totalChapters": 200,
+    "note": "Internal contributor note — not shown in the UI. Use for tracking what needs updating.",
+    "seasons": [
+      { "name": "Season 1", "eps": 24 },
+      { "name": "Season 2", "eps": 24 }
+    ]
+  },
+
+  "arcs": [
+    {
+      "id": "first_arc",
+      "name": "First Arc",
+      "chapterStart": 1,
+      "chapterEnd": 50,
+      "episodeStart": 1,
+      "episodeEnd": 24
+    },
+    {
+      "id": "skipped_arc",
+      "name": "Skipped Arc",
+      "chapterStart": 76,
+      "chapterEnd": 100,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Never animated. Must be read in the manga before continuing with Season 2."
+    },
+    {
+      "id": "second_arc",
+      "name": "Second Arc",
+      "chapterStart": 101,
+      "chapterEnd": 150,
+      "episodeStart": 25,
+      "episodeEnd": 48
+    },
+    {
+      "id": "film_arc",
+      "name": "Canon Film Title",
+      "type": "movie",
+      "malId": 99999,
+      "watchAfterEpisode": 24,
+      "chapterStart": 51,
+      "chapterEnd": 75,
+      "status": "canon",
+      "note": "A canon film that continues directly from Season 1. Watch before Season 2."
+    },
+    {
+      "id": "unadapted_arc",
+      "name": "Unadapted Arc",
+      "chapterStart": 151,
+      "chapterEnd": 200,
+      "episodeStart": 0,
+      "episodeEnd": 0
+    }
+  ],
+
+  "episodes": [
+    { "ep": 1,  "title": "Pilot Title",         "arc": "first_arc", "chapters": [1, 2],   "series": "Season 1" },
+    { "ep": 2,  "title": "Episode Two Title",    "arc": "first_arc", "chapters": [3, 4],   "series": "Season 1" },
+    { "ep": 12, "title": "Mixed Canon Episode",  "arc": "first_arc", "chapters": [23, 24], "series": "Season 1", "status": "mixed" },
+    { "ep": 13, "title": "Filler Episode Title", "arc": "first_arc", "chapters": ["Anime Original"], "series": "Season 1", "status": "filler" },
+    { "ep": 24, "title": "Season 1 Finale",      "arc": "first_arc", "chapters": [49, 50], "series": "Season 1" },
+    { "ep": 25, "title": "Season 2 Premiere",    "arc": "second_arc","chapters": [101, 102],"series": "Season 2" },
+    { "ep": 48, "title": "Series Finale",        "arc": "second_arc","chapters": [149, 150],"series": "Season 2" },
+    {
+      "type": "movie",
+      "title": "Canon Film Title",
+      "arc": "film_arc",
+      "malId": 99999,
+      "chapters": [51, 52, 53, 54, 55],
+      "status": "canon",
+      "note": "Canon film continuing directly from Episode 24."
+    }
+  ],
+
+  "chapterTitles": {
+    "1": "Chapter One Title",
+    "2": "Chapter Two Title",
+    "3": "Chapter Three Title",
+    "50": "Season Finale Chapter"
+  },
+
+  "prequelChapters": []
+}
