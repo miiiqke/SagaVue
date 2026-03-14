@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/img/logo.png" alt="SagaVue" height="48" />
   <br /><br />
-  <p><strong>Anime adaptation navigator — know where you are, never get spoiled.</strong></p>
+  <p><strong>Adaptation navigator — know where you are, never get spoiled.</strong></p>
   <a href="https://sagavue.net">sagavue.net</a> &nbsp;·&nbsp;
   <a href="https://github.com/miiiqke/SagaVue/issues">Report a bug</a> &nbsp;·&nbsp;
   <a href="https://github.com/miiiqke/SagaVue/issues">Suggest a series</a>
@@ -10,7 +10,7 @@
 
 ---
 
-SagaVue helps you navigate the gap between an anime and its source material. Search any episode, chapter, or arc, see exactly which manga chapters each episode adapts, filter out filler, and follow the correct watch order — without getting spoiled.
+SagaVue helps you navigate the gap between an anime and its source material. Search any episode, chapter, or arc, see exactly which manga chapters each episode adapts, filter out filler, and follow the correct watch order without getting spoiled.
 
 The series catalogue is a **work in progress**. We are actively adding more titles and keeping existing data up to date.
 
@@ -24,7 +24,7 @@ The series catalogue is a **work in progress**. We are actively adding more titl
 
 ## Built with
 
-Vanilla JavaScript, no frameworks, no build step. Series data lives in flat JSON files that are auto-discovered at runtime. Open `index.html` locally or deploy to any static host.
+Vanilla JavaScript, no frameworks, no build step. Series data lives in flat JSON files that are auto-discovered at runtime.
 
 ## Contributing
 
