@@ -3,6 +3,5 @@
 # This is what makes /series/berserk work when the user navigates directly
 # or refreshes the page — without this, Cloudflare would return a 404.
 
-/privacy   /privacy.html  200
-/series/*  /index.html    200
-/*         /index.html
+/privacy /privacy.html
+/* /index.html
