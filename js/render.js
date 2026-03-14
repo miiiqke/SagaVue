@@ -72,13 +72,12 @@ const truncate = (str, limit) => {
 const emptyRow = cols => `<tr><td colspan="${cols}" style="padding:1.4rem;text-align:center;color:var(--text3);font-style:italic;font-size:.8rem">Nothing here.</td></tr>`;
 
 // ── Home grid ────────────────────────────────────────────────────
-export function renderGrid(list, onSelect, ratings = {}) {
+export function renderGrid(list, onSelect) {
   const grid = document.getElementById('series-grid');
   grid.innerHTML = list.map(s => {
     const m = s.meta;
     const genreTags = (m.tags || []).slice(0, 2).map(t => `<span class="ctag-genre">${t}</span>`).join('');
-    const rating = ratings[s.id];
-    // Use truncate for title with a generous limit (e.g., 45 chars)
+    const score = m.score;
     const displayTitle = truncate(m.title, 45);
     
     return `<a class="series-card" href="${seriesHref(s.id)}" data-id="${s.id}">
@@ -94,7 +93,7 @@ export function renderGrid(list, onSelect, ratings = {}) {
         </div>
         <div class="card-bottom">
           <div class="cprog"><div class="cprog-fill" data-p="${m.adaptedPct}"></div></div>
-          ${rating ? `<div class="crating">★ ${rating}</div>` : ''}
+          ${score ? `<div class="crating">★ ${score}</div>` : ''}
         </div>
       </div>
     </a>`;

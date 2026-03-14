@@ -20,7 +20,6 @@ let allSeries    = [];
 let currentSeries = null;
 let currentSort = 'default';
 let currentSortDir = 'asc'; // 'asc' or 'desc'
-let seriesRatings = {}; // Cache for MAL ratings
 
 // Exposed for inline HTML onclick handlers
 window.app = {
@@ -52,7 +51,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initRouter(handleHome, handleSeries);
   try {
     allSeries = await loadCatalog();
-    renderGrid(allSeries, id => navigate('series', id), seriesRatings);
+    renderGrid(allSeries, id => navigate('series', id));
     initFilters();
     initSearch(allSeries, (sid, aid, tab) => navigate('series', sid, aid, tab));
     
@@ -155,32 +154,14 @@ function getSortedSeries(series) {
     sorted.sort((a, b) => isAsc ? a.meta.adaptedPct - b.meta.adaptedPct : b.meta.adaptedPct - a.meta.adaptedPct);
   } else if (currentSort === 'rating') {
     sorted.sort((a, b) => {
-      const ratingA = seriesRatings[a.id] || 0;
-      const ratingB = seriesRatings[b.id] || 0;
+      const ratingA = a.meta.score || 0;
+      const ratingB = b.meta.score || 0;
       return isAsc ? ratingA - ratingB : ratingB - ratingA;
     });
   } else if (currentSort === 'name') {
     sorted.sort((a, b) => isAsc ? a.meta.title.localeCompare(b.meta.title) : b.meta.title.localeCompare(a.meta.title));
   }
   return sorted;
-}
-
-async function loadSeriesRatings() {
-  // Fetch rating data for each series from MAL API
-  const { fetchSeriesInfo } = await import('./api.js');
-  for (const s of allSeries) {
-    const primaryId = s.config?.malIds?.primary;
-    if (primaryId) {
-      try {
-        const info = await fetchSeriesInfo(primaryId);
-        if (info && info.score) seriesRatings[s.id] = info.score;
-      } catch (e) {
-        // Silently fail if API call doesn't work
-      }
-    }
-  }
-  // Re-render grid with ratings
-  renderGrid(getSortedSeries(allSeries), id => navigate('series', id), seriesRatings);
 }
 
 function getButtonLabel(sortType, isDesc, isActive) {
@@ -217,7 +198,7 @@ function initFilters() {
         b.textContent = getButtonLabel(b.dataset.sort, currentSortDir === 'desc', isActive);
       });
       
-      renderGrid(getSortedSeries(allSeries), id => navigate('series', id), seriesRatings);
+      renderGrid(getSortedSeries(allSeries), id => navigate('series', id));
     });
   });
 }

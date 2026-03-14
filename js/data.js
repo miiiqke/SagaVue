@@ -49,6 +49,7 @@ export async function loadCatalog() {
       adaptedPct: e.adaptedPct,
       animeStatus: e.animeStatus,
       mangaStatus: e.mangaStatus,
+      score: e.score ?? null,
     },
   }));
 }
