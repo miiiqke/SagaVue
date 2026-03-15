@@ -457,7 +457,7 @@ function run(q) {
             results.push({
               type: 'chapter',
               label: chLabel,
-              meta: `${m.title} · ${ch.adapted ? 'Adapted' : 'Unadapted'}`,
+              meta: m.title,
               sid: series.id,
               aid: `chr-${chNum}`,
               tab: 'ch',
@@ -483,7 +483,7 @@ function run(q) {
               results.push({
                 type: 'chapter',
                 label: `Chapter ${ch.n}: ${ch.title}`,
-                meta: `${m.title} · ${ch.adapted ? 'Adapted' : 'Unadapted'}`,
+                meta: m.title,
                 sid: series.id,
                 aid: `chr-${ch.n}`,
                 tab: 'ch',
