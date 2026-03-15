@@ -121,9 +121,7 @@ nav {
   padding: 0.6rem 0; caret-color: var(--accent);
 }
 #nav-search-results {
-  position: absolute; top: calc(100% + 6px);
-  left: 50%; transform: translateX(-50%);
-  width: min(980px, 96vw);
+  position: absolute; top: calc(100% + 6px); left: 0; right: 0;
   background: var(--surface); border: 1px solid var(--border2); border-radius: 0.6rem;
   overflow-y: auto; max-height: 400px; z-index: 600;
   display: none;
@@ -212,9 +210,7 @@ nav {
 
 /* Search results */
 #search-results {
-  position: absolute; top: calc(100% + 6px);
-  left: 50%; transform: translateX(-50%);
-  width: min(980px, 96vw);
+  position: absolute; top: calc(100% + 6px); left: 0; right: 0;
   background: var(--surface); border: 1px solid var(--border2); border-radius: 0.9rem;
   overflow-y: auto; max-height: 600px; z-index: 600;
   display: none;
@@ -909,18 +905,14 @@ nav.on-home .nav-logo {
      The nav search bar stays 400px max but the dropdown punches out
      to the screen edges using negative margins. */
   #nav-search-results {
-    left: 0;
-    right: 0;
-    width: 100%;
-    transform: none;
+    left: calc(-50vw + 50%);
+    right: calc(-50vw + 50%);
     border-radius: 0 0 0.6rem 0.6rem;
     border-top: none;
     max-height: 60vh;
   }
   #search-results {
     left: 0; right: 0;
-    width: 100%;
-    transform: none;
     border-radius: 0 0 0.6rem 0.6rem;
     max-height: 60vh;
   }
