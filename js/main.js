@@ -73,7 +73,7 @@ async function loadAllSeriesForSearch() {
   // so navigating to a series after search has already loaded it is instant.
   const SERIES_IDS = [
     'aot', 'berserk', 'demon_slayer', 'fmab',
-    'frieren', 'hxh', 'jjk', 'vinland_saga',
+    'frieren', 'hxh', 'jjk', 'vinland_saga', 'oshi_no_ko',
   ];
   try {
     const fullSeries = await Promise.all(SERIES_IDS.map(id => loadSeries(id)));

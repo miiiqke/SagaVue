@@ -14,12 +14,12 @@
   "lastUpdated": "2026-03-27",
   "tags": ["Drama", "Supernatural", "Psychological", "Seinen", "Showbiz"],
   "malIds": {
-    "primary": 219321,
+    "primary": 52034,
     "manga": 126146,
-    "canonIds": [219321, 244687],
+    "canonIds": [52034, 55791],
     "seasons": [
-      { "name": "Season 1", "malId": 219321, "eps": 11 },
-      { "name": "Season 2", "malId": 244687, "eps": 13 }
+      { "name": "Season 1", "malId": 52034, "eps": 11 },
+      { "name": "Season 2", "malId": 55791, "eps": 13 }
     ],
     "alternativeSeries": []
   },

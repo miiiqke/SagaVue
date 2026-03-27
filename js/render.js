@@ -137,7 +137,29 @@ export function renderGrid(list, onSelect) {
 
 // ── MAL info panel ────────────────────────────────────────────────
 export function renderInfoPanel(info, logicalStatus) {
-  if (!info) return;
+  // Even when the API call failed (info === null), we still need to
+  // clear the loading state and show whatever we can from local data.
+  if (!info) {
+    document.getElementById('ip-score').textContent   = '—';
+    document.getElementById('ip-rank').textContent    = '—';
+    document.getElementById('ip-members').textContent = '—';
+
+    let statusText = '—';
+    if (logicalStatus) {
+      if (typeof logicalStatus === 'object') {
+        statusText = logicalStatus.status;
+        if (logicalStatus.note) {
+          const statusEl = document.getElementById('ip-status');
+          statusEl.innerHTML = `<span>${statusText}</span><br><span class="ip-status-note">${logicalStatus.note}</span>`;
+          return;
+        }
+      } else {
+        statusText = logicalStatus.replace('Finished (not fully adapted)', 'Finished');
+      }
+    }
+    document.getElementById('ip-status').innerHTML = statusText;
+    return;
+  }
   
   // Add cover image if available
   if (info.image) {
