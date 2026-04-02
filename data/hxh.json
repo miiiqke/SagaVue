@@ -1,16 +1,29 @@
 {
   "id": "hunter_x_hunter",
   "title": "Hunter x Hunter",
-  "abbr": ["HxH", "Hunter X Hunter", "HUNTER×HUNTER", "Hunter × Hunter"],
+  "abbr": [
+    "HxH",
+    "Hunter X Hunter",
+    "HUNTER×HUNTER",
+    "Hunter × Hunter"
+  ],
   "source": "Manga",
-  "animeStatus": "Finished",
+  "animeStatus": "Incomplete",
   "mangaStatus": "Hiatus",
   "lastUpdated": "2026-03-27",
-  "tags": ["Action", "Adventure", "Shonen", "Supernatural", "Dark Fantasy"],
+  "tags": [
+    "Action",
+    "Adventure",
+    "Shonen",
+    "Supernatural",
+    "Dark Fantasy"
+  ],
   "malIds": {
     "primary": 11061,
     "manga": 26,
-    "canonIds": [11061],
+    "canonIds": [
+      11061
+    ],
     "seasons": [],
     "alternativeSeries": [
       {
@@ -40,7 +53,10 @@
     "totalChapters": 410,
     "note": "Manga is on hiatus. Latest chapter 410 released December 2024. Anime covers up to chapter 339. Episode 13 and 26 are recap episodes (filler). All other episodes are canon. Chapter titles included for chapters 1-400.",
     "seasons": [
-      { "name": "Hunter x Hunter (2011)", "eps": 148 }
+      {
+        "name": "Hunter x Hunter (2011)",
+        "eps": 148
+      }
     ]
   },
   "arcs": [
@@ -120,154 +136,1578 @@
     }
   ],
   "episodes": [
-    { "ep": 1, "title": "Departure × And × Friends", "arc": "hunter_exam", "chapters": [1, 2], "series": "Hunter x Hunter (2011)" },
-    { "ep": 2, "title": "Test × Of × Tests", "arc": "hunter_exam", "chapters": [3, 4], "series": "Hunter x Hunter (2011)" },
-    { "ep": 3, "title": "Rivals × For × Survival", "arc": "hunter_exam", "chapters": [5, 6], "series": "Hunter x Hunter (2011)" },
-    { "ep": 4, "title": "Hope × And × Ambition", "arc": "hunter_exam", "chapters": [6, 7, 8], "series": "Hunter x Hunter (2011)" },
-    { "ep": 5, "title": "Hisoka × Is × Sneaky", "arc": "hunter_exam", "chapters": [8, 9, 10], "series": "Hunter x Hunter (2011)" },
-    { "ep": 6, "title": "An × Unexpected × Task", "arc": "hunter_exam", "chapters": [10, 11, 12], "series": "Hunter x Hunter (2011)" },
-    { "ep": 7, "title": "Showdown × On × The Airship", "arc": "hunter_exam", "chapters": [13, 14], "series": "Hunter x Hunter (2011)" },
-    { "ep": 8, "title": "Decision × By × Majority?", "arc": "hunter_exam", "chapters": [14, 15, 16, 17], "series": "Hunter x Hunter (2011)" },
-    { "ep": 9, "title": "Beware × Of × Prisoners", "arc": "hunter_exam", "chapters": [17, 18], "series": "Hunter x Hunter (2011)" },
-    { "ep": 10, "title": "Trick × To × The Trick", "arc": "hunter_exam", "chapters": [19, 20], "series": "Hunter x Hunter (2011)" },
-    { "ep": 11, "title": "Trouble × With × The Gamble", "arc": "hunter_exam", "chapters": [20, 21], "series": "Hunter x Hunter (2011)" },
-    { "ep": 12, "title": "Last Test × Of × Resolve!", "arc": "hunter_exam", "chapters": [21, 22], "series": "Hunter x Hunter (2011)" },
-    { "ep": 13, "title": "Letter × From × Gon", "arc": "hunter_exam", "chapters": [], "series": "Hunter x Hunter (2011)", "status": "filler" },
-    { "ep": 14, "title": "Hit × The × Target", "arc": "hunter_exam", "chapters": [22, 23, 24], "series": "Hunter x Hunter (2011)" },
-    { "ep": 15, "title": "Explosion × Of × Deception", "arc": "hunter_exam", "chapters": [25, 26], "series": "Hunter x Hunter (2011)" },
-    { "ep": 16, "title": "Defeat × And × Disgrace", "arc": "hunter_exam", "chapters": [27, 28], "series": "Hunter x Hunter (2011)" },
-    { "ep": 17, "title": "Trap × In The × Hole", "arc": "hunter_exam", "chapters": [29, 30], "series": "Hunter x Hunter (2011)" },
-    { "ep": 18, "title": "Big × Time × Interview", "arc": "hunter_exam", "chapters": [31, 32], "series": "Hunter x Hunter (2011)" },
-    { "ep": 19, "title": "Can't Win × But × Can't Lose", "arc": "hunter_exam", "chapters": [33, 34], "series": "Hunter x Hunter (2011)" },
-    { "ep": 20, "title": "Baffling Turn × Of × Events", "arc": "hunter_exam", "chapters": [35, 36], "series": "Hunter x Hunter (2011)" },
-    { "ep": 21, "title": "Some × Brother × Trouble", "arc": "hunter_exam", "chapters": [37, 38], "series": "Hunter x Hunter (2011)" },
-    { "ep": 22, "title": "A × Dangerous × Watchdog", "arc": "zoldyck_family", "chapters": [39, 40], "series": "Hunter x Hunter (2011)" },
-    { "ep": 23, "title": "The × Guard's × Duty", "arc": "zoldyck_family", "chapters": [40, 41], "series": "Hunter x Hunter (2011)" },
-    { "ep": 24, "title": "The × Zoldyck × Family", "arc": "zoldyck_family", "chapters": [42], "series": "Hunter x Hunter (2011)" },
-    { "ep": 25, "title": "Can't See × If × You're Blind", "arc": "zoldyck_family", "chapters": [43, 44], "series": "Hunter x Hunter (2011)" },
-    { "ep": 26, "title": "Then × And × After", "arc": "zoldyck_family", "chapters": [], "series": "Hunter x Hunter (2011)", "status": "filler" },
-    { "ep": 27, "title": "Arrival × At × The Arena", "arc": "heavens_arena", "chapters": [44, 45, 46], "series": "Hunter x Hunter (2011)" },
-    { "ep": 28, "title": "Nen × And × Nen", "arc": "heavens_arena", "chapters": [46, 47], "series": "Hunter x Hunter (2011)" },
-    { "ep": 29, "title": "Awakening × And × Potential", "arc": "heavens_arena", "chapters": [48, 49], "series": "Hunter x Hunter (2011)" },
-    { "ep": 30, "title": "Fierce × And × Ferocious", "arc": "heavens_arena", "chapters": [50, 51], "series": "Hunter x Hunter (2011)" },
-    { "ep": 31, "title": "Destiny × And × Tenacity", "arc": "heavens_arena", "chapters": [52, 53], "series": "Hunter x Hunter (2011)" },
-    { "ep": 32, "title": "A × Surprising × Win", "arc": "heavens_arena", "chapters": [54, 55], "series": "Hunter x Hunter (2011)" },
-    { "ep": 33, "title": "An × Empty × Threat", "arc": "heavens_arena", "chapters": [56, 57], "series": "Hunter x Hunter (2011)" },
-    { "ep": 34, "title": "Power × To × Avenge", "arc": "heavens_arena", "chapters": [58, 59], "series": "Hunter x Hunter (2011)" },
-    { "ep": 35, "title": "The × True × Pass", "arc": "heavens_arena", "chapters": [60, 61], "series": "Hunter x Hunter (2011)" },
-    { "ep": 36, "title": "A Big Debt × And × A Small Kick", "arc": "heavens_arena", "chapters": [62, 63], "series": "Hunter x Hunter (2011)" },
-    { "ep": 37, "title": "Ging × And × Gon", "arc": "yorknew_city", "chapters": [64, 65], "series": "Hunter x Hunter (2011)" },
-    { "ep": 38, "title": "Reply × From × Dad", "arc": "yorknew_city", "chapters": [66, 69], "series": "Hunter x Hunter (2011)" },
-    { "ep": 39, "title": "Wish × And × Promise", "arc": "yorknew_city", "chapters": [67, 83], "series": "Hunter x Hunter (2011)" },
-    { "ep": 40, "title": "Nen × Users × Unite?", "arc": "yorknew_city", "chapters": [68, 69, 70], "series": "Hunter x Hunter (2011)" },
-    { "ep": 41, "title": "Gathering × Of × Heroes", "arc": "yorknew_city", "chapters": [70, 71, 72], "series": "Hunter x Hunter (2011)" },
-    { "ep": 42, "title": "Defend × And × Attack", "arc": "yorknew_city", "chapters": [71, 72, 73], "series": "Hunter x Hunter (2011)" },
-    { "ep": 43, "title": "A × Shocking × Tragedy", "arc": "yorknew_city", "chapters": [73, 74, 75], "series": "Hunter x Hunter (2011)" },
-    { "ep": 44, "title": "Buildup × To A × Fierce Battle", "arc": "yorknew_city", "chapters": [75, 76, 77], "series": "Hunter x Hunter (2011)" },
-    { "ep": 45, "title": "Restraint × And × Vow", "arc": "yorknew_city", "chapters": [76, 77, 78, 79], "series": "Hunter x Hunter (2011)" },
-    { "ep": 46, "title": "Chasing × And × Waiting", "arc": "yorknew_city", "chapters": [79, 80], "series": "Hunter x Hunter (2011)" },
-    { "ep": 47, "title": "Condition × And × Condition", "arc": "yorknew_city", "chapters": [81, 82, 83, 84], "series": "Hunter x Hunter (2011)" },
-    { "ep": 48, "title": "Very × Sharp × Eye", "arc": "yorknew_city", "chapters": [84, 85, 86, 87, 88], "series": "Hunter x Hunter (2011)" },
-    { "ep": 49, "title": "Pursuit × And × Analysis", "arc": "yorknew_city", "chapters": [80, 89, 90, 91], "series": "Hunter x Hunter (2011)" },
-    { "ep": 50, "title": "Ally × And × Sword", "arc": "yorknew_city", "chapters": [91, 92, 93, 94], "series": "Hunter x Hunter (2011)" },
-    { "ep": 51, "title": "A × Brutal × Battlefield", "arc": "yorknew_city", "chapters": [94, 95, 96, 97], "series": "Hunter x Hunter (2011)" },
-    { "ep": 52, "title": "Assault × And × Impact", "arc": "yorknew_city", "chapters": [97, 98, 99], "series": "Hunter x Hunter (2011)" },
-    { "ep": 53, "title": "Fake × And × Psyche", "arc": "yorknew_city", "chapters": [100, 101], "series": "Hunter x Hunter (2011)" },
-    { "ep": 54, "title": "Fortunes × Aren't × Right?", "arc": "yorknew_city", "chapters": [102, 103, 104, 105, 106], "series": "Hunter x Hunter (2011)" },
-    { "ep": 55, "title": "Allies × And × Lies", "arc": "yorknew_city", "chapters": [106, 107, 108], "series": "Hunter x Hunter (2011)" },
-    { "ep": 56, "title": "Beloved × And × Beleaguered", "arc": "yorknew_city", "chapters": [109, 110, 111, 112], "series": "Hunter x Hunter (2011)" },
-    { "ep": 57, "title": "Initiative × And × Law", "arc": "yorknew_city", "chapters": [112, 113, 114, 115, 116], "series": "Hunter x Hunter (2011)" },
-    { "ep": 58, "title": "Time × To × Retreat", "arc": "yorknew_city", "chapters": [117, 118, 119, 120], "series": "Hunter x Hunter (2011)" },
-    { "ep": 59, "title": "Bid × And × Haste", "arc": "greed_island", "chapters": [121, 122, 123, 124], "series": "Hunter x Hunter (2011)" },
-    { "ep": 60, "title": "End × And × Beginning", "arc": "greed_island", "chapters": [124, 125, 126, 127], "series": "Hunter x Hunter (2011)" },
-    { "ep": 61, "title": "Invitation × And × Friend", "arc": "greed_island", "chapters": [127, 128, 129, 130, 131], "series": "Hunter x Hunter (2011)" },
-    { "ep": 62, "title": "Reality? × And × Raw", "arc": "greed_island", "chapters": [132, 133, 134, 135, 136], "series": "Hunter x Hunter (2011)" },
-    { "ep": 63, "title": "A × Hard × Master?", "arc": "greed_island", "chapters": [137, 138, 139, 140], "series": "Hunter x Hunter (2011)" },
-    { "ep": 64, "title": "Strengthen × And × Threaten", "arc": "greed_island", "chapters": [141, 142, 143, 144, 145], "series": "Hunter x Hunter (2011)" },
-    { "ep": 65, "title": "Evil Fist × And × Rock-Paper-Scissors", "arc": "greed_island", "chapters": [144, 145, 146, 147, 148], "series": "Hunter x Hunter (2011)" },
-    { "ep": 66, "title": "Strategy × And × Scheme", "arc": "greed_island", "chapters": [148, 149, 150, 152], "series": "Hunter x Hunter (2011)" },
-    { "ep": 67, "title": "15 × 15", "arc": "greed_island", "chapters": [151, 152, 153, 154, 155], "series": "Hunter x Hunter (2011)" },
-    { "ep": 68, "title": "Pirates × And × Guesses", "arc": "greed_island", "chapters": [155, 156, 157, 158, 159, 160], "series": "Hunter x Hunter (2011)" },
-    { "ep": 69, "title": "A × Heated × Showdown", "arc": "greed_island", "chapters": [160, 161, 162, 163], "series": "Hunter x Hunter (2011)" },
-    { "ep": 70, "title": "Guts × And × Courage", "arc": "greed_island", "chapters": [163, 164, 165, 166], "series": "Hunter x Hunter (2011)" },
-    { "ep": 71, "title": "Bargain × And × Deal", "arc": "greed_island", "chapters": [166, 167, 168, 169, 170], "series": "Hunter x Hunter (2011)" },
-    { "ep": 72, "title": "Chase × And × Chance", "arc": "greed_island", "chapters": [170, 171, 172, 173], "series": "Hunter x Hunter (2011)" },
-    { "ep": 73, "title": "Insanity × And × Sanity", "arc": "greed_island", "chapters": [174, 175, 176, 177, 178, 179], "series": "Hunter x Hunter (2011)" },
-    { "ep": 74, "title": "Victor × And × Loser", "arc": "greed_island", "chapters": [179, 180, 181, 182], "series": "Hunter x Hunter (2011)" },
-    { "ep": 75, "title": "Ging's Friends × And × True Friends", "arc": "greed_island", "chapters": [183, 184, 185], "series": "Hunter x Hunter (2011)" },
-    { "ep": 76, "title": "Reunion × And × Understanding", "arc": "chimera_ant", "chapters": [1, 185, 186], "series": "Hunter x Hunter (2011)" },
-    { "ep": 77, "title": "Unease × And × Sighting", "arc": "chimera_ant", "chapters": [186, 187], "series": "Hunter x Hunter (2011)" },
-    { "ep": 78, "title": "Very × Rapid × Reproduction", "arc": "chimera_ant", "chapters": [188, 189], "series": "Hunter x Hunter (2011)" },
-    { "ep": 79, "title": "No × Good × NGL", "arc": "chimera_ant", "chapters": [190, 191, 192], "series": "Hunter x Hunter (2011)" },
-    { "ep": 80, "title": "Evil × And × Terrible", "arc": "chimera_ant", "chapters": [192, 193, 194], "series": "Hunter x Hunter (2011)" },
-    { "ep": 81, "title": "The × Fight × Begins", "arc": "chimera_ant", "chapters": [194, 195, 196], "series": "Hunter x Hunter (2011)" },
-    { "ep": 82, "title": "Kite × And × Slots", "arc": "chimera_ant", "chapters": [197, 198, 199], "series": "Hunter x Hunter (2011)" },
-    { "ep": 83, "title": "Inspiration × To × Evolve", "arc": "chimera_ant", "chapters": [200, 201, 202], "series": "Hunter x Hunter (2011)" },
-    { "ep": 84, "title": "A × Fated × Awakening", "arc": "chimera_ant", "chapters": [203, 204, 205], "series": "Hunter x Hunter (2011)" },
-    { "ep": 85, "title": "Light × And × Darkness", "arc": "chimera_ant", "chapters": [206, 207], "series": "Hunter x Hunter (2011)" },
-    { "ep": 86, "title": "Promise × And × Reunion", "arc": "chimera_ant", "chapters": [208, 209], "series": "Hunter x Hunter (2011)" },
-    { "ep": 87, "title": "Duel × And × Escape", "arc": "chimera_ant", "chapters": [210, 211], "series": "Hunter x Hunter (2011)" },
-    { "ep": 88, "title": "Rock-paper-scissors × And × Weakness", "arc": "chimera_ant", "chapters": [212, 213, 214], "series": "Hunter x Hunter (2011)" },
-    { "ep": 89, "title": "Compassion × And × Strength", "arc": "chimera_ant", "chapters": [215, 216], "series": "Hunter x Hunter (2011)" },
-    { "ep": 90, "title": "Interest × And × Curse", "arc": "chimera_ant", "chapters": [217, 218, 219], "series": "Hunter x Hunter (2011)" },
-    { "ep": 91, "title": "The Strong × And × The Weak", "arc": "chimera_ant", "chapters": [220, 221, 222], "series": "Hunter x Hunter (2011)" },
-    { "ep": 92, "title": "One Wish × And × Two Promises", "arc": "chimera_ant", "chapters": [223, 224], "series": "Hunter x Hunter (2011)" },
-    { "ep": 93, "title": "Date × With × Palm", "arc": "chimera_ant", "chapters": [225, 226, 227], "series": "Hunter x Hunter (2011)" },
-    { "ep": 94, "title": "Friend × And × Journey", "arc": "chimera_ant", "chapters": [228, 229, 230], "series": "Hunter x Hunter (2011)" },
-    { "ep": 95, "title": "Grudge × And × Dread", "arc": "chimera_ant", "chapters": [231, 232, 233], "series": "Hunter x Hunter (2011)" },
-    { "ep": 96, "title": "A × Lawless × Home", "arc": "chimera_ant", "chapters": [234, 235, 236], "series": "Hunter x Hunter (2011)" },
-    { "ep": 97, "title": "Carnage × And × Devastation", "arc": "chimera_ant", "chapters": [237, 238, 239], "series": "Hunter x Hunter (2011)" },
-    { "ep": 98, "title": "Infiltration × And × Selection", "arc": "chimera_ant", "chapters": [240, 241, 242], "series": "Hunter x Hunter (2011)" },
-    { "ep": 99, "title": "Combination × And × Evolution", "arc": "chimera_ant", "chapters": [243, 244, 245], "series": "Hunter x Hunter (2011)" },
-    { "ep": 100, "title": "Tracking × And × Pursuit", "arc": "chimera_ant", "chapters": [246, 247], "series": "Hunter x Hunter (2011)" },
-    { "ep": 101, "title": "Ikalgo × And × Lightning", "arc": "chimera_ant", "chapters": [248, 249], "series": "Hunter x Hunter (2011)" },
-    { "ep": 102, "title": "Ability × And × Showdown", "arc": "chimera_ant", "chapters": [250, 251], "series": "Hunter x Hunter (2011)" },
-    { "ep": 103, "title": "Check × And × Mate", "arc": "chimera_ant", "chapters": [252, 253], "series": "Hunter x Hunter (2011)" },
-    { "ep": 104, "title": "Doubt × And × Hesitation", "arc": "chimera_ant", "chapters": [254, 255], "series": "Hunter x Hunter (2011)" },
-    { "ep": 105, "title": "Resolve × And × Awakening", "arc": "chimera_ant", "chapters": [256, 257], "series": "Hunter x Hunter (2011)" },
-    { "ep": 106, "title": "Knov × And × Morel", "arc": "chimera_ant", "chapters": [258, 259], "series": "Hunter x Hunter (2011)" },
-    { "ep": 107, "title": "Return × And × Goodbye", "arc": "chimera_ant", "chapters": [260, 261], "series": "Hunter x Hunter (2011)" },
-    { "ep": 108, "title": "Gungi × Of × Komugi", "arc": "chimera_ant", "chapters": [262, 263], "series": "Hunter x Hunter (2011)" },
-    { "ep": 109, "title": "Take It × And × Move Forward", "arc": "chimera_ant", "chapters": [264, 265], "series": "Hunter x Hunter (2011)" },
-    { "ep": 110, "title": "Confusion × And × Expectation", "arc": "chimera_ant", "chapters": [266, 267], "series": "Hunter x Hunter (2011)" },
-    { "ep": 111, "title": "Charge × And × Invade", "arc": "chimera_ant", "chapters": [268, 269], "series": "Hunter x Hunter (2011)" },
-    { "ep": 112, "title": "Monster × And × Monster", "arc": "chimera_ant", "chapters": [270, 271], "series": "Hunter x Hunter (2011)" },
-    { "ep": 113, "title": "An Indebtedness × And × A Punch", "arc": "chimera_ant", "chapters": [272, 273], "series": "Hunter x Hunter (2011)" },
-    { "ep": 114, "title": "Magnet × And × Curse", "arc": "chimera_ant", "chapters": [274, 275], "series": "Hunter x Hunter (2011)" },
-    { "ep": 115, "title": "Duty × And × Question", "arc": "chimera_ant", "chapters": [276, 277], "series": "Hunter x Hunter (2011)" },
-    { "ep": 116, "title": "Revenge × And × Recovery", "arc": "chimera_ant", "chapters": [278, 279, 280], "series": "Hunter x Hunter (2011)" },
-    { "ep": 117, "title": "Insult × And × Payback", "arc": "chimera_ant", "chapters": [281, 282, 283], "series": "Hunter x Hunter (2011)" },
-    { "ep": 118, "title": "A False × Rage", "arc": "chimera_ant", "chapters": [284, 285], "series": "Hunter x Hunter (2011)" },
-    { "ep": 119, "title": "Strong × Or × Weak", "arc": "chimera_ant", "chapters": [286, 287], "series": "Hunter x Hunter (2011)" },
-    { "ep": 120, "title": "Real × And × Fake", "arc": "chimera_ant", "chapters": [288, 289], "series": "Hunter x Hunter (2011)" },
-    { "ep": 121, "title": "Defeat × And × Rebirth", "arc": "chimera_ant", "chapters": [290, 291], "series": "Hunter x Hunter (2011)" },
-    { "ep": 122, "title": "Name × And × Name", "arc": "chimera_ant", "chapters": [292, 293], "series": "Hunter x Hunter (2011)" },
-    { "ep": 123, "title": "Insect × And × Insect", "arc": "chimera_ant", "chapters": [294, 295], "series": "Hunter x Hunter (2011)" },
-    { "ep": 124, "title": "Breakdown × And × Awakening", "arc": "chimera_ant", "chapters": [296, 297], "series": "Hunter x Hunter (2011)" },
-    { "ep": 125, "title": "Ability × And × Ability", "arc": "chimera_ant", "chapters": [298, 299], "series": "Hunter x Hunter (2011)" },
-    { "ep": 126, "title": "Zero × And × Rose", "arc": "chimera_ant", "chapters": [300, 301], "series": "Hunter x Hunter (2011)" },
-    { "ep": 127, "title": "Hostility × And × Determination", "arc": "chimera_ant", "chapters": [302, 303], "series": "Hunter x Hunter (2011)" },
-    { "ep": 128, "title": "A × Raging × Foe", "arc": "chimera_ant", "chapters": [304, 305], "series": "Hunter x Hunter (2011)" },
-    { "ep": 129, "title": "Vow × And × Reunion", "arc": "chimera_ant", "chapters": [306, 307], "series": "Hunter x Hunter (2011)" },
-    { "ep": 130, "title": "Magic × And × Miracle", "arc": "chimera_ant", "chapters": [308, 309], "series": "Hunter x Hunter (2011)" },
-    { "ep": 131, "title": "Anger × And × Light", "arc": "chimera_ant", "chapters": [310, 311, 312], "series": "Hunter x Hunter (2011)" },
-    { "ep": 132, "title": "Dazzling × And × Dashing", "arc": "chimera_ant", "chapters": [313, 314], "series": "Hunter x Hunter (2011)" },
-    { "ep": 133, "title": "Deadline × To × Live", "arc": "chimera_ant", "chapters": [315, 316], "series": "Hunter x Hunter (2011)" },
-    { "ep": 134, "title": "The Word × That × Makes You Strong", "arc": "chimera_ant", "chapters": [317, 318], "series": "Hunter x Hunter (2011)" },
-    { "ep": 135, "title": "This Day × And × This Moment", "arc": "chimera_ant", "chapters": [318, 319], "series": "Hunter x Hunter (2011)" },
-    { "ep": 136, "title": "Homecoming × And × True Name", "arc": "13th_hunter_chairman_election", "chapters": [320, 321], "series": "Hunter x Hunter (2011)" },
-    { "ep": 137, "title": "Election × And × Chairman", "arc": "13th_hunter_chairman_election", "chapters": [322, 323], "series": "Hunter x Hunter (2011)" },
-    { "ep": 138, "title": "Ballot × And × Wish", "arc": "13th_hunter_chairman_election", "chapters": [324, 325], "series": "Hunter x Hunter (2011)" },
-    { "ep": 139, "title": "Alluka × And × Something", "arc": "13th_hunter_chairman_election", "chapters": [326, 327], "series": "Hunter x Hunter (2011)" },
-    { "ep": 140, "title": "Join × And × Search", "arc": "13th_hunter_chairman_election", "chapters": [328, 329], "series": "Hunter x Hunter (2011)" },
-    { "ep": 141, "title": "Magician × And × Butler", "arc": "13th_hunter_chairman_election", "chapters": [330, 331], "series": "Hunter x Hunter (2011)" },
-    { "ep": 142, "title": "Needle × And × Threat", "arc": "13th_hunter_chairman_election", "chapters": [332, 333], "series": "Hunter x Hunter (2011)" },
-    { "ep": 143, "title": "Sin × And × Claw", "arc": "13th_hunter_chairman_election", "chapters": [334, 335], "series": "Hunter x Hunter (2011)" },
-    { "ep": 144, "title": "Approval × And × Absence", "arc": "13th_hunter_chairman_election", "chapters": [336, 337], "series": "Hunter x Hunter (2011)" },
-    { "ep": 145, "title": "Request × And × Friend", "arc": "13th_hunter_chairman_election", "chapters": [338, 339], "series": "Hunter x Hunter (2011)" },
-    { "ep": 146, "title": "Together × And × Parting", "arc": "13th_hunter_chairman_election", "chapters": [340], "series": "Hunter x Hunter (2011)" },
-    { "ep": 147, "title": "Rescue × And × Future", "arc": "13th_hunter_chairman_election", "chapters": [341], "series": "Hunter x Hunter (2011)" },
-    { "ep": 148, "title": "Past × And × Future", "arc": "13th_hunter_chairman_election", "chapters": [342], "series": "Hunter x Hunter (2011)" }
+    {
+      "ep": 1,
+      "title": "Departure × And × Friends",
+      "arc": "hunter_exam",
+      "chapters": [
+        1,
+        2
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 2,
+      "title": "Test × Of × Tests",
+      "arc": "hunter_exam",
+      "chapters": [
+        3,
+        4
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 3,
+      "title": "Rivals × For × Survival",
+      "arc": "hunter_exam",
+      "chapters": [
+        5,
+        6
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 4,
+      "title": "Hope × And × Ambition",
+      "arc": "hunter_exam",
+      "chapters": [
+        6,
+        7,
+        8
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 5,
+      "title": "Hisoka × Is × Sneaky",
+      "arc": "hunter_exam",
+      "chapters": [
+        8,
+        9,
+        10
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 6,
+      "title": "An × Unexpected × Task",
+      "arc": "hunter_exam",
+      "chapters": [
+        10,
+        11,
+        12
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 7,
+      "title": "Showdown × On × The Airship",
+      "arc": "hunter_exam",
+      "chapters": [
+        13,
+        14
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 8,
+      "title": "Decision × By × Majority?",
+      "arc": "hunter_exam",
+      "chapters": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 9,
+      "title": "Beware × Of × Prisoners",
+      "arc": "hunter_exam",
+      "chapters": [
+        17,
+        18
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 10,
+      "title": "Trick × To × The Trick",
+      "arc": "hunter_exam",
+      "chapters": [
+        19,
+        20
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 11,
+      "title": "Trouble × With × The Gamble",
+      "arc": "hunter_exam",
+      "chapters": [
+        20,
+        21
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 12,
+      "title": "Last Test × Of × Resolve!",
+      "arc": "hunter_exam",
+      "chapters": [
+        21,
+        22
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 13,
+      "title": "Letter × From × Gon",
+      "arc": "hunter_exam",
+      "chapters": [],
+      "series": "Hunter x Hunter (2011)",
+      "status": "filler"
+    },
+    {
+      "ep": 14,
+      "title": "Hit × The × Target",
+      "arc": "hunter_exam",
+      "chapters": [
+        22,
+        23,
+        24
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 15,
+      "title": "Explosion × Of × Deception",
+      "arc": "hunter_exam",
+      "chapters": [
+        25,
+        26
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 16,
+      "title": "Defeat × And × Disgrace",
+      "arc": "hunter_exam",
+      "chapters": [
+        27,
+        28
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 17,
+      "title": "Trap × In The × Hole",
+      "arc": "hunter_exam",
+      "chapters": [
+        29,
+        30
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 18,
+      "title": "Big × Time × Interview",
+      "arc": "hunter_exam",
+      "chapters": [
+        31,
+        32
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 19,
+      "title": "Can't Win × But × Can't Lose",
+      "arc": "hunter_exam",
+      "chapters": [
+        33,
+        34
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 20,
+      "title": "Baffling Turn × Of × Events",
+      "arc": "hunter_exam",
+      "chapters": [
+        35,
+        36
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 21,
+      "title": "Some × Brother × Trouble",
+      "arc": "hunter_exam",
+      "chapters": [
+        37,
+        38
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 22,
+      "title": "A × Dangerous × Watchdog",
+      "arc": "zoldyck_family",
+      "chapters": [
+        39,
+        40
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 23,
+      "title": "The × Guard's × Duty",
+      "arc": "zoldyck_family",
+      "chapters": [
+        40,
+        41
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 24,
+      "title": "The × Zoldyck × Family",
+      "arc": "zoldyck_family",
+      "chapters": [
+        42
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 25,
+      "title": "Can't See × If × You're Blind",
+      "arc": "zoldyck_family",
+      "chapters": [
+        43,
+        44
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 26,
+      "title": "Then × And × After",
+      "arc": "zoldyck_family",
+      "chapters": [],
+      "series": "Hunter x Hunter (2011)",
+      "status": "filler"
+    },
+    {
+      "ep": 27,
+      "title": "Arrival × At × The Arena",
+      "arc": "heavens_arena",
+      "chapters": [
+        44,
+        45,
+        46
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 28,
+      "title": "Nen × And × Nen",
+      "arc": "heavens_arena",
+      "chapters": [
+        46,
+        47
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 29,
+      "title": "Awakening × And × Potential",
+      "arc": "heavens_arena",
+      "chapters": [
+        48,
+        49
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 30,
+      "title": "Fierce × And × Ferocious",
+      "arc": "heavens_arena",
+      "chapters": [
+        50,
+        51
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 31,
+      "title": "Destiny × And × Tenacity",
+      "arc": "heavens_arena",
+      "chapters": [
+        52,
+        53
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 32,
+      "title": "A × Surprising × Win",
+      "arc": "heavens_arena",
+      "chapters": [
+        54,
+        55
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 33,
+      "title": "An × Empty × Threat",
+      "arc": "heavens_arena",
+      "chapters": [
+        56,
+        57
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 34,
+      "title": "Power × To × Avenge",
+      "arc": "heavens_arena",
+      "chapters": [
+        58,
+        59
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 35,
+      "title": "The × True × Pass",
+      "arc": "heavens_arena",
+      "chapters": [
+        60,
+        61
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 36,
+      "title": "A Big Debt × And × A Small Kick",
+      "arc": "heavens_arena",
+      "chapters": [
+        62,
+        63
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 37,
+      "title": "Ging × And × Gon",
+      "arc": "yorknew_city",
+      "chapters": [
+        64,
+        65
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 38,
+      "title": "Reply × From × Dad",
+      "arc": "yorknew_city",
+      "chapters": [
+        66,
+        69
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 39,
+      "title": "Wish × And × Promise",
+      "arc": "yorknew_city",
+      "chapters": [
+        67,
+        83
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 40,
+      "title": "Nen × Users × Unite?",
+      "arc": "yorknew_city",
+      "chapters": [
+        68,
+        69,
+        70
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 41,
+      "title": "Gathering × Of × Heroes",
+      "arc": "yorknew_city",
+      "chapters": [
+        70,
+        71,
+        72
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 42,
+      "title": "Defend × And × Attack",
+      "arc": "yorknew_city",
+      "chapters": [
+        71,
+        72,
+        73
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 43,
+      "title": "A × Shocking × Tragedy",
+      "arc": "yorknew_city",
+      "chapters": [
+        73,
+        74,
+        75
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 44,
+      "title": "Buildup × To A × Fierce Battle",
+      "arc": "yorknew_city",
+      "chapters": [
+        75,
+        76,
+        77
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 45,
+      "title": "Restraint × And × Vow",
+      "arc": "yorknew_city",
+      "chapters": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 46,
+      "title": "Chasing × And × Waiting",
+      "arc": "yorknew_city",
+      "chapters": [
+        79,
+        80
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 47,
+      "title": "Condition × And × Condition",
+      "arc": "yorknew_city",
+      "chapters": [
+        81,
+        82,
+        83,
+        84
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 48,
+      "title": "Very × Sharp × Eye",
+      "arc": "yorknew_city",
+      "chapters": [
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 49,
+      "title": "Pursuit × And × Analysis",
+      "arc": "yorknew_city",
+      "chapters": [
+        80,
+        89,
+        90,
+        91
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 50,
+      "title": "Ally × And × Sword",
+      "arc": "yorknew_city",
+      "chapters": [
+        91,
+        92,
+        93,
+        94
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 51,
+      "title": "A × Brutal × Battlefield",
+      "arc": "yorknew_city",
+      "chapters": [
+        94,
+        95,
+        96,
+        97
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 52,
+      "title": "Assault × And × Impact",
+      "arc": "yorknew_city",
+      "chapters": [
+        97,
+        98,
+        99
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 53,
+      "title": "Fake × And × Psyche",
+      "arc": "yorknew_city",
+      "chapters": [
+        100,
+        101
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 54,
+      "title": "Fortunes × Aren't × Right?",
+      "arc": "yorknew_city",
+      "chapters": [
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 55,
+      "title": "Allies × And × Lies",
+      "arc": "yorknew_city",
+      "chapters": [
+        106,
+        107,
+        108
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 56,
+      "title": "Beloved × And × Beleaguered",
+      "arc": "yorknew_city",
+      "chapters": [
+        109,
+        110,
+        111,
+        112
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 57,
+      "title": "Initiative × And × Law",
+      "arc": "yorknew_city",
+      "chapters": [
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 58,
+      "title": "Time × To × Retreat",
+      "arc": "yorknew_city",
+      "chapters": [
+        117,
+        118,
+        119,
+        120
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 59,
+      "title": "Bid × And × Haste",
+      "arc": "greed_island",
+      "chapters": [
+        121,
+        122,
+        123,
+        124
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 60,
+      "title": "End × And × Beginning",
+      "arc": "greed_island",
+      "chapters": [
+        124,
+        125,
+        126,
+        127
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 61,
+      "title": "Invitation × And × Friend",
+      "arc": "greed_island",
+      "chapters": [
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 62,
+      "title": "Reality? × And × Raw",
+      "arc": "greed_island",
+      "chapters": [
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 63,
+      "title": "A × Hard × Master?",
+      "arc": "greed_island",
+      "chapters": [
+        137,
+        138,
+        139,
+        140
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 64,
+      "title": "Strengthen × And × Threaten",
+      "arc": "greed_island",
+      "chapters": [
+        141,
+        142,
+        143,
+        144,
+        145
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 65,
+      "title": "Evil Fist × And × Rock-Paper-Scissors",
+      "arc": "greed_island",
+      "chapters": [
+        144,
+        145,
+        146,
+        147,
+        148
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 66,
+      "title": "Strategy × And × Scheme",
+      "arc": "greed_island",
+      "chapters": [
+        148,
+        149,
+        150,
+        152
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 67,
+      "title": "15 × 15",
+      "arc": "greed_island",
+      "chapters": [
+        151,
+        152,
+        153,
+        154,
+        155
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 68,
+      "title": "Pirates × And × Guesses",
+      "arc": "greed_island",
+      "chapters": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 69,
+      "title": "A × Heated × Showdown",
+      "arc": "greed_island",
+      "chapters": [
+        160,
+        161,
+        162,
+        163
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 70,
+      "title": "Guts × And × Courage",
+      "arc": "greed_island",
+      "chapters": [
+        163,
+        164,
+        165,
+        166
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 71,
+      "title": "Bargain × And × Deal",
+      "arc": "greed_island",
+      "chapters": [
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 72,
+      "title": "Chase × And × Chance",
+      "arc": "greed_island",
+      "chapters": [
+        170,
+        171,
+        172,
+        173
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 73,
+      "title": "Insanity × And × Sanity",
+      "arc": "greed_island",
+      "chapters": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 74,
+      "title": "Victor × And × Loser",
+      "arc": "greed_island",
+      "chapters": [
+        179,
+        180,
+        181,
+        182
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 75,
+      "title": "Ging's Friends × And × True Friends",
+      "arc": "greed_island",
+      "chapters": [
+        183,
+        184,
+        185
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 76,
+      "title": "Reunion × And × Understanding",
+      "arc": "chimera_ant",
+      "chapters": [
+        1,
+        185,
+        186
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 77,
+      "title": "Unease × And × Sighting",
+      "arc": "chimera_ant",
+      "chapters": [
+        186,
+        187
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 78,
+      "title": "Very × Rapid × Reproduction",
+      "arc": "chimera_ant",
+      "chapters": [
+        188,
+        189
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 79,
+      "title": "No × Good × NGL",
+      "arc": "chimera_ant",
+      "chapters": [
+        190,
+        191,
+        192
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 80,
+      "title": "Evil × And × Terrible",
+      "arc": "chimera_ant",
+      "chapters": [
+        192,
+        193,
+        194
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 81,
+      "title": "The × Fight × Begins",
+      "arc": "chimera_ant",
+      "chapters": [
+        194,
+        195,
+        196
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 82,
+      "title": "Kite × And × Slots",
+      "arc": "chimera_ant",
+      "chapters": [
+        197,
+        198,
+        199
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 83,
+      "title": "Inspiration × To × Evolve",
+      "arc": "chimera_ant",
+      "chapters": [
+        200,
+        201,
+        202
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 84,
+      "title": "A × Fated × Awakening",
+      "arc": "chimera_ant",
+      "chapters": [
+        203,
+        204,
+        205
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 85,
+      "title": "Light × And × Darkness",
+      "arc": "chimera_ant",
+      "chapters": [
+        206,
+        207
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 86,
+      "title": "Promise × And × Reunion",
+      "arc": "chimera_ant",
+      "chapters": [
+        208,
+        209
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 87,
+      "title": "Duel × And × Escape",
+      "arc": "chimera_ant",
+      "chapters": [
+        210,
+        211
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 88,
+      "title": "Rock-paper-scissors × And × Weakness",
+      "arc": "chimera_ant",
+      "chapters": [
+        212,
+        213,
+        214
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 89,
+      "title": "Compassion × And × Strength",
+      "arc": "chimera_ant",
+      "chapters": [
+        215,
+        216
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 90,
+      "title": "Interest × And × Curse",
+      "arc": "chimera_ant",
+      "chapters": [
+        217,
+        218,
+        219
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 91,
+      "title": "The Strong × And × The Weak",
+      "arc": "chimera_ant",
+      "chapters": [
+        220,
+        221,
+        222
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 92,
+      "title": "One Wish × And × Two Promises",
+      "arc": "chimera_ant",
+      "chapters": [
+        223,
+        224
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 93,
+      "title": "Date × With × Palm",
+      "arc": "chimera_ant",
+      "chapters": [
+        225,
+        226,
+        227
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 94,
+      "title": "Friend × And × Journey",
+      "arc": "chimera_ant",
+      "chapters": [
+        228,
+        229,
+        230
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 95,
+      "title": "Grudge × And × Dread",
+      "arc": "chimera_ant",
+      "chapters": [
+        231,
+        232,
+        233
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 96,
+      "title": "A × Lawless × Home",
+      "arc": "chimera_ant",
+      "chapters": [
+        234,
+        235,
+        236
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 97,
+      "title": "Carnage × And × Devastation",
+      "arc": "chimera_ant",
+      "chapters": [
+        237,
+        238,
+        239
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 98,
+      "title": "Infiltration × And × Selection",
+      "arc": "chimera_ant",
+      "chapters": [
+        240,
+        241,
+        242
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 99,
+      "title": "Combination × And × Evolution",
+      "arc": "chimera_ant",
+      "chapters": [
+        243,
+        244,
+        245
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 100,
+      "title": "Tracking × And × Pursuit",
+      "arc": "chimera_ant",
+      "chapters": [
+        246,
+        247
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 101,
+      "title": "Ikalgo × And × Lightning",
+      "arc": "chimera_ant",
+      "chapters": [
+        248,
+        249
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 102,
+      "title": "Ability × And × Showdown",
+      "arc": "chimera_ant",
+      "chapters": [
+        250,
+        251
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 103,
+      "title": "Check × And × Mate",
+      "arc": "chimera_ant",
+      "chapters": [
+        252,
+        253
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 104,
+      "title": "Doubt × And × Hesitation",
+      "arc": "chimera_ant",
+      "chapters": [
+        254,
+        255
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 105,
+      "title": "Resolve × And × Awakening",
+      "arc": "chimera_ant",
+      "chapters": [
+        256,
+        257
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 106,
+      "title": "Knov × And × Morel",
+      "arc": "chimera_ant",
+      "chapters": [
+        258,
+        259
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 107,
+      "title": "Return × And × Goodbye",
+      "arc": "chimera_ant",
+      "chapters": [
+        260,
+        261
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 108,
+      "title": "Gungi × Of × Komugi",
+      "arc": "chimera_ant",
+      "chapters": [
+        262,
+        263
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 109,
+      "title": "Take It × And × Move Forward",
+      "arc": "chimera_ant",
+      "chapters": [
+        264,
+        265
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 110,
+      "title": "Confusion × And × Expectation",
+      "arc": "chimera_ant",
+      "chapters": [
+        266,
+        267
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 111,
+      "title": "Charge × And × Invade",
+      "arc": "chimera_ant",
+      "chapters": [
+        268,
+        269
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 112,
+      "title": "Monster × And × Monster",
+      "arc": "chimera_ant",
+      "chapters": [
+        270,
+        271
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 113,
+      "title": "An Indebtedness × And × A Punch",
+      "arc": "chimera_ant",
+      "chapters": [
+        272,
+        273
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 114,
+      "title": "Magnet × And × Curse",
+      "arc": "chimera_ant",
+      "chapters": [
+        274,
+        275
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 115,
+      "title": "Duty × And × Question",
+      "arc": "chimera_ant",
+      "chapters": [
+        276,
+        277
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 116,
+      "title": "Revenge × And × Recovery",
+      "arc": "chimera_ant",
+      "chapters": [
+        278,
+        279,
+        280
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 117,
+      "title": "Insult × And × Payback",
+      "arc": "chimera_ant",
+      "chapters": [
+        281,
+        282,
+        283
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 118,
+      "title": "A False × Rage",
+      "arc": "chimera_ant",
+      "chapters": [
+        284,
+        285
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 119,
+      "title": "Strong × Or × Weak",
+      "arc": "chimera_ant",
+      "chapters": [
+        286,
+        287
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 120,
+      "title": "Real × And × Fake",
+      "arc": "chimera_ant",
+      "chapters": [
+        288,
+        289
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 121,
+      "title": "Defeat × And × Rebirth",
+      "arc": "chimera_ant",
+      "chapters": [
+        290,
+        291
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 122,
+      "title": "Name × And × Name",
+      "arc": "chimera_ant",
+      "chapters": [
+        292,
+        293
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 123,
+      "title": "Insect × And × Insect",
+      "arc": "chimera_ant",
+      "chapters": [
+        294,
+        295
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 124,
+      "title": "Breakdown × And × Awakening",
+      "arc": "chimera_ant",
+      "chapters": [
+        296,
+        297
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 125,
+      "title": "Ability × And × Ability",
+      "arc": "chimera_ant",
+      "chapters": [
+        298,
+        299
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 126,
+      "title": "Zero × And × Rose",
+      "arc": "chimera_ant",
+      "chapters": [
+        300,
+        301
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 127,
+      "title": "Hostility × And × Determination",
+      "arc": "chimera_ant",
+      "chapters": [
+        302,
+        303
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 128,
+      "title": "A × Raging × Foe",
+      "arc": "chimera_ant",
+      "chapters": [
+        304,
+        305
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 129,
+      "title": "Vow × And × Reunion",
+      "arc": "chimera_ant",
+      "chapters": [
+        306,
+        307
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 130,
+      "title": "Magic × And × Miracle",
+      "arc": "chimera_ant",
+      "chapters": [
+        308,
+        309
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 131,
+      "title": "Anger × And × Light",
+      "arc": "chimera_ant",
+      "chapters": [
+        310,
+        311,
+        312
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 132,
+      "title": "Dazzling × And × Dashing",
+      "arc": "chimera_ant",
+      "chapters": [
+        313,
+        314
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 133,
+      "title": "Deadline × To × Live",
+      "arc": "chimera_ant",
+      "chapters": [
+        315,
+        316
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 134,
+      "title": "The Word × That × Makes You Strong",
+      "arc": "chimera_ant",
+      "chapters": [
+        317,
+        318
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 135,
+      "title": "This Day × And × This Moment",
+      "arc": "chimera_ant",
+      "chapters": [
+        318,
+        319
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 136,
+      "title": "Homecoming × And × True Name",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        320,
+        321
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 137,
+      "title": "Election × And × Chairman",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        322,
+        323
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 138,
+      "title": "Ballot × And × Wish",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        324,
+        325
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 139,
+      "title": "Alluka × And × Something",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        326,
+        327
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 140,
+      "title": "Join × And × Search",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        328,
+        329
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 141,
+      "title": "Magician × And × Butler",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        330,
+        331
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 142,
+      "title": "Needle × And × Threat",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        332,
+        333
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 143,
+      "title": "Sin × And × Claw",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        334,
+        335
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 144,
+      "title": "Approval × And × Absence",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        336,
+        337
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 145,
+      "title": "Request × And × Friend",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        338,
+        339
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 146,
+      "title": "Together × And × Parting",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        340
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 147,
+      "title": "Rescue × And × Future",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        341
+      ],
+      "series": "Hunter x Hunter (2011)"
+    },
+    {
+      "ep": 148,
+      "title": "Past × And × Future",
+      "arc": "13th_hunter_chairman_election",
+      "chapters": [
+        342
+      ],
+      "series": "Hunter x Hunter (2011)"
+    }
   ],
   "chapterTitles": {
     "1": "The Day of Departure",
@@ -672,7 +2112,13 @@
     "400": "Secrecy"
   },
   "prequelChapters": [
-    { "n": 0, "title": "Kurapika's Memories: Part One" },
-    { "n": 0, "title": "Kurapika's Memories: Part Two" }
+    {
+      "n": 0,
+      "title": "Kurapika's Memories: Part One"
+    },
+    {
+      "n": 0,
+      "title": "Kurapika's Memories: Part Two"
+    }
   ]
 }

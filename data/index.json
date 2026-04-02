@@ -129,7 +129,7 @@
     "totalEpisodes": 148,
     "totalChapters": 410,
     "adaptedPct": 83,
-    "animeStatus": "Finished",
+    "animeStatus": "Incomplete",
     "mangaStatus": "Hiatus",
     "malId": 11061,
     "score": null
@@ -179,27 +179,28 @@
     "score": null
   },
   {
-  "id": "oshi_no_ko",
-  "title": "Oshi no Ko",
-  "abbr": [
-    "Oshi no Ko", 
-    "ONK", 
-    "【推しの子】", 
-    "My Star", 
-    "OshiNoKo"],
-  "tags": [
-    "Drama", 
-    "Supernatural", 
-    "Psychological", 
-    "Seinen", 
-    "Showbiz"
-  ],
-  "totalEpisodes": 24,
-  "totalChapters": 166,
-  "adaptedPct": 48,
-  "animeStatus": "Ongoing",
-  "mangaStatus": "Finished",
-  "malId": 52034,
-  "score": null
-}
+    "id": "oshi_no_ko",
+    "title": "Oshi no Ko",
+    "abbr": [
+      "Oshi no Ko",
+      "ONK",
+      "【推しの子】",
+      "My Star",
+      "OshiNoKo"
+    ],
+    "tags": [
+      "Drama",
+      "Supernatural",
+      "Psychological",
+      "Seinen",
+      "Showbiz"
+    ],
+    "totalEpisodes": 35,
+    "totalChapters": 166,
+    "adaptedPct": 70,
+    "animeStatus": "Ongoing",
+    "mangaStatus": "Finished",
+    "malId": 52034,
+    "score": null
+  }
 ]

@@ -18,6 +18,7 @@ export function computeSeriesStatus({ meta, config }) {
   // Normalize status strings
   const normalizeStatus = (s) => {
     if (!s) return null;
+    if (s.includes('Incomplete')) return 'Incomplete';
     if (s.includes('Ongoing')) return 'Ongoing';
     if (s.includes('Finished')) return 'Finished';
     if (s === 'Upcoming') return 'Ongoing';
@@ -28,6 +29,10 @@ export function computeSeriesStatus({ meta, config }) {
   const normalizedAnimeStatus = normalizeStatus(animeStatus);
   const normalizedMangaStatus = normalizeStatus(mangaStatus);
 
+  // Anime stopped/incomplete and there is still unadapted manga content
+  if (normalizedAnimeStatus === 'Incomplete' && !allAdapted) {
+    return { status: 'Incomplete', note: null };
+  }
   // Determine final status based on adaptation and source material state
   if (allAdapted && normalizedAnimeStatus === 'Finished' && normalizedMangaStatus === 'Finished') {
     return { status: 'Complete', note: null };
