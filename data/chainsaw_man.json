@@ -1,0 +1,271 @@
+{
+  "id": "chainsaw_man",
+  "title": "Chainsaw Man",
+  "abbr": ["CSM", "Chensoman", "Chensou Man", "チェンソーマン", "Chainsaw", "Denji", "Pochita", "Reze Arc", "Bomb Girl", "Fujimoto"],
+  "source": "Manga",
+  "animeStatus": "Ongoing",
+  "mangaStatus": "Finished",
+  "lastUpdated": "2026-04-03",
+  "tags": ["Action", "Dark Fantasy", "Seinen", "Horror"],
+
+  "malIds": {
+    "primary": 44511,
+    "manga": 109891,
+    "canonIds": [44511, 57932],
+    "seasons": [
+      { "name": "Season 1", "malId": 44511, "eps": 12 },
+      { "name": "Chainsaw Man – The Movie: Reze Arc", "malId": 57932, "eps": 1, "type": "movie" }
+    ],
+    "alternativeSeries": []
+  },
+
+  "watchGuide": [
+    {
+      "step": 1,
+      "type": "anime",
+      "title": "Chainsaw Man (2022)",
+      "subtitle": "12 episodes",
+      "covers": "Ch 1–38",
+      "malId": 44511,
+      "note": "Covers the Introduction, Bat Devil, Eternity Devil, and Katana Man arcs."
+    },
+    {
+      "step": 2,
+      "type": "movie-set",
+      "title": "Chainsaw Man – The Movie: Reze Arc",
+      "subtitle": "1 film",
+      "covers": "Ch 38–52",
+      "malId": 57932,
+      "note": "Direct sequel to Season 1. Watch immediately after. Adapts the Bomb Girl (Reze) arc in full."
+    },
+    {
+      "step": 3,
+      "type": "manga-required",
+      "title": "Read Manga — International Assassins Arc & Beyond",
+      "covers": "Ch 53–232",
+      "note": "Chainsaw Man: Assassins Arc (Season 2) has been announced and will adapt the International Assassins arc (Ch 53–70), but has no release date. Read from Ch 53 for the complete story. The manga concluded at Chapter 232 on March 24, 2026 with no Part 3 announced.",
+      "startChapter": 53
+    }
+  ],
+
+  "arcs": [
+    {
+      "id": "introduction",
+      "name": "Introduction Arc",
+      "chapterStart": 1,
+      "chapterEnd": 4,
+      "episodeStart": 1,
+      "episodeEnd": 2
+    },
+    {
+      "id": "bat_devil",
+      "name": "Bat Devil Arc",
+      "chapterStart": 5,
+      "chapterEnd": 12,
+      "episodeStart": 3,
+      "episodeEnd": 4
+    },
+    {
+      "id": "eternity_devil",
+      "name": "Eternity Devil Arc",
+      "chapterStart": 13,
+      "chapterEnd": 21,
+      "episodeStart": 5,
+      "episodeEnd": 7
+    },
+    {
+      "id": "katana_man",
+      "name": "Katana Man Arc",
+      "chapterStart": 22,
+      "chapterEnd": 38,
+      "episodeStart": 8,
+      "episodeEnd": 12
+    },
+    {
+      "id": "bomb_girl",
+      "name": "Bomb Girl Arc",
+      "type": "movie",
+      "chapterStart": 39,
+      "chapterEnd": 52,
+      "episodeStart": 0,
+      "episodeEnd": 0
+    },
+    {
+      "id": "international_assassins",
+      "name": "International Assassins Arc",
+      "chapterStart": 53,
+      "chapterEnd": 70,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Announced for adaptation as Chainsaw Man: Assassins Arc (Season 2) at Jump Festa 2026. No release date or MAL ID confirmed yet."
+    },
+    {
+      "id": "gun_devil",
+      "name": "Gun Devil Arc",
+      "chapterStart": 71,
+      "chapterEnd": 79,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Not yet animated."
+    },
+    {
+      "id": "control_devil",
+      "name": "Control Devil Arc",
+      "chapterStart": 80,
+      "chapterEnd": 97,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Not yet animated. Concludes Part 1 — the Public Safety Saga."
+    },
+    {
+      "id": "justice_devil",
+      "name": "Justice Devil Arc",
+      "chapterStart": 98,
+      "chapterEnd": 111,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Part 2 (Academy Saga) begins. Introduces Asa Mitaka as co-protagonist alongside the War Devil Yoru. Not yet animated."
+    },
+    {
+      "id": "dating_denji",
+      "name": "Dating Denji Arc",
+      "chapterStart": 112,
+      "chapterEnd": 120,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Not yet animated."
+    },
+    {
+      "id": "falling_devil",
+      "name": "Falling Devil Arc",
+      "chapterStart": 121,
+      "chapterEnd": 131,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Not yet animated."
+    },
+    {
+      "id": "chainsaw_man_church",
+      "name": "Chainsaw Man Church Arc",
+      "chapterStart": 132,
+      "chapterEnd": 155,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "Not yet animated."
+    },
+    {
+      "id": "final_arc",
+      "name": "Final Arc",
+      "chapterStart": 156,
+      "chapterEnd": 232,
+      "episodeStart": 0,
+      "episodeEnd": 0,
+      "note": "The concluding arc of Part 2. No confirmed official English title. The manga ended with Chapter 232 on March 24, 2026. Not yet animated."
+    }
+  ],
+
+  "meta": {
+    "seasons": [
+      { "name": "Season 1", "eps": 12 }
+    ],
+    "totalChapters": 232,
+    "note": "MAL IDs for the manga (109891) and the Reze Arc movie (57932) are from training data and should be verified on myanimelist.net before deployment. The final arc of Part 2 (Ch. 156–232) has no confirmed official English title. Chainsaw Man: Assassins Arc (Season 2) was announced at Jump Festa 2026 (December 2025) but has no MAL ID or release date yet — update canonIds and seasons once available. Compilation films (Chainsaw Man – The Compilation: Part 1 & 2, Abema, Sept 2025) and Chainsaw Days ONA are non-canon and will surface automatically in Extras."
+  },
+
+  "episodes": [
+    {
+      "ep": 1,
+      "title": "Dog & Chainsaw",
+      "arc": "introduction",
+      "chapters": [1],
+      "series": "Season 1"
+    },
+    {
+      "ep": 2,
+      "title": "Arrival in Tokyo",
+      "arc": "introduction",
+      "chapters": [2, 3, 4],
+      "series": "Season 1"
+    },
+    {
+      "ep": 3,
+      "title": "Meowy's Whereabouts",
+      "arc": "bat_devil",
+      "chapters": [5, 6, 7, 8],
+      "series": "Season 1"
+    },
+    {
+      "ep": 4,
+      "title": "Rescue",
+      "arc": "bat_devil",
+      "chapters": [9, 10, 11, 12],
+      "series": "Season 1"
+    },
+    {
+      "ep": 5,
+      "title": "Gun Devil",
+      "arc": "eternity_devil",
+      "chapters": [12, 13, 14, 15],
+      "series": "Season 1"
+    },
+    {
+      "ep": 6,
+      "title": "Kill Denji",
+      "arc": "eternity_devil",
+      "chapters": [15, 16, 17, 18],
+      "series": "Season 1"
+    },
+    {
+      "ep": 7,
+      "title": "The Taste of a Kiss",
+      "arc": "eternity_devil",
+      "chapters": [18, 19, 20, 21],
+      "series": "Season 1"
+    },
+    {
+      "ep": 8,
+      "title": "Gunfire",
+      "arc": "katana_man",
+      "chapters": [22, 23, 24, 25],
+      "series": "Season 1"
+    },
+    {
+      "ep": 9,
+      "title": "From Kyoto",
+      "arc": "katana_man",
+      "chapters": [25, 26, 27, 28],
+      "series": "Season 1"
+    },
+    {
+      "ep": 10,
+      "title": "Bruised & Battered",
+      "arc": "katana_man",
+      "chapters": [29, 30, 31],
+      "series": "Season 1"
+    },
+    {
+      "ep": 11,
+      "title": "Mission Start",
+      "arc": "katana_man",
+      "chapters": [31, 32, 33, 34, 35],
+      "series": "Season 1"
+    },
+    {
+      "ep": 12,
+      "title": "Katana vs. Chainsaw",
+      "arc": "katana_man",
+      "chapters": [35, 36, 37, 38],
+      "series": "Season 1"
+    },
+    {
+      "type": "movie",
+      "title": "Chainsaw Man – The Movie: Reze Arc",
+      "arc": "bomb_girl",
+      "malId": 57932,
+      "chapters": [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52],
+      "watchAfterEpisode": 12
+    }
+  ],
+
+  "prequelChapters": []
+}

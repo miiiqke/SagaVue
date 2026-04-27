@@ -43,6 +43,35 @@
     "score": null
   },
   {
+    "id": "chainsaw_man",
+    "title": "Chainsaw Man",
+    "abbr": [
+      "CSM",
+      "Chensoman",
+      "Chensou Man",
+      "\u30c1\u30a7\u30f3\u30bd\u30fc\u30de\u30f3",
+      "Chainsaw",
+      "Denji",
+      "Pochita",
+      "Reze Arc",
+      "Bomb Girl",
+      "Fujimoto"
+    ],
+    "tags": [
+      "Action",
+      "Dark Fantasy",
+      "Seinen",
+      "Horror"
+    ],
+    "totalEpisodes": 12,
+    "totalChapters": 232,
+    "adaptedPct": 22,
+    "animeStatus": "Ongoing",
+    "mangaStatus": "Finished",
+    "malId": 44511,
+    "score": null
+  },
+  {
     "id": "demon_slayer",
     "title": "Demon Slayer: Kimetsu no Yaiba",
     "abbr": [
@@ -62,29 +91,6 @@
     "animeStatus": "Ongoing",
     "mangaStatus": "Finished",
     "malId": 38000,
-    "score": null
-  },
-  {
-    "id": "fmab",
-    "title": "Fullmetal Alchemist: Brotherhood",
-    "abbr": [
-      "FMAB",
-      "Fullmetal",
-      "FMA"
-    ],
-    "tags": [
-      "Action",
-      "Adventure",
-      "Drama",
-      "Fantasy",
-      "Shounen"
-    ],
-    "totalEpisodes": 64,
-    "totalChapters": 108,
-    "adaptedPct": 100,
-    "animeStatus": "Finished",
-    "mangaStatus": "Finished",
-    "malId": 5114,
     "score": null
   },
   {
@@ -109,6 +115,29 @@
     "animeStatus": "Ongoing",
     "mangaStatus": "Hiatus",
     "malId": 52991,
+    "score": null
+  },
+  {
+    "id": "fmab",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "abbr": [
+      "FMAB",
+      "Fullmetal",
+      "FMA"
+    ],
+    "tags": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Shounen"
+    ],
+    "totalEpisodes": 64,
+    "totalChapters": 108,
+    "adaptedPct": 100,
+    "animeStatus": "Finished",
+    "mangaStatus": "Finished",
+    "malId": 5114,
     "score": null
   },
   {
@@ -157,6 +186,31 @@
     "score": null
   },
   {
+    "id": "oshi_no_ko",
+    "title": "Oshi no Ko",
+    "abbr": [
+      "Oshi no Ko",
+      "ONK",
+      "\u3010\u63a8\u3057\u306e\u5b50\u3011",
+      "My Star",
+      "OshiNoKo"
+    ],
+    "tags": [
+      "Drama",
+      "Supernatural",
+      "Psychological",
+      "Seinen",
+      "Showbiz"
+    ],
+    "totalEpisodes": 35,
+    "totalChapters": 166,
+    "adaptedPct": 70,
+    "animeStatus": "Ongoing",
+    "mangaStatus": "Finished",
+    "malId": 52034,
+    "score": null
+  },
+  {
     "id": "vinland_saga",
     "title": "Vinland Saga",
     "abbr": [
@@ -176,31 +230,6 @@
     "animeStatus": "Incomplete",
     "mangaStatus": "Finished",
     "malId": 37521,
-    "score": null
-  },
-  {
-    "id": "oshi_no_ko",
-    "title": "Oshi no Ko",
-    "abbr": [
-      "Oshi no Ko",
-      "ONK",
-      "【推しの子】",
-      "My Star",
-      "OshiNoKo"
-    ],
-    "tags": [
-      "Drama",
-      "Supernatural",
-      "Psychological",
-      "Seinen",
-      "Showbiz"
-    ],
-    "totalEpisodes": 35,
-    "totalChapters": 166,
-    "adaptedPct": 70,
-    "animeStatus": "Ongoing",
-    "mangaStatus": "Finished",
-    "malId": 52034,
     "score": null
   }
 ]

@@ -182,7 +182,7 @@ nav {
   z-index: 0;
 }
 
-#home-page > * { position: relative; z-index: 1; }
+
 
 .eyebrow {
   font-family: var(--font-mono);
@@ -257,7 +257,7 @@ nav {
 #search-results {
   position: absolute; top: calc(100% + 6px); left: 0; right: 0;
   background: var(--surface); border: 1px solid var(--border2); border-radius: 0.9rem;
-  overflow-y: auto; max-height: 600px; z-index: 600;
+  overflow-y: auto; max-height: 600px; z-index: 2000;
   display: none;
   box-shadow: 0 20px 60px rgba(0,0,0,0.55), 0 0 0 1px rgba(153,102,221,0.05);
 }
