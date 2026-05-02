@@ -15,6 +15,7 @@ import {
 } from './render.js';
 import { fetchSeriesInfo, fetchBestInfo, fetchExtras, fetchFullStatusData } from './api.js';
 import { renderFooter } from './render-footer.js';
+import { initPickupWidget } from './pickup.js';
 
 let allSeries    = [];
 let currentSeries = null;
@@ -73,7 +74,7 @@ async function loadAllSeriesForSearch() {
   // so navigating to a series after search has already loaded it is instant.
   const SERIES_IDS = [
     'aot', 'berserk', 'demon_slayer', 'fmab',
-    'frieren', 'hxh', 'jjk', 'vinland_saga', 'oshi_no_ko',
+    'frieren', 'hxh', 'jjk', 'vinland_saga',
   ];
   try {
     const fullSeries = await Promise.all(SERIES_IDS.map(id => loadSeries(id)));
@@ -95,6 +96,7 @@ async function handleSeries(id, anchorId, tab) {
   renderOverview(currentSeries);
   renderSeasons(currentSeries);
   renderWatchGuide(currentSeries);
+  initPickupWidget(currentSeries);
   renderArcs(currentSeries, jumpToEp);
   resetTables();
   renderEpTable(currentSeries, 'all');

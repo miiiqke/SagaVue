@@ -8,7 +8,7 @@
     "Hunter × Hunter"
   ],
   "source": "Manga",
-  "animeStatus": "Incomplete",
+  "animeStatus": "Finished",
   "mangaStatus": "Hiatus",
   "lastUpdated": "2026-03-27",
   "tags": [
@@ -2120,5 +2120,8 @@
       "n": 0,
       "title": "Kurapika's Memories: Part Two"
     }
-  ]
+  ],
+  "mangaEntry": {
+    "afterFullAnime": 343
+  }
 }

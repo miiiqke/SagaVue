@@ -108,6 +108,7 @@ function enrich(json) {
       malIds: json.malIds,
       watchGuide: json.watchGuide || null,
     },
+    mangaEntry: json.mangaEntry || null,
     meta: {
       ...json.meta,
       title: json.title,

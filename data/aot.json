@@ -3,12 +3,13 @@
   "title": "Attack on Titan",
   "abbr": [
     "AOT",
-    "Shingeki"
+    "Shingeki",
+    "Shingeki no Kyojin",
+    "SNK"
   ],
   "source": "Manga",
   "animeStatus": "Finished",
   "mangaStatus": "Finished",
-  "lastUpdated": "2026-03-13",
   "tags": [
     "Dark Fantasy",
     "Action",
@@ -19,7 +20,15 @@
   "malIds": {
     "primary": 16498,
     "manga": 23405,
-    "canonIds": [],
+    "canonIds": [
+      16498,
+      25777,
+      35760,
+      38524,
+      40028,
+      49387,
+      51535
+    ],
     "seasons": [
       {
         "name": "Season 1",
@@ -52,24 +61,9 @@
         "eps": 12
       },
       {
-        "name": "The Final Chapters Part 1",
+        "name": "The Final Chapters",
         "malId": 51535,
-        "eps": 1
-      },
-      {
-        "name": "The Final Chapters Part 2",
-        "malId": 56185,
-        "eps": 1
-      },
-      {
-        "name": "Season 4 Final Chapters: Special 1",
-        "malId": 51535,
-        "eps": 1
-      },
-      {
-        "name": "Season 4 Final Chapters: Special 2",
-        "malId": 54112,
-        "eps": 1
+        "eps": 7
       }
     ]
   },
@@ -93,22 +87,16 @@
         "eps": 10
       },
       {
-        "name": "Season 4 Part 1",
+        "name": "The Final Season Part 1",
         "eps": 16
       },
       {
-        "name": "Season 4 Part 2",
+        "name": "The Final Season Part 2",
         "eps": 12
       },
       {
-        "name": "Season 4 Final Chapters (Part 3)",
-        "malId": null,
-        "eps": 3
-      },
-      {
-        "name": "Season 4 Final Chapters (Part 4)",
-        "malId": null,
-        "eps": 4
+        "name": "The Final Chapters",
+        "eps": 7
       }
     ],
     "note": " Episodes 88–90 (Special 1, originally aired March 4 2023) and 91–94 (Special 2, originally aired November 5 2023) were released as individual streaming episodes in November 2023. Both specials were also compiled into the theatrical film 'The Last Attack' (November 2024)."
@@ -158,17 +146,17 @@
       "id": "royal",
       "name": "Royal Government",
       "chapterStart": 51,
-      "chapterEnd": 72,
+      "chapterEnd": 70,
       "episodeStart": 38,
       "episodeEnd": 50
     },
     {
       "id": "return",
       "name": "Return to Shiganshina",
-      "chapterStart": 73,
+      "chapterStart": 71,
       "chapterEnd": 90,
       "episodeStart": 51,
-      "episodeEnd": 59
+      "episodeEnd": 60
     },
     {
       "id": "marley",
@@ -176,14 +164,14 @@
       "chapterStart": 91,
       "chapterEnd": 106,
       "episodeStart": 61,
-      "episodeEnd": 75
+      "episodeEnd": 66
     },
     {
       "id": "war",
       "name": "War for Paradis",
       "chapterStart": 107,
       "chapterEnd": 139,
-      "episodeStart": 76,
+      "episodeStart": 67,
       "episodeEnd": 94
     }
   ],
@@ -768,7 +756,7 @@
     {
       "ep": 67,
       "title": "Guides",
-      "arc": "marley",
+      "arc": "war",
       "chapters": [
         107,
         108
@@ -777,7 +765,7 @@
     {
       "ep": 68,
       "title": "Titles",
-      "arc": "marley",
+      "arc": "war",
       "chapters": [
         109
       ]
@@ -785,7 +773,7 @@
     {
       "ep": 69,
       "title": "Ragnarok",
-      "arc": "marley",
+      "arc": "war",
       "chapters": [
         110
       ]
@@ -793,7 +781,7 @@
     {
       "ep": 70,
       "title": "Deceiver",
-      "arc": "marley",
+      "arc": "war",
       "chapters": [
         111
       ]
@@ -801,7 +789,7 @@
     {
       "ep": 71,
       "title": "Guides",
-      "arc": "marley",
+      "arc": "war",
       "chapters": [
         112
       ]
@@ -809,7 +797,7 @@
     {
       "ep": 72,
       "title": "Children of the Forest",
-      "arc": "marley",
+      "arc": "war",
       "chapters": [
         113
       ]
@@ -817,7 +805,7 @@
     {
       "ep": 73,
       "title": "Savagery",
-      "arc": "marley",
+      "arc": "war",
       "chapters": [
         114
       ]
@@ -825,7 +813,7 @@
     {
       "ep": 74,
       "title": "Sole Salvation",
-      "arc": "marley",
+      "arc": "war",
       "chapters": [
         115
       ]
@@ -833,7 +821,7 @@
     {
       "ep": 75,
       "title": "Traitor",
-      "arc": "marley",
+      "arc": "war",
       "chapters": [
         116
       ]
@@ -946,7 +934,7 @@
       "chapters": [
         134
       ],
-      "series": "Season 4 Final Chapters"
+      "series": "The Final Chapters"
     },
     {
       "ep": 89,
@@ -955,7 +943,7 @@
       "chapters": [
         135
       ],
-      "series": "Season 4 Final Chapters"
+      "series": "The Final Chapters"
     },
     {
       "ep": 90,
@@ -964,7 +952,7 @@
       "chapters": [
         136
       ],
-      "series": "Season 4 Final Chapters"
+      "series": "The Final Chapters"
     },
     {
       "ep": 91,
@@ -973,7 +961,7 @@
       "chapters": [
         137
       ],
-      "series": "Season 4 Final Chapters"
+      "series": "The Final Chapters"
     },
     {
       "ep": 92,
@@ -983,7 +971,7 @@
         137,
         138
       ],
-      "series": "Season 4 Final Chapters"
+      "series": "The Final Chapters"
     },
     {
       "ep": 93,
@@ -993,7 +981,7 @@
         138,
         139
       ],
-      "series": "Season 4 Final Chapters"
+      "series": "The Final Chapters"
     },
     {
       "ep": 94,
@@ -1002,7 +990,7 @@
       "chapters": [
         139
       ],
-      "series": "Season 4 Final Chapters",
+      "series": "The Final Chapters",
       "note": "Ch 139 is the short epilogue chapter. It was split across eps 93–94 in the streaming episodic version."
     }
   ],
@@ -1051,7 +1039,7 @@
     "42": "Warrior",
     "43": "Titan",
     "44": "Notice",
-    "45": "追う者たち",
+    "45": "Pursuers",
     "46": "Opening",
     "47": "Children",
     "48": "Someone",
@@ -1093,7 +1081,7 @@
     "84": "Assassin's Bullet",
     "85": "Two Brothers",
     "86": "Where the Left Arm Went",
-    "87": "境界の彼方",
+    "87": "Borderline",
     "88": "Attack Titan",
     "89": "Brave Volunteers",
     "90": "To the Other Side of the Sea",
@@ -1146,5 +1134,8 @@
     "137": "Titans",
     "138": "A Long Dream",
     "139": "Toward the Tree on That Hill"
+  },
+  "mangaEntry": {
+    "afterFullAnime": null
   }
 }

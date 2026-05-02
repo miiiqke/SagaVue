@@ -1116,5 +1116,15 @@
       "covers": "Ch 140–205",
       "note": "Film I ('Akaza Returns') was released July 2025 and covers Ch 140–157. Parts 2 and 3 will adapt the rest of the Infinity Castle arc and the Sunrise Countdown arc through Ch 205, concluding the series."
     }
-  ]
+  ],
+  "mangaEntry": {
+    "afterFullAnime": 140,
+    "skippedArcs": [
+      {
+        "name": "Infinity Castle Arc (Part 2 onwards)",
+        "chapters": "Ch 158–183",
+        "note": "Not yet animated. Pick up here after the first Infinity Castle film."
+      }
+    ]
+  }
 }

@@ -746,5 +746,8 @@
     "219": "Again and again",
     "220": "Somewhere Not Here"
   },
-  "prequelChapters": []
+  "prequelChapters": [],
+  "mangaEntry": {
+    "afterFullAnime": 100
+  }
 }
