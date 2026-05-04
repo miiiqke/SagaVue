@@ -1,24 +1,48 @@
 {
   "id": "chainsaw_man",
   "title": "Chainsaw Man",
-  "abbr": ["CSM", "Chensoman", "Chensou Man", "チェンソーマン", "Chainsaw", "Denji", "Pochita", "Reze Arc", "Bomb Girl", "Fujimoto"],
+  "abbr": [
+    "CSM",
+    "Chensoman",
+    "Chensou Man",
+    "チェンソーマン",
+    "Chainsaw",
+    "Denji",
+    "Pochita",
+    "Reze Arc",
+    "Bomb Girl"
+  ],
   "source": "Manga",
   "animeStatus": "Ongoing",
   "mangaStatus": "Finished",
   "lastUpdated": "2026-04-03",
-  "tags": ["Action", "Dark Fantasy", "Seinen", "Horror"],
-
+  "tags": [
+    "Action",
+    "Dark Fantasy",
+    "Seinen",
+    "Horror"
+  ],
   "malIds": {
     "primary": 44511,
     "manga": 109891,
-    "canonIds": [44511, 57932],
-    "seasons": [
-      { "name": "Season 1", "malId": 44511, "eps": 12 },
-      { "name": "Chainsaw Man – The Movie: Reze Arc", "malId": 57932, "eps": 1, "type": "movie" }
+    "canonIds": [
+      44511,
+      57932
     ],
-    "alternativeSeries": []
+    "seasons": [
+      {
+        "name": "Season 1",
+        "malId": 44511,
+        "eps": 12
+      },
+      {
+        "name": "Chainsaw Man – The Movie: Reze Arc",
+        "malId": 57932,
+        "eps": 1,
+        "type": "movie"
+      }
+    ]
   },
-
   "watchGuide": [
     {
       "step": 1,
@@ -35,8 +59,10 @@
       "title": "Chainsaw Man – The Movie: Reze Arc",
       "subtitle": "1 film",
       "covers": "Ch 38–52",
-      "malId": 57932,
-      "note": "Direct sequel to Season 1. Watch immediately after. Adapts the Bomb Girl (Reze) arc in full."
+      "note": "Direct sequel to Season 1. Watch immediately after. Adapts the Bomb Girl (Reze) arc in full.",
+      "malIds": [
+        57932
+      ]
     },
     {
       "step": 3,
@@ -47,7 +73,6 @@
       "startChapter": 53
     }
   ],
-
   "arcs": [
     {
       "id": "introduction",
@@ -88,7 +113,8 @@
       "chapterStart": 39,
       "chapterEnd": 52,
       "episodeStart": 0,
-      "episodeEnd": 0
+      "episodeEnd": 0,
+      "malId": 57932
     },
     {
       "id": "international_assassins",
@@ -163,98 +189,155 @@
       "note": "The concluding arc of Part 2. No confirmed official English title. The manga ended with Chapter 232 on March 24, 2026. Not yet animated."
     }
   ],
-
   "meta": {
     "seasons": [
-      { "name": "Season 1", "eps": 12 }
+      {
+        "name": "Season 1",
+        "eps": 12
+      }
     ],
     "totalChapters": 232,
     "note": "MAL IDs for the manga (109891) and the Reze Arc movie (57932) are from training data and should be verified on myanimelist.net before deployment. The final arc of Part 2 (Ch. 156–232) has no confirmed official English title. Chainsaw Man: Assassins Arc (Season 2) was announced at Jump Festa 2026 (December 2025) but has no MAL ID or release date yet — update canonIds and seasons once available. Compilation films (Chainsaw Man – The Compilation: Part 1 & 2, Abema, Sept 2025) and Chainsaw Days ONA are non-canon and will surface automatically in Extras."
   },
-
   "episodes": [
     {
       "ep": 1,
       "title": "Dog & Chainsaw",
       "arc": "introduction",
-      "chapters": [1],
+      "chapters": [
+        1
+      ],
       "series": "Season 1"
     },
     {
       "ep": 2,
       "title": "Arrival in Tokyo",
       "arc": "introduction",
-      "chapters": [2, 3, 4],
+      "chapters": [
+        2,
+        3,
+        4
+      ],
       "series": "Season 1"
     },
     {
       "ep": 3,
       "title": "Meowy's Whereabouts",
       "arc": "bat_devil",
-      "chapters": [5, 6, 7, 8],
+      "chapters": [
+        5,
+        6,
+        7,
+        8
+      ],
       "series": "Season 1"
     },
     {
       "ep": 4,
       "title": "Rescue",
       "arc": "bat_devil",
-      "chapters": [9, 10, 11, 12],
+      "chapters": [
+        9,
+        10,
+        11,
+        12
+      ],
       "series": "Season 1"
     },
     {
       "ep": 5,
       "title": "Gun Devil",
       "arc": "eternity_devil",
-      "chapters": [12, 13, 14, 15],
+      "chapters": [
+        12,
+        13,
+        14,
+        15
+      ],
       "series": "Season 1"
     },
     {
       "ep": 6,
       "title": "Kill Denji",
       "arc": "eternity_devil",
-      "chapters": [15, 16, 17, 18],
+      "chapters": [
+        15,
+        16,
+        17,
+        18
+      ],
       "series": "Season 1"
     },
     {
       "ep": 7,
       "title": "The Taste of a Kiss",
       "arc": "eternity_devil",
-      "chapters": [18, 19, 20, 21],
+      "chapters": [
+        18,
+        19,
+        20,
+        21
+      ],
       "series": "Season 1"
     },
     {
       "ep": 8,
       "title": "Gunfire",
       "arc": "katana_man",
-      "chapters": [22, 23, 24, 25],
+      "chapters": [
+        22,
+        23,
+        24,
+        25
+      ],
       "series": "Season 1"
     },
     {
       "ep": 9,
       "title": "From Kyoto",
       "arc": "katana_man",
-      "chapters": [25, 26, 27, 28],
+      "chapters": [
+        25,
+        26,
+        27,
+        28
+      ],
       "series": "Season 1"
     },
     {
       "ep": 10,
       "title": "Bruised & Battered",
       "arc": "katana_man",
-      "chapters": [29, 30, 31],
+      "chapters": [
+        29,
+        30,
+        31
+      ],
       "series": "Season 1"
     },
     {
       "ep": 11,
       "title": "Mission Start",
       "arc": "katana_man",
-      "chapters": [31, 32, 33, 34, 35],
+      "chapters": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
       "series": "Season 1"
     },
     {
       "ep": 12,
       "title": "Katana vs. Chainsaw",
       "arc": "katana_man",
-      "chapters": [35, 36, 37, 38],
+      "chapters": [
+        35,
+        36,
+        37,
+        38
+      ],
       "series": "Season 1"
     },
     {
@@ -262,10 +345,28 @@
       "title": "Chainsaw Man – The Movie: Reze Arc",
       "arc": "bomb_girl",
       "malId": 57932,
-      "chapters": [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52],
-      "watchAfterEpisode": 12
+      "chapters": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "watchAfterEpisode": 12,
+      "status": "canon"
     }
   ],
-
-  "prequelChapters": []
+  "mangaEntry": {
+    "afterFullAnime": 53
+  }
 }
