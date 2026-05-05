@@ -3,7 +3,9 @@
   "title": "Demon Slayer: Kimetsu no Yaiba",
   "abbr": [
     "KNY",
-    "Demon Slayer"
+    "Demon Slayer",
+    "Kimetsu no Yaiba",
+    "Kimetsu"
   ],
   "source": "Manga",
   "animeStatus": "Ongoing",
@@ -61,7 +63,7 @@
         "eps": 8
       },
       {
-        "name": "Infinity Castle Film I (2025)",
+        "name": "Infinity Castle – Part 1: Akaza Returns",
         "malId": null,
         "eps": 1,
         "type": "movie"
@@ -150,8 +152,8 @@
       "watchAfterEpisode": 26,
       "chapterStart": 54,
       "chapterEnd": 69,
-      "episodeStart": 1,
-      "episodeEnd": 1,
+      "episodeStart": 0,
+      "episodeEnd": 0,
       "note": "A canon film that directly continues the story from Season 1. It was later re-adapted as the first 7 episodes of Season 2. Viewers can watch either the movie or the TV arc.",
       "status": "canon"
     },
@@ -190,13 +192,13 @@
     },
     {
       "id": "infinity_castle_film_i",
-      "name": "Infinity Castle Film I – Akaza Returns",
+      "name": "Infinity Castle – Part 1: Akaza Returns",
       "type": "movie",
       "malId": null,
       "chapterStart": 140,
       "chapterEnd": 157,
-      "episodeStart": 1,
-      "episodeEnd": 1,
+      "episodeStart": 0,
+      "episodeEnd": 0,
       "note": "Released July 18 2025 (Japan) / September 12 2025 (internationally). Covers Tanjiro & Giyu vs. Akaza, Zenitsu vs. Kaigaku, Shinobu vs. Doma through chapter 157. Runtime: ~2h 30m. Part 1 of the Infinity Castle film trilogy.",
       "status": "canon"
     },
@@ -226,7 +228,8 @@
       "arc": "final_selection",
       "chapters": [
         1
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 2,
@@ -235,7 +238,8 @@
       "chapters": [
         2,
         3
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 3,
@@ -244,7 +248,8 @@
       "chapters": [
         4,
         5
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 4,
@@ -253,7 +258,8 @@
       "chapters": [
         6,
         7
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 5,
@@ -262,7 +268,8 @@
       "chapters": [
         8,
         9
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 6,
@@ -271,7 +278,8 @@
       "chapters": [
         10,
         11
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 7,
@@ -280,7 +288,8 @@
       "chapters": [
         12,
         13
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 8,
@@ -289,7 +298,8 @@
       "chapters": [
         14,
         15
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 9,
@@ -298,7 +308,8 @@
       "chapters": [
         16,
         17
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 10,
@@ -307,7 +318,8 @@
       "chapters": [
         18,
         19
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 11,
@@ -316,7 +328,8 @@
       "chapters": [
         20,
         21
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 12,
@@ -326,7 +339,8 @@
         22,
         23,
         24
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 13,
@@ -335,7 +349,8 @@
       "chapters": [
         25,
         26
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 14,
@@ -344,7 +359,8 @@
       "chapters": [
         26,
         27
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 15,
@@ -354,7 +370,8 @@
         28,
         29,
         30
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 16,
@@ -364,7 +381,8 @@
         30,
         31,
         32
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 17,
@@ -374,7 +392,8 @@
         32,
         33,
         34
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 18,
@@ -384,7 +403,8 @@
         35,
         36,
         37
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 19,
@@ -394,7 +414,8 @@
         38,
         39,
         40
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 20,
@@ -405,7 +426,8 @@
         41,
         42,
         43
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 21,
@@ -414,7 +436,8 @@
       "chapters": [
         43,
         44
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 22,
@@ -424,7 +447,8 @@
         45,
         46,
         47
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 23,
@@ -434,7 +458,8 @@
         48,
         49,
         50
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 24,
@@ -444,7 +469,8 @@
         50,
         51,
         52
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 25,
@@ -453,7 +479,8 @@
       "chapters": [
         52,
         53
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 26,
@@ -461,7 +488,8 @@
       "arc": "rehabilitation_training",
       "chapters": [
         53
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 27,
@@ -469,7 +497,8 @@
       "arc": "mugen_train_tv",
       "chapters": [
         "Anime Original"
-      ]
+      ],
+      "series": "Mugen Train Arc (TV)"
     },
     {
       "ep": 28,
@@ -479,7 +508,8 @@
         54,
         55,
         56
-      ]
+      ],
+      "series": "Mugen Train Arc (TV)"
     },
     {
       "ep": 29,
@@ -489,7 +519,8 @@
         57,
         58,
         59
-      ]
+      ],
+      "series": "Mugen Train Arc (TV)"
     },
     {
       "ep": 30,
@@ -498,7 +529,8 @@
       "chapters": [
         60,
         61
-      ]
+      ],
+      "series": "Mugen Train Arc (TV)"
     },
     {
       "ep": 31,
@@ -508,7 +540,8 @@
         62,
         63,
         64
-      ]
+      ],
+      "series": "Mugen Train Arc (TV)"
     },
     {
       "ep": 32,
@@ -517,7 +550,8 @@
       "chapters": [
         65,
         66
-      ]
+      ],
+      "series": "Mugen Train Arc (TV)"
     },
     {
       "ep": 33,
@@ -527,7 +561,8 @@
         67,
         68,
         69
-      ]
+      ],
+      "series": "Mugen Train Arc (TV)"
     },
     {
       "ep": 34,
@@ -536,7 +571,8 @@
       "chapters": [
         70,
         71
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 35,
@@ -546,7 +582,8 @@
         72,
         73,
         74
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 36,
@@ -555,7 +592,8 @@
       "chapters": [
         75,
         76
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 37,
@@ -565,7 +603,8 @@
         77,
         78,
         79
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 38,
@@ -575,7 +614,8 @@
         80,
         81,
         82
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 39,
@@ -584,7 +624,8 @@
       "chapters": [
         83,
         84
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 40,
@@ -593,7 +634,8 @@
       "chapters": [
         85,
         86
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 41,
@@ -603,7 +645,8 @@
         87,
         88,
         89
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 42,
@@ -613,7 +656,8 @@
         90,
         91,
         92
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 43,
@@ -623,7 +667,8 @@
         93,
         94,
         95
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 44,
@@ -634,7 +679,8 @@
         97,
         98,
         99
-      ]
+      ],
+      "series": "Entertainment District Arc"
     },
     {
       "ep": 45,
@@ -643,7 +689,8 @@
       "chapters": [
         100,
         101
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 46,
@@ -653,7 +700,8 @@
         102,
         103,
         104
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 47,
@@ -662,7 +710,8 @@
       "chapters": [
         105,
         106
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 48,
@@ -672,7 +721,8 @@
         107,
         108,
         109
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 49,
@@ -682,7 +732,8 @@
         110,
         111,
         112
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 50,
@@ -692,7 +743,8 @@
         113,
         114,
         115
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 51,
@@ -701,7 +753,8 @@
       "chapters": [
         116,
         117
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 52,
@@ -711,7 +764,8 @@
         118,
         119,
         120
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 53,
@@ -721,7 +775,8 @@
         121,
         122,
         123
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 54,
@@ -731,7 +786,8 @@
         124,
         125,
         126
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 55,
@@ -739,7 +795,8 @@
       "arc": "swordsmith_village",
       "chapters": [
         127
-      ]
+      ],
+      "series": "Swordsmith Village Arc"
     },
     {
       "ep": 56,
@@ -748,7 +805,8 @@
       "chapters": [
         128,
         129
-      ]
+      ],
+      "series": "Hashira Training Arc"
     },
     {
       "ep": 57,
@@ -757,7 +815,8 @@
       "chapters": [
         130,
         131
-      ]
+      ],
+      "series": "Hashira Training Arc"
     },
     {
       "ep": 58,
@@ -766,7 +825,8 @@
       "chapters": [
         132,
         133
-      ]
+      ],
+      "series": "Hashira Training Arc"
     },
     {
       "ep": 59,
@@ -775,7 +835,8 @@
       "chapters": [
         133,
         134
-      ]
+      ],
+      "series": "Hashira Training Arc"
     },
     {
       "ep": 60,
@@ -784,7 +845,8 @@
       "chapters": [
         134,
         135
-      ]
+      ],
+      "series": "Hashira Training Arc"
     },
     {
       "ep": 61,
@@ -793,7 +855,8 @@
       "chapters": [
         135,
         136
-      ]
+      ],
+      "series": "Hashira Training Arc"
     },
     {
       "ep": 62,
@@ -802,7 +865,8 @@
       "chapters": [
         137,
         138
-      ]
+      ],
+      "series": "Hashira Training Arc"
     },
     {
       "ep": 63,
@@ -810,11 +874,12 @@
       "arc": "hashira_training",
       "chapters": [
         139
-      ]
+      ],
+      "series": "Hashira Training Arc"
     },
     {
       "type": "movie",
-      "title": "Infinity Castle Film I – Akaza Returns",
+      "title": "Infinity Castle – Part 1: Akaza Returns",
       "arc": "infinity_castle_film_i",
       "malId": null,
       "chapters": [
@@ -1048,7 +1113,6 @@
     "204": "A World Without Demons",
     "205": "Life Shining Across the Years"
   },
-  "prequelChapters": [],
   "watchGuide": [
     {
       "step": 1,
@@ -1070,15 +1134,17 @@
           "title": "Mugen Train (Film)",
           "subtitle": "1 film · 117 min",
           "covers": "Ch 54–69",
-          "malId": 40456,
-          "note": "The original theatrical version. Tighter pacing, no filler. Recommended."
+          "note": "The original theatrical version. Tighter pacing, no filler. Recommended.",
+          "malIds": [
+            40456
+          ]
         },
         {
           "type": "anime",
           "title": "Mugen Train Arc (TV)",
           "subtitle": "7 episodes · Season 2 Part 1",
           "covers": "Ch 54–69",
-          "malId": 47778,
+          "malId": 49926,
           "note": "Ep 27 is anime-original content. Eps 28–33 are the movie re-edited into TV format. Fine to watch, but the original film is better."
         }
       ]
@@ -1098,7 +1164,7 @@
       "title": "Swordsmith Village Arc",
       "subtitle": "11 episodes · Season 3",
       "covers": "Ch 100–127",
-      "malId": 51009
+      "malId": 51019
     },
     {
       "step": 5,
@@ -1106,25 +1172,21 @@
       "title": "Hashira Training Arc",
       "subtitle": "8 episodes · Season 4",
       "covers": "Ch 128–136",
-      "malId": 54595
+      "malId": 55353
     },
     {
       "step": 6,
-      "type": "anime",
+      "type": "movie-set",
       "title": "Infinity Castle Film Trilogy",
       "subtitle": "Film I released 2025 · Film II expected 2027 · Film III expected 2029",
       "covers": "Ch 140–205",
-      "note": "Film I ('Akaza Returns') was released July 2025 and covers Ch 140–157. Parts 2 and 3 will adapt the rest of the Infinity Castle arc and the Sunrise Countdown arc through Ch 205, concluding the series."
+      "note": "Film I ('Part 1: Akaza Returns') released July 18 2025 (Japan) / Sept 12 2025 (international), covers Ch 140–157. Films II and III will cover Ch 158–205, concluding the series. NOTE: MAL ID 58993 for Film I needs user verification at myanimelist.net.",
+      "malIds": [
+        58993
+      ]
     }
   ],
   "mangaEntry": {
-    "afterFullAnime": 140,
-    "skippedArcs": [
-      {
-        "name": "Infinity Castle Arc (Part 2 onwards)",
-        "chapters": "Ch 158–183",
-        "note": "Not yet animated. Pick up here after the first Infinity Castle film."
-      }
-    ]
+    "afterFullAnime": 158
   }
 }

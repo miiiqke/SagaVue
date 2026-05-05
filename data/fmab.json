@@ -4,7 +4,10 @@
   "abbr": [
     "FMAB",
     "Fullmetal",
-    "FMA"
+    "FMA",
+    "Brotherhood",
+    "Hagane no Renkinjutsushi",
+    "Hagane"
   ],
   "source": "Manga",
   "animeStatus": "Finished",
@@ -19,7 +22,9 @@
   "malIds": {
     "primary": 5114,
     "manga": 25,
-    "canonIds": [],
+    "canonIds": [
+      5114
+    ],
     "seasons": [
       {
         "name": "Full Series",
@@ -82,38 +87,38 @@
       "chapterStart": 11,
       "chapterEnd": 18,
       "episodeStart": 9,
-      "episodeEnd": 13
+      "episodeEnd": 11
     },
     {
       "id": "rush",
       "name": "Rush Valley Arc",
       "chapterStart": 19,
       "chapterEnd": 26,
-      "episodeStart": 14,
-      "episodeEnd": 18
+      "episodeStart": 12,
+      "episodeEnd": 13
     },
     {
       "id": "greed",
       "name": "Greed & Devil's Nest",
       "chapterStart": 27,
       "chapterEnd": 33,
-      "episodeStart": 19,
-      "episodeEnd": 22
+      "episodeStart": 14,
+      "episodeEnd": 17
     },
     {
       "id": "research",
       "name": "Research & Discovery",
       "chapterStart": 34,
       "chapterEnd": 48,
-      "episodeStart": 23,
-      "episodeEnd": 28
+      "episodeStart": 18,
+      "episodeEnd": 25
     },
     {
       "id": "ishval",
       "name": "Ishval War Flashback",
       "chapterStart": 49,
       "chapterEnd": 63,
-      "episodeStart": 29,
+      "episodeStart": 26,
       "episodeEnd": 33
     },
     {
@@ -122,14 +127,14 @@
       "chapterStart": 64,
       "chapterEnd": 82,
       "episodeStart": 34,
-      "episodeEnd": 46
+      "episodeEnd": 45
     },
     {
       "id": "promised",
       "name": "Promised Day Arc",
       "chapterStart": 83,
       "chapterEnd": 108,
-      "episodeStart": 47,
+      "episodeStart": 46,
       "episodeEnd": 64
     }
   ],
@@ -142,7 +147,8 @@
       "chapters": [
         1,
         2
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 2,
@@ -152,7 +158,8 @@
       "chapters": [
         2,
         3
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 3,
@@ -161,7 +168,8 @@
       "chapters": [
         3,
         4
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 4,
@@ -170,7 +178,8 @@
       "status": "mixed",
       "chapters": [
         4
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 5,
@@ -179,7 +188,8 @@
       "chapters": [
         5,
         6
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 6,
@@ -188,7 +198,8 @@
       "chapters": [
         7,
         8
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 7,
@@ -197,7 +208,8 @@
       "chapters": [
         8,
         9
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 8,
@@ -205,7 +217,8 @@
       "arc": "lab5",
       "chapters": [
         10
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 9,
@@ -214,7 +227,8 @@
       "chapters": [
         11,
         12
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 10,
@@ -225,7 +239,8 @@
         14,
         15,
         16
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 11,
@@ -234,7 +249,8 @@
       "chapters": [
         17,
         18
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 12,
@@ -244,7 +260,8 @@
         19,
         20,
         21
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 13,
@@ -256,7 +273,8 @@
         24,
         25,
         26
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 14,
@@ -265,7 +283,8 @@
       "chapters": [
         27,
         28
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 15,
@@ -274,7 +293,8 @@
       "chapters": [
         29,
         30
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 16,
@@ -283,7 +303,8 @@
       "chapters": [
         31,
         32
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 17,
@@ -292,7 +313,8 @@
       "chapters": [
         33,
         34
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 18,
@@ -301,7 +323,8 @@
       "chapters": [
         35,
         36
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 19,
@@ -310,7 +333,8 @@
       "chapters": [
         37,
         38
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 20,
@@ -319,7 +343,8 @@
       "chapters": [
         38,
         39
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 21,
@@ -328,7 +353,8 @@
       "chapters": [
         40,
         41
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 22,
@@ -337,7 +363,8 @@
       "chapters": [
         42,
         43
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 23,
@@ -346,7 +373,8 @@
       "chapters": [
         44,
         45
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 24,
@@ -355,7 +383,8 @@
       "chapters": [
         46,
         47
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 25,
@@ -364,34 +393,38 @@
       "chapters": [
         47,
         48
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 26,
       "title": "Reunion",
-      "arc": "research",
+      "arc": "ishval",
       "chapters": [
         49,
         50
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 27,
       "title": "Interlude Party",
-      "arc": "research",
+      "arc": "ishval",
       "chapters": [
         51,
         52
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 28,
       "title": "Father",
-      "arc": "research",
+      "arc": "ishval",
       "chapters": [
         53,
         54
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 29,
@@ -400,7 +433,8 @@
       "chapters": [
         55,
         56
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 30,
@@ -410,7 +444,8 @@
         57,
         58,
         59
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 31,
@@ -420,7 +455,8 @@
         59,
         60,
         61
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 32,
@@ -429,7 +465,8 @@
       "chapters": [
         62,
         63
-      ]
+      ],
+      "series": "Season 1"
     },
     {
       "ep": 33,
@@ -438,7 +475,8 @@
       "chapters": [
         63,
         64
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 34,
@@ -448,7 +486,8 @@
         65,
         66,
         67
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 35,
@@ -457,7 +496,8 @@
       "chapters": [
         67,
         68
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 36,
@@ -466,7 +506,8 @@
       "chapters": [
         68,
         69
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 37,
@@ -475,7 +516,8 @@
       "chapters": [
         70,
         71
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 38,
@@ -484,7 +526,8 @@
       "chapters": [
         72,
         73
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 39,
@@ -493,7 +536,8 @@
       "chapters": [
         74,
         75
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 40,
@@ -502,7 +546,8 @@
       "chapters": [
         76,
         77
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 41,
@@ -511,7 +556,8 @@
       "chapters": [
         77,
         78
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 42,
@@ -520,7 +566,8 @@
       "chapters": [
         79,
         80
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 43,
@@ -529,7 +576,8 @@
       "chapters": [
         81,
         82
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 44,
@@ -537,7 +585,8 @@
       "arc": "pursuit",
       "chapters": [
         82
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 45,
@@ -546,7 +595,8 @@
       "chapters": [
         82,
         83
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 46,
@@ -556,7 +606,8 @@
         83,
         84,
         85
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 47,
@@ -566,7 +617,8 @@
         86,
         87,
         88
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 48,
@@ -575,7 +627,8 @@
       "chapters": [
         89,
         90
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 49,
@@ -584,7 +637,8 @@
       "chapters": [
         91,
         92
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 50,
@@ -593,7 +647,8 @@
       "chapters": [
         93,
         94
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 51,
@@ -602,7 +657,8 @@
       "chapters": [
         95,
         96
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 52,
@@ -611,7 +667,8 @@
       "chapters": [
         97,
         98
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 53,
@@ -620,7 +677,8 @@
       "chapters": [
         99,
         100
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 54,
@@ -629,7 +687,8 @@
       "chapters": [
         100,
         101
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 55,
@@ -638,7 +697,8 @@
       "chapters": [
         101,
         102
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 56,
@@ -647,7 +707,8 @@
       "chapters": [
         102,
         103
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 57,
@@ -655,7 +716,8 @@
       "arc": "promised",
       "chapters": [
         104
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 58,
@@ -663,7 +725,8 @@
       "arc": "promised",
       "chapters": [
         105
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 59,
@@ -672,7 +735,8 @@
       "chapters": [
         105,
         106
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 60,
@@ -680,7 +744,8 @@
       "arc": "promised",
       "chapters": [
         106
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 61,
@@ -688,7 +753,8 @@
       "arc": "promised",
       "chapters": [
         107
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 62,
@@ -696,7 +762,8 @@
       "arc": "promised",
       "chapters": [
         107
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 63,
@@ -704,7 +771,8 @@
       "arc": "promised",
       "chapters": [
         108
-      ]
+      ],
+      "series": "Season 2"
     },
     {
       "ep": 64,
@@ -712,7 +780,8 @@
       "arc": "promised",
       "chapters": [
         108
-      ]
+      ],
+      "series": "Season 2"
     }
   ],
   "chapterTitles": {
@@ -849,14 +918,9 @@
           "note": "Adapts the opening manga arcs, then goes in its own direction. A different, darker tone with an original ending. Worth watching as its own story after Brotherhood."
         }
       ]
-    },
-    {
-      "step": 2,
-      "type": "manga-required",
-      "title": "Read the Manga (optional but rewarding)",
-      "covers": "Ch 1–108",
-      "note": "Brotherhood is faithful enough that the manga isn't required — but it adds detail cut from the anime, particularly in the early arcs where Brotherhood rushed through chapters already covered by the 2003 series."
     }
   ],
-  "lastUpdated": "2026-03-13"
+  "mangaEntry": {
+    "afterFullAnime": null
+  }
 }
