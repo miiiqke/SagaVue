@@ -20,21 +20,21 @@
     "Showbiz"
   ],
   "malIds": {
-    "primary": 219321,
+    "primary": 52034,
     "manga": 126146,
     "canonIds": [
-      219321,
-      244687
+      52034,
+      55791
     ],
     "seasons": [
       {
-        "name": "Season 1",
-        "malId": 219321,
+        "name": "[Oshi no Ko]",
+        "malId": 52034,
         "eps": 11
       },
       {
-        "name": "Season 2",
-        "malId": 244687,
+        "name": "[Oshi no Ko] Season 2",
+        "malId": 55791,
         "eps": 13
       }
     ],
@@ -148,7 +148,7 @@
         9,
         10
       ],
-      "series": "Season 1"
+      "series": "[Oshi no Ko]"
     },
     {
       "ep": 2,
@@ -159,7 +159,7 @@
         12,
         13
       ],
-      "series": "Season 1"
+      "series": "[Oshi no Ko]"
     },
     {
       "ep": 3,
@@ -170,7 +170,7 @@
         15,
         16
       ],
-      "series": "Season 1"
+      "series": "[Oshi no Ko]"
     },
     {
       "ep": 4,
@@ -182,7 +182,7 @@
         18,
         19
       ],
-      "series": "Season 1",
+      "series": "[Oshi no Ko]",
       "status": "mixed"
     },
     {
@@ -194,7 +194,7 @@
         21,
         22
       ],
-      "series": "Season 1"
+      "series": "[Oshi no Ko]"
     },
     {
       "ep": 6,
@@ -205,7 +205,7 @@
         24,
         25
       ],
-      "series": "Season 1"
+      "series": "[Oshi no Ko]"
     },
     {
       "ep": 7,
@@ -216,7 +216,7 @@
         27,
         28
       ],
-      "series": "Season 1"
+      "series": "[Oshi no Ko]"
     },
     {
       "ep": 8,
@@ -228,7 +228,7 @@
         31,
         32
       ],
-      "series": "Season 1"
+      "series": "[Oshi no Ko]"
     },
     {
       "ep": 9,
@@ -239,7 +239,7 @@
         33,
         34
       ],
-      "series": "Season 1"
+      "series": "[Oshi no Ko]"
     },
     {
       "ep": 10,
@@ -250,7 +250,7 @@
         36,
         37
       ],
-      "series": "Season 1"
+      "series": "[Oshi no Ko]"
     },
     {
       "ep": 11,
@@ -261,7 +261,7 @@
         39,
         40
       ],
-      "series": "Season 1"
+      "series": "[Oshi no Ko]"
     },
     {
       "ep": 12,
@@ -273,7 +273,7 @@
         43,
         44
       ],
-      "series": "Season 2"
+      "series": "[Oshi no Ko] Season 2"
     },
     {
       "ep": 13,
@@ -287,7 +287,7 @@
         45,
         46
       ],
-      "series": "Season 2",
+      "series": "[Oshi no Ko] Season 2",
       "status": "mixed"
     },
     {
@@ -301,7 +301,7 @@
         48,
         49
       ],
-      "series": "Season 2",
+      "series": "[Oshi no Ko] Season 2",
       "status": "mixed"
     },
     {
@@ -313,7 +313,7 @@
         50,
         51
       ],
-      "series": "Season 2"
+      "series": "[Oshi no Ko] Season 2"
     },
     {
       "ep": 16,
@@ -325,7 +325,7 @@
         54,
         55
       ],
-      "series": "Season 2"
+      "series": "[Oshi no Ko] Season 2"
     },
     {
       "ep": 17,
@@ -336,7 +336,7 @@
         57,
         58
       ],
-      "series": "Season 2"
+      "series": "[Oshi no Ko] Season 2"
     },
     {
       "ep": 18,
@@ -347,7 +347,7 @@
         60,
         61
       ],
-      "series": "Season 2"
+      "series": "[Oshi no Ko] Season 2"
     },
     {
       "ep": 19,
@@ -358,7 +358,7 @@
         63,
         64
       ],
-      "series": "Season 2"
+      "series": "[Oshi no Ko] Season 2"
     },
     {
       "ep": 20,
@@ -369,7 +369,7 @@
         66,
         67
       ],
-      "series": "Season 2"
+      "series": "[Oshi no Ko] Season 2"
     },
     {
       "ep": 21,
@@ -381,7 +381,7 @@
         70,
         71
       ],
-      "series": "Season 2"
+      "series": "[Oshi no Ko] Season 2"
     },
     {
       "ep": 22,
@@ -392,7 +392,7 @@
         72,
         73
       ],
-      "series": "Season 2"
+      "series": "[Oshi no Ko] Season 2"
     },
     {
       "ep": 23,
@@ -404,7 +404,7 @@
         76,
         77
       ],
-      "series": "Season 2"
+      "series": "[Oshi no Ko] Season 2"
     },
     {
       "ep": 24,
@@ -416,7 +416,7 @@
         80,
         109
       ],
-      "series": "Season 2",
+      "series": "[Oshi no Ko] Season 2",
       "status": "mixed"
     }
   ],
@@ -594,11 +594,11 @@
     "note": "Manga finished November 2024 with 166 chapters across 15 volumes. Anime ends Season 2 at Chapter 80. Season 3 is anticipated but not yet announced.",
     "seasons": [
       {
-        "name": "Season 1",
+        "name": "[Oshi no Ko]",
         "eps": 11
       },
       {
-        "name": "Season 2",
+        "name": "[Oshi no Ko] Season 2",
         "eps": 13
       }
     ]

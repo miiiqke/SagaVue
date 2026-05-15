@@ -4,7 +4,9 @@
     "title": "Attack on Titan",
     "abbr": [
       "AOT",
-      "Shingeki"
+      "Shingeki",
+      "Shingeki no Kyojin",
+      "SNK"
     ],
     "tags": [
       "Dark Fantasy",
@@ -49,13 +51,12 @@
       "CSM",
       "Chensoman",
       "Chensou Man",
-      "\u30c1\u30a7\u30f3\u30bd\u30fc\u30de\u30f3",
+      "チェンソーマン",
       "Chainsaw",
       "Denji",
       "Pochita",
       "Reze Arc",
-      "Bomb Girl",
-      "Fujimoto"
+      "Bomb Girl"
     ],
     "tags": [
       "Action",
@@ -76,7 +77,9 @@
     "title": "Demon Slayer: Kimetsu no Yaiba",
     "abbr": [
       "KNY",
-      "Demon Slayer"
+      "Demon Slayer",
+      "Kimetsu no Yaiba",
+      "Kimetsu"
     ],
     "tags": [
       "Action",
@@ -91,6 +94,32 @@
     "animeStatus": "Ongoing",
     "mangaStatus": "Finished",
     "malId": 38000,
+    "score": null
+  },
+  {
+    "id": "fmab",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "abbr": [
+      "FMAB",
+      "Fullmetal",
+      "FMA",
+      "Brotherhood",
+      "Hagane no Renkinjutsushi",
+      "Hagane"
+    ],
+    "tags": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Shounen"
+    ],
+    "totalEpisodes": 64,
+    "totalChapters": 108,
+    "adaptedPct": 100,
+    "animeStatus": "Finished",
+    "mangaStatus": "Finished",
+    "malId": 5114,
     "score": null
   },
   {
@@ -118,47 +147,25 @@
     "score": null
   },
   {
-    "id": "fmab",
-    "title": "Fullmetal Alchemist: Brotherhood",
-    "abbr": [
-      "FMAB",
-      "Fullmetal",
-      "FMA"
-    ],
-    "tags": [
-      "Action",
-      "Adventure",
-      "Drama",
-      "Fantasy",
-      "Shounen"
-    ],
-    "totalEpisodes": 64,
-    "totalChapters": 108,
-    "adaptedPct": 100,
-    "animeStatus": "Finished",
-    "mangaStatus": "Finished",
-    "malId": 5114,
-    "score": null
-  },
-  {
-    "id": "hxh",
+    "id": "hunter_x_hunter",
     "title": "Hunter x Hunter",
     "abbr": [
-      "HXH",
-      "HunterXHunter",
-      "Hunter"
+      "HxH",
+      "Hunter X Hunter",
+      "HUNTER×HUNTER",
+      "Hunter × Hunter"
     ],
     "tags": [
-      "Adventure",
       "Action",
-      "Shounen",
-      "School",
-      "Mystery"
+      "Adventure",
+      "Shonen",
+      "Supernatural",
+      "Dark Fantasy"
     ],
     "totalEpisodes": 148,
     "totalChapters": 410,
     "adaptedPct": 83,
-    "animeStatus": "Incomplete",
+    "animeStatus": "Finished",
     "mangaStatus": "Hiatus",
     "malId": 11061,
     "score": null
@@ -191,7 +198,7 @@
     "abbr": [
       "Oshi no Ko",
       "ONK",
-      "\u3010\u63a8\u3057\u306e\u5b50\u3011",
+      "【推しの子】",
       "My Star",
       "OshiNoKo"
     ],
@@ -202,9 +209,9 @@
       "Seinen",
       "Showbiz"
     ],
-    "totalEpisodes": 35,
+    "totalEpisodes": 24,
     "totalChapters": 166,
-    "adaptedPct": 70,
+    "adaptedPct": 49,
     "animeStatus": "Ongoing",
     "mangaStatus": "Finished",
     "malId": 52034,

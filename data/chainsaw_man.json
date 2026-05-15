@@ -31,7 +31,7 @@
     ],
     "seasons": [
       {
-        "name": "Season 1",
+        "name": "Chainsaw Man",
         "malId": 44511,
         "eps": 12
       },
@@ -43,36 +43,6 @@
       }
     ]
   },
-  "watchGuide": [
-    {
-      "step": 1,
-      "type": "anime",
-      "title": "Chainsaw Man (2022)",
-      "subtitle": "12 episodes",
-      "covers": "Ch 1–38",
-      "malId": 44511,
-      "note": "Covers the Introduction, Bat Devil, Eternity Devil, and Katana Man arcs."
-    },
-    {
-      "step": 2,
-      "type": "movie-set",
-      "title": "Chainsaw Man – The Movie: Reze Arc",
-      "subtitle": "1 film",
-      "covers": "Ch 38–52",
-      "note": "Direct sequel to Season 1. Watch immediately after. Adapts the Bomb Girl (Reze) arc in full.",
-      "malIds": [
-        57932
-      ]
-    },
-    {
-      "step": 3,
-      "type": "manga-required",
-      "title": "Read Manga — International Assassins Arc & Beyond",
-      "covers": "Ch 53–232",
-      "note": "Chainsaw Man: Assassins Arc (Season 2) has been announced and will adapt the International Assassins arc (Ch 53–70), but has no release date. Read from Ch 53 for the complete story. The manga concluded at Chapter 232 on March 24, 2026 with no Part 3 announced.",
-      "startChapter": 53
-    }
-  ],
   "arcs": [
     {
       "id": "introduction",
@@ -192,12 +162,12 @@
   "meta": {
     "seasons": [
       {
-        "name": "Season 1",
+        "name": "Chainsaw Man",
         "eps": 12
       }
     ],
     "totalChapters": 232,
-    "note": "MAL IDs for the manga (109891) and the Reze Arc movie (57932) are from training data and should be verified on myanimelist.net before deployment. The final arc of Part 2 (Ch. 156–232) has no confirmed official English title. Chainsaw Man: Assassins Arc (Season 2) was announced at Jump Festa 2026 (December 2025) but has no MAL ID or release date yet — update canonIds and seasons once available. Compilation films (Chainsaw Man – The Compilation: Part 1 & 2, Abema, Sept 2025) and Chainsaw Days ONA are non-canon and will surface automatically in Extras."
+    "note": "The final arc of Part 2 (ch 156–232) has no confirmed official English title. Chainsaw Man: Assassins Arc (Season 2) was announced at Jump Festa 2026 but has no MAL ID or release date yet."
   },
   "episodes": [
     {
@@ -207,7 +177,7 @@
       "chapters": [
         1
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 2,
@@ -218,7 +188,7 @@
         3,
         4
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 3,
@@ -230,7 +200,7 @@
         7,
         8
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 4,
@@ -242,7 +212,7 @@
         11,
         12
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 5,
@@ -254,7 +224,7 @@
         14,
         15
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 6,
@@ -266,7 +236,7 @@
         17,
         18
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 7,
@@ -278,7 +248,7 @@
         20,
         21
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 8,
@@ -290,7 +260,7 @@
         24,
         25
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 9,
@@ -302,7 +272,7 @@
         27,
         28
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 10,
@@ -313,7 +283,7 @@
         30,
         31
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 11,
@@ -326,7 +296,7 @@
         34,
         35
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "ep": 12,
@@ -338,7 +308,7 @@
         37,
         38
       ],
-      "series": "Season 1"
+      "series": "Chainsaw Man"
     },
     {
       "type": "movie",

@@ -27,7 +27,7 @@
     ],
     "seasons": [
       {
-        "name": "Full Series",
+        "name": "Fullmetal Alchemist: Brotherhood",
         "malId": 5114,
         "eps": 64
       }
@@ -53,15 +53,10 @@
     "totalChapters": 108,
     "seasons": [
       {
-        "name": "Season 1",
-        "eps": 32
-      },
-      {
-        "name": "Season 2",
-        "eps": 32
+        "name": "Fullmetal Alchemist: Brotherhood",
+        "eps": 64
       }
-    ],
-    "note": "Fullmetal Alchemist: Brotherhood is the definitive adaptation of Hiromu Arakawa's manga, faithfully covering all 108 chapters (27 volumes) in 64 episodes. The earlier FMA 2003 series (51 eps) adapts the opening manga arcs then diverges with its own story, concluding in the film Conqueror of Shamballa (2005). Both series are complete."
+    ]
   },
   "arcs": [
     {
@@ -148,7 +143,7 @@
         1,
         2
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 2,
@@ -159,7 +154,7 @@
         2,
         3
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 3,
@@ -169,7 +164,7 @@
         3,
         4
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 4,
@@ -179,7 +174,7 @@
       "chapters": [
         4
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 5,
@@ -189,7 +184,7 @@
         5,
         6
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 6,
@@ -199,7 +194,7 @@
         7,
         8
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 7,
@@ -209,7 +204,7 @@
         8,
         9
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 8,
@@ -218,7 +213,7 @@
       "chapters": [
         10
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 9,
@@ -228,7 +223,7 @@
         11,
         12
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 10,
@@ -240,7 +235,7 @@
         15,
         16
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 11,
@@ -250,7 +245,7 @@
         17,
         18
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 12,
@@ -261,7 +256,7 @@
         20,
         21
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 13,
@@ -274,7 +269,7 @@
         25,
         26
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 14,
@@ -284,7 +279,7 @@
         27,
         28
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 15,
@@ -294,7 +289,7 @@
         29,
         30
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 16,
@@ -304,7 +299,7 @@
         31,
         32
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 17,
@@ -314,7 +309,7 @@
         33,
         34
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 18,
@@ -324,7 +319,7 @@
         35,
         36
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 19,
@@ -334,7 +329,7 @@
         37,
         38
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 20,
@@ -344,7 +339,7 @@
         38,
         39
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 21,
@@ -354,7 +349,7 @@
         40,
         41
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 22,
@@ -364,7 +359,7 @@
         42,
         43
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 23,
@@ -374,7 +369,7 @@
         44,
         45
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 24,
@@ -384,7 +379,7 @@
         46,
         47
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 25,
@@ -394,7 +389,7 @@
         47,
         48
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 26,
@@ -404,7 +399,7 @@
         49,
         50
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 27,
@@ -414,7 +409,7 @@
         51,
         52
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 28,
@@ -424,7 +419,7 @@
         53,
         54
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 29,
@@ -434,7 +429,7 @@
         55,
         56
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 30,
@@ -445,7 +440,7 @@
         58,
         59
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 31,
@@ -456,7 +451,7 @@
         60,
         61
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 32,
@@ -466,7 +461,7 @@
         62,
         63
       ],
-      "series": "Season 1"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 33,
@@ -476,7 +471,7 @@
         63,
         64
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 34,
@@ -487,7 +482,7 @@
         66,
         67
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 35,
@@ -497,7 +492,7 @@
         67,
         68
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 36,
@@ -507,7 +502,7 @@
         68,
         69
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 37,
@@ -517,7 +512,7 @@
         70,
         71
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 38,
@@ -527,7 +522,7 @@
         72,
         73
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 39,
@@ -537,7 +532,7 @@
         74,
         75
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 40,
@@ -547,7 +542,7 @@
         76,
         77
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 41,
@@ -557,7 +552,7 @@
         77,
         78
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 42,
@@ -567,7 +562,7 @@
         79,
         80
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 43,
@@ -577,7 +572,7 @@
         81,
         82
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 44,
@@ -586,7 +581,7 @@
       "chapters": [
         82
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 45,
@@ -596,7 +591,7 @@
         82,
         83
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 46,
@@ -607,7 +602,7 @@
         84,
         85
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 47,
@@ -618,7 +613,7 @@
         87,
         88
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 48,
@@ -628,7 +623,7 @@
         89,
         90
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 49,
@@ -638,7 +633,7 @@
         91,
         92
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 50,
@@ -648,7 +643,7 @@
         93,
         94
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 51,
@@ -658,7 +653,7 @@
         95,
         96
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 52,
@@ -668,7 +663,7 @@
         97,
         98
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 53,
@@ -678,7 +673,7 @@
         99,
         100
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 54,
@@ -688,7 +683,7 @@
         100,
         101
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 55,
@@ -698,7 +693,7 @@
         101,
         102
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 56,
@@ -708,7 +703,7 @@
         102,
         103
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 57,
@@ -717,7 +712,7 @@
       "chapters": [
         104
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 58,
@@ -726,7 +721,7 @@
       "chapters": [
         105
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 59,
@@ -736,7 +731,7 @@
         105,
         106
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 60,
@@ -745,7 +740,7 @@
       "chapters": [
         106
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 61,
@@ -754,7 +749,7 @@
       "chapters": [
         107
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 62,
@@ -763,7 +758,7 @@
       "chapters": [
         107
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 63,
@@ -772,7 +767,7 @@
       "chapters": [
         108
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     },
     {
       "ep": 64,
@@ -781,7 +776,7 @@
       "chapters": [
         108
       ],
-      "series": "Season 2"
+      "series": "Fullmetal Alchemist: Brotherhood"
     }
   ],
   "chapterTitles": {

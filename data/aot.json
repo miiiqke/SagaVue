@@ -26,42 +26,42 @@
       35760,
       38524,
       40028,
-      49387,
+      48583,
       51535
     ],
     "seasons": [
       {
-        "name": "Season 1",
+        "name": "Attack on Titan",
         "malId": 16498,
         "eps": 25
       },
       {
-        "name": "Season 2",
+        "name": "Attack on Titan Season 2",
         "malId": 25777,
         "eps": 12
       },
       {
-        "name": "Season 3 Part 1",
+        "name": "Attack on Titan Season 3",
         "malId": 35760,
         "eps": 12
       },
       {
-        "name": "Season 3 Part 2",
+        "name": "Attack on Titan Season 3 Part 2",
         "malId": 38524,
         "eps": 10
       },
       {
-        "name": "The Final Season Part 1",
+        "name": "Attack on Titan: The Final Season",
         "malId": 40028,
         "eps": 16
       },
       {
-        "name": "The Final Season Part 2",
-        "malId": 49387,
+        "name": "Attack on Titan: The Final Season Part 2",
+        "malId": 48583,
         "eps": 12
       },
       {
-        "name": "The Final Chapters",
+        "name": "Attack on Titan: The Final Season - The Final Chapters",
         "malId": 51535,
         "eps": 7
       }
@@ -71,31 +71,31 @@
     "totalChapters": 139,
     "seasons": [
       {
-        "name": "Season 1",
+        "name": "Attack on Titan",
         "eps": 25
       },
       {
-        "name": "Season 2",
+        "name": "Attack on Titan Season 2",
         "eps": 12
       },
       {
-        "name": "Season 3 Part 1",
+        "name": "Attack on Titan Season 3",
         "eps": 12
       },
       {
-        "name": "Season 3 Part 2",
+        "name": "Attack on Titan Season 3 Part 2",
         "eps": 10
       },
       {
-        "name": "The Final Season Part 1",
+        "name": "Attack on Titan: The Final Season",
         "eps": 16
       },
       {
-        "name": "The Final Season Part 2",
+        "name": "Attack on Titan: The Final Season Part 2",
         "eps": 12
       },
       {
-        "name": "The Final Chapters",
+        "name": "Attack on Titan: The Final Season - The Final Chapters",
         "eps": 7
       }
     ],
@@ -182,7 +182,8 @@
       "arc": "fall",
       "chapters": [
         1
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 2,
@@ -190,7 +191,8 @@
       "arc": "fall",
       "chapters": [
         2
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 3,
@@ -198,7 +200,8 @@
       "arc": "trost",
       "chapters": [
         3
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 4,
@@ -206,7 +209,8 @@
       "arc": "trost",
       "chapters": [
         4
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 5,
@@ -215,7 +219,8 @@
       "chapters": [
         5,
         6
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 6,
@@ -224,7 +229,8 @@
       "chapters": [
         6,
         7
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 7,
@@ -233,7 +239,8 @@
       "chapters": [
         7,
         8
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 8,
@@ -242,7 +249,8 @@
       "chapters": [
         8,
         9
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 9,
@@ -251,7 +259,8 @@
       "chapters": [
         9,
         10
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 10,
@@ -260,7 +269,8 @@
       "chapters": [
         10,
         11
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 11,
@@ -269,7 +279,8 @@
       "chapters": [
         11,
         12
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 12,
@@ -278,7 +289,8 @@
       "chapters": [
         12,
         13
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 13,
@@ -286,7 +298,8 @@
       "arc": "trost",
       "chapters": [
         14
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 14,
@@ -295,7 +308,8 @@
       "chapters": [
         15,
         16
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 15,
@@ -303,7 +317,8 @@
       "arc": "cadet",
       "chapters": [
         17
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 16,
@@ -311,7 +326,8 @@
       "arc": "cadet",
       "chapters": [
         18
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 17,
@@ -320,7 +336,8 @@
       "chapters": [
         19,
         20
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 18,
@@ -329,7 +346,8 @@
       "chapters": [
         21,
         22
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 19,
@@ -337,7 +355,8 @@
       "arc": "female",
       "chapters": [
         23
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 20,
@@ -346,7 +365,8 @@
       "chapters": [
         24,
         25
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 21,
@@ -355,7 +375,8 @@
       "chapters": [
         26,
         27
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 22,
@@ -363,7 +384,8 @@
       "arc": "female",
       "chapters": [
         28
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 23,
@@ -372,7 +394,8 @@
       "chapters": [
         29,
         30
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 24,
@@ -381,7 +404,8 @@
       "chapters": [
         31,
         32
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 25,
@@ -390,7 +414,8 @@
       "chapters": [
         33,
         34
-      ]
+      ],
+      "series": "Attack on Titan"
     },
     {
       "ep": 26,
@@ -399,7 +424,8 @@
       "chapters": [
         35,
         36
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 27,
@@ -407,7 +433,8 @@
       "arc": "clash",
       "chapters": [
         37
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 28,
@@ -415,7 +442,8 @@
       "arc": "clash",
       "chapters": [
         38
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 29,
@@ -424,7 +452,8 @@
       "chapters": [
         39,
         40
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 30,
@@ -432,7 +461,8 @@
       "arc": "clash",
       "chapters": [
         41
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 31,
@@ -440,7 +470,8 @@
       "arc": "clash",
       "chapters": [
         42
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 32,
@@ -448,7 +479,8 @@
       "arc": "clash",
       "chapters": [
         43
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 33,
@@ -457,7 +489,8 @@
       "chapters": [
         44,
         45
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 34,
@@ -465,7 +498,8 @@
       "arc": "clash",
       "chapters": [
         46
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 35,
@@ -473,7 +507,8 @@
       "arc": "clash",
       "chapters": [
         47
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 36,
@@ -482,7 +517,8 @@
       "chapters": [
         48,
         49
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 37,
@@ -490,7 +526,8 @@
       "arc": "clash",
       "chapters": [
         50
-      ]
+      ],
+      "series": "Attack on Titan Season 2"
     },
     {
       "ep": 38,
@@ -499,7 +536,8 @@
       "chapters": [
         51,
         52
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 39,
@@ -507,7 +545,8 @@
       "arc": "royal",
       "chapters": [
         53
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 40,
@@ -516,7 +555,8 @@
       "chapters": [
         54,
         55
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 41,
@@ -524,7 +564,8 @@
       "arc": "royal",
       "chapters": [
         56
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 42,
@@ -532,7 +573,8 @@
       "arc": "royal",
       "chapters": [
         57
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 43,
@@ -541,7 +583,8 @@
       "chapters": [
         58,
         59
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 44,
@@ -550,7 +593,8 @@
       "chapters": [
         60,
         61
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 45,
@@ -558,7 +602,8 @@
       "arc": "royal",
       "chapters": [
         62
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 46,
@@ -567,7 +612,8 @@
       "chapters": [
         63,
         64
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 47,
@@ -575,7 +621,8 @@
       "arc": "royal",
       "chapters": [
         65
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 48,
@@ -583,7 +630,8 @@
       "arc": "royal",
       "chapters": [
         66
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 49,
@@ -592,7 +640,8 @@
       "chapters": [
         67,
         68
-      ]
+      ],
+      "series": "Attack on Titan Season 3"
     },
     {
       "ep": 50,
@@ -601,7 +650,8 @@
       "chapters": [
         69,
         70
-      ]
+      ],
+      "series": "Attack on Titan Season 3 Part 2"
     },
     {
       "ep": 51,
@@ -609,7 +659,8 @@
       "arc": "return",
       "chapters": [
         71
-      ]
+      ],
+      "series": "Attack on Titan Season 3 Part 2"
     },
     {
       "ep": 52,
@@ -617,7 +668,8 @@
       "arc": "return",
       "chapters": [
         72
-      ]
+      ],
+      "series": "Attack on Titan Season 3 Part 2"
     },
     {
       "ep": 53,
@@ -625,7 +677,8 @@
       "arc": "return",
       "chapters": [
         73
-      ]
+      ],
+      "series": "Attack on Titan Season 3 Part 2"
     },
     {
       "ep": 54,
@@ -634,7 +687,8 @@
       "chapters": [
         74,
         75
-      ]
+      ],
+      "series": "Attack on Titan Season 3 Part 2"
     },
     {
       "ep": 55,
@@ -643,7 +697,8 @@
       "chapters": [
         76,
         77
-      ]
+      ],
+      "series": "Attack on Titan Season 3 Part 2"
     },
     {
       "ep": 56,
@@ -652,7 +707,8 @@
       "chapters": [
         78,
         79
-      ]
+      ],
+      "series": "Attack on Titan Season 3 Part 2"
     },
     {
       "ep": 57,
@@ -661,7 +717,8 @@
       "chapters": [
         80,
         81
-      ]
+      ],
+      "series": "Attack on Titan Season 3 Part 2"
     },
     {
       "ep": 58,
@@ -670,7 +727,8 @@
       "chapters": [
         82,
         83
-      ]
+      ],
+      "series": "Attack on Titan Season 3 Part 2"
     },
     {
       "ep": 59,
@@ -684,7 +742,8 @@
         88,
         89,
         90
-      ]
+      ],
+      "series": "Attack on Titan Season 3 Part 2"
     },
     {
       "ep": 60,
@@ -692,7 +751,8 @@
       "arc": "return",
       "chapters": [
         90
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 61,
@@ -705,7 +765,8 @@
         94,
         95,
         96
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 62,
@@ -716,7 +777,8 @@
         98,
         99,
         100
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 63,
@@ -725,7 +787,8 @@
       "chapters": [
         100,
         101
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 64,
@@ -734,7 +797,8 @@
       "chapters": [
         102,
         103
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 65,
@@ -742,7 +806,8 @@
       "arc": "marley",
       "chapters": [
         104
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 66,
@@ -751,7 +816,8 @@
       "chapters": [
         105,
         106
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 67,
@@ -760,7 +826,8 @@
       "chapters": [
         107,
         108
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 68,
@@ -768,7 +835,8 @@
       "arc": "war",
       "chapters": [
         109
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 69,
@@ -776,7 +844,8 @@
       "arc": "war",
       "chapters": [
         110
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 70,
@@ -784,7 +853,8 @@
       "arc": "war",
       "chapters": [
         111
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 71,
@@ -792,7 +862,8 @@
       "arc": "war",
       "chapters": [
         112
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 72,
@@ -800,7 +871,8 @@
       "arc": "war",
       "chapters": [
         113
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 73,
@@ -808,7 +880,8 @@
       "arc": "war",
       "chapters": [
         114
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 74,
@@ -816,7 +889,8 @@
       "arc": "war",
       "chapters": [
         115
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 75,
@@ -824,7 +898,8 @@
       "arc": "war",
       "chapters": [
         116
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season"
     },
     {
       "ep": 76,
@@ -832,7 +907,8 @@
       "arc": "war",
       "chapters": [
         117
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 77,
@@ -840,7 +916,8 @@
       "arc": "war",
       "chapters": [
         118
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 78,
@@ -849,7 +926,8 @@
       "chapters": [
         119,
         120
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 79,
@@ -858,7 +936,8 @@
       "chapters": [
         121,
         122
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 80,
@@ -866,7 +945,8 @@
       "arc": "war",
       "chapters": [
         123
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 81,
@@ -874,7 +954,8 @@
       "arc": "war",
       "chapters": [
         124
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 82,
@@ -882,7 +963,8 @@
       "arc": "war",
       "chapters": [
         125
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 83,
@@ -890,7 +972,8 @@
       "arc": "war",
       "chapters": [
         126
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 84,
@@ -898,7 +981,8 @@
       "arc": "war",
       "chapters": [
         127
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 85,
@@ -907,7 +991,8 @@
       "chapters": [
         128,
         129
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 86,
@@ -916,7 +1001,8 @@
       "chapters": [
         130,
         131
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 87,
@@ -925,7 +1011,8 @@
       "chapters": [
         132,
         133
-      ]
+      ],
+      "series": "Attack on Titan: The Final Season Part 2"
     },
     {
       "ep": 88,
@@ -934,7 +1021,7 @@
       "chapters": [
         134
       ],
-      "series": "The Final Chapters"
+      "series": "Attack on Titan: The Final Season - The Final Chapters"
     },
     {
       "ep": 89,
@@ -943,7 +1030,7 @@
       "chapters": [
         135
       ],
-      "series": "The Final Chapters"
+      "series": "Attack on Titan: The Final Season - The Final Chapters"
     },
     {
       "ep": 90,
@@ -952,7 +1039,7 @@
       "chapters": [
         136
       ],
-      "series": "The Final Chapters"
+      "series": "Attack on Titan: The Final Season - The Final Chapters"
     },
     {
       "ep": 91,
@@ -961,7 +1048,7 @@
       "chapters": [
         137
       ],
-      "series": "The Final Chapters"
+      "series": "Attack on Titan: The Final Season - The Final Chapters"
     },
     {
       "ep": 92,
@@ -971,7 +1058,7 @@
         137,
         138
       ],
-      "series": "The Final Chapters"
+      "series": "Attack on Titan: The Final Season - The Final Chapters"
     },
     {
       "ep": 93,
@@ -981,7 +1068,7 @@
         138,
         139
       ],
-      "series": "The Final Chapters"
+      "series": "Attack on Titan: The Final Season - The Final Chapters"
     },
     {
       "ep": 94,
@@ -990,7 +1077,7 @@
       "chapters": [
         139
       ],
-      "series": "The Final Chapters",
+      "series": "Attack on Titan: The Final Season - The Final Chapters",
       "note": "Ch 139 is the short epilogue chapter. It was split across eps 93–94 in the streaming episodic version."
     }
   ],

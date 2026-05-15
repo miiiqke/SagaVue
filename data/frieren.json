@@ -27,12 +27,12 @@
     ],
     "seasons": [
       {
-        "name": "Season 1",
+        "name": "Frieren: Beyond Journey's End",
         "malId": 52991,
         "eps": 28
       },
       {
-        "name": "Season 2",
+        "name": "Frieren: Beyond Journey's End Season 2",
         "malId": 59978,
         "eps": 10
       }
@@ -42,15 +42,15 @@
     "totalChapters": 147,
     "seasons": [
       {
-        "name": "Season 1",
+        "name": "Frieren: Beyond Journey's End",
         "eps": 28
       },
       {
-        "name": "Season 2",
+        "name": "Frieren: Beyond Journey's End Season 2",
         "eps": 10
       }
     ],
-    "note": " The manga entered hiatus in December 2024, returned August 2025, then entered another hiatus in October 2025 with no confirmed return date. Volume 15 was released in Japan in December 2025. Season 2 (10 episodes) airs January 16–March 27 2026 on Crunchyroll."
+    "note": "The manga entered hiatus in December 2024, returned August 2025, then entered another hiatus in October 2025 with no confirmed return date."
   },
   "arcs": [
     {
@@ -159,7 +159,8 @@
       "chapters": [
         1,
         2
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 2,
@@ -168,7 +169,8 @@
       "chapters": [
         2,
         3
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 3,
@@ -177,7 +179,8 @@
       "chapters": [
         4,
         5
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 4,
@@ -187,7 +190,8 @@
         6,
         7,
         8
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 5,
@@ -197,7 +201,8 @@
         8,
         9,
         10
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 6,
@@ -206,7 +211,8 @@
       "chapters": [
         11,
         12
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 7,
@@ -216,7 +222,8 @@
         13,
         14,
         15
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 8,
@@ -226,7 +233,8 @@
         15,
         16,
         17
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 9,
@@ -236,7 +244,8 @@
         18,
         19,
         20
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 10,
@@ -245,7 +254,8 @@
       "chapters": [
         21,
         22
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 11,
@@ -254,7 +264,8 @@
       "chapters": [
         23,
         24
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 12,
@@ -263,7 +274,8 @@
       "chapters": [
         25,
         26
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 13,
@@ -272,7 +284,8 @@
       "chapters": [
         27,
         28
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 14,
@@ -281,7 +294,8 @@
       "chapters": [
         29,
         30
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 15,
@@ -290,7 +304,8 @@
       "chapters": [
         31,
         32
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 16,
@@ -299,7 +314,8 @@
       "chapters": [
         33,
         34
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 17,
@@ -308,7 +324,8 @@
       "chapters": [
         35,
         36
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 18,
@@ -317,7 +334,8 @@
       "chapters": [
         37,
         38
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 19,
@@ -328,7 +346,8 @@
         39,
         40,
         41
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 20,
@@ -338,7 +357,8 @@
         41,
         42,
         43
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 21,
@@ -348,7 +368,8 @@
         43,
         44,
         45
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 22,
@@ -357,7 +378,8 @@
       "chapters": [
         46,
         47
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 23,
@@ -366,7 +388,8 @@
       "chapters": [
         48,
         49
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 24,
@@ -375,7 +398,8 @@
       "chapters": [
         50,
         51
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 25,
@@ -384,7 +408,8 @@
       "chapters": [
         52,
         53
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 26,
@@ -393,7 +418,8 @@
       "chapters": [
         54,
         55
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 27,
@@ -403,7 +429,8 @@
         56,
         57,
         58
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 28,
@@ -413,7 +440,8 @@
         58,
         59,
         60
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End"
     },
     {
       "ep": 29,
@@ -422,7 +450,8 @@
       "chapters": [
         61,
         62
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End Season 2"
     },
     {
       "ep": 30,
@@ -431,7 +460,8 @@
       "chapters": [
         63,
         64
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End Season 2"
     },
     {
       "ep": 31,
@@ -440,7 +470,8 @@
       "chapters": [
         65,
         66
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End Season 2"
     },
     {
       "ep": 32,
@@ -450,7 +481,8 @@
         66,
         67,
         68
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End Season 2"
     },
     {
       "ep": 33,
@@ -459,7 +491,8 @@
       "chapters": [
         69,
         70
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End Season 2"
     },
     {
       "ep": 34,
@@ -468,7 +501,8 @@
       "chapters": [
         71,
         72
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End Season 2"
     },
     {
       "ep": 35,
@@ -478,7 +512,8 @@
         72,
         73,
         74
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End Season 2"
     },
     {
       "ep": 36,
@@ -487,7 +522,8 @@
       "chapters": [
         75,
         76
-      ]
+      ],
+      "series": "Frieren: Beyond Journey's End Season 2"
     },
     {
       "ep": 37,
@@ -496,7 +532,7 @@
       "chapters": [
         77
       ],
-      "series": "Season 2"
+      "series": "Frieren: Beyond Journey's End Season 2"
     },
     {
       "ep": 38,
@@ -505,7 +541,7 @@
       "chapters": [
         78
       ],
-      "series": "Season 2"
+      "series": "Frieren: Beyond Journey's End Season 2"
     }
   ],
   "chapterTitles": {

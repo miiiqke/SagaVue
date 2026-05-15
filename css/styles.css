@@ -698,7 +698,7 @@ nav {
 .season-chip a:hover { opacity: 1; }
 
 /* Film entries in the primary seasons row */
-.season-chip-film .sdot { background: var(--accent3) !important; opacity: 0.8; }
+.season-chip-film .sdot { background: var(--accent) !important; opacity: 0.8; }
 
 /* Alternative / parallel canon entries — same shape, visually secondary */
 .season-chip-alt {

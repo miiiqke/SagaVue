@@ -25,12 +25,12 @@
     ],
     "seasons": [
       {
-        "name": "Season 1",
+        "name": "Vinland Saga",
         "malId": 37521,
         "eps": 24
       },
       {
-        "name": "Season 2",
+        "name": "Vinland Saga Season 2",
         "malId": 49387,
         "eps": 24
       }
@@ -40,11 +40,11 @@
     "totalChapters": 220,
     "seasons": [
       {
-        "name": "Season 1",
+        "name": "Vinland Saga",
         "eps": 24
       },
       {
-        "name": "Season 2",
+        "name": "Vinland Saga Season 2",
         "eps": 24
       }
     ],
@@ -94,7 +94,8 @@
       "arc": "war_arc",
       "chapters": [
         2
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 2,
@@ -103,7 +104,8 @@
       "chapters": [
         3,
         4
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 3,
@@ -112,7 +114,8 @@
       "chapters": [
         5,
         6
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 4,
@@ -121,7 +124,8 @@
       "chapters": [
         7,
         8
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 5,
@@ -130,7 +134,8 @@
       "chapters": [
         9,
         10
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 6,
@@ -139,7 +144,8 @@
       "chapters": [
         11,
         12
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 7,
@@ -149,7 +155,8 @@
         1,
         13,
         14
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 8,
@@ -158,7 +165,8 @@
       "chapters": [
         15,
         16
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 9,
@@ -167,7 +175,8 @@
       "chapters": [
         17,
         18
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 10,
@@ -176,7 +185,8 @@
       "chapters": [
         19,
         20
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 11,
@@ -185,7 +195,8 @@
       "chapters": [
         21,
         22
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 12,
@@ -194,7 +205,8 @@
       "chapters": [
         23,
         24
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 13,
@@ -203,7 +215,8 @@
       "chapters": [
         25,
         26
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 14,
@@ -212,7 +225,8 @@
       "chapters": [
         27,
         28
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 15,
@@ -221,7 +235,8 @@
       "chapters": [
         29,
         30
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 16,
@@ -230,7 +245,8 @@
       "chapters": [
         31,
         32
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 17,
@@ -239,7 +255,8 @@
       "chapters": [
         33,
         34
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 18,
@@ -248,7 +265,8 @@
       "chapters": [
         35,
         36
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 19,
@@ -258,7 +276,8 @@
         37,
         38,
         39
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 20,
@@ -268,7 +287,8 @@
         40,
         41,
         42
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 21,
@@ -277,7 +297,8 @@
       "chapters": [
         43,
         44
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 22,
@@ -287,7 +308,8 @@
         45,
         46,
         47
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 23,
@@ -297,7 +319,8 @@
         48,
         49,
         50
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 24,
@@ -308,7 +331,8 @@
         52,
         53,
         54
-      ]
+      ],
+      "series": "Vinland Saga"
     },
     {
       "ep": 25,
@@ -316,7 +340,8 @@
       "arc": "slave_arc",
       "chapters": [
         55
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 26,
@@ -325,7 +350,8 @@
       "chapters": [
         56,
         57
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 27,
@@ -334,7 +360,8 @@
       "chapters": [
         58,
         59
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 28,
@@ -343,7 +370,8 @@
       "chapters": [
         60,
         61
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 29,
@@ -352,7 +380,8 @@
       "chapters": [
         62,
         63
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 30,
@@ -361,7 +390,8 @@
       "chapters": [
         64,
         65
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 31,
@@ -370,7 +400,8 @@
       "chapters": [
         66,
         67
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 32,
@@ -379,7 +410,8 @@
       "chapters": [
         68,
         69
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 33,
@@ -388,7 +420,8 @@
       "chapters": [
         70,
         71
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 34,
@@ -397,7 +430,8 @@
       "chapters": [
         72,
         73
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 35,
@@ -406,7 +440,8 @@
       "chapters": [
         74,
         75
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 36,
@@ -415,7 +450,8 @@
       "chapters": [
         76,
         77
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 37,
@@ -424,7 +460,8 @@
       "chapters": [
         78,
         79
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 38,
@@ -433,7 +470,8 @@
       "chapters": [
         80,
         81
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 39,
@@ -442,7 +480,8 @@
       "chapters": [
         82,
         83
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 40,
@@ -451,7 +490,8 @@
       "chapters": [
         84,
         85
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 41,
@@ -460,7 +500,8 @@
       "chapters": [
         86,
         87
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 42,
@@ -469,7 +510,8 @@
       "chapters": [
         88,
         89
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 43,
@@ -478,7 +520,8 @@
       "chapters": [
         90,
         91
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 44,
@@ -487,7 +530,8 @@
       "chapters": [
         92,
         93
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 45,
@@ -496,7 +540,8 @@
       "chapters": [
         94,
         95
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 46,
@@ -505,7 +550,8 @@
       "chapters": [
         96,
         97
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 47,
@@ -513,7 +559,8 @@
       "arc": "slave_arc",
       "chapters": [
         98
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     },
     {
       "ep": 48,
@@ -521,7 +568,8 @@
       "arc": "slave_arc",
       "chapters": [
         99
-      ]
+      ],
+      "series": "Vinland Saga Season 2"
     }
   ],
   "chapterTitles": {
